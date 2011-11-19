@@ -1,0 +1,220 @@
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol EXIT
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol EXIT
+Skipping symbol ENTER
+Skipping symbol EXIT
+Skipping symbol ENTER
+Skipping symbol EXIT
+Skipping symbol ENTER
+Skipping symbol EXIT
+Skipping symbol ENTER
+Skipping symbol EXIT
+Skipping symbol ENTER
+Skipping symbol EXIT
+Skipping symbol ENTER
+Skipping symbol EXIT
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+Skipping symbol ENTER
+ib_trse_bkp_process_op() <bool ib_trse_bkp_process_op (ib_trse_sess_t *session,spinnp_repl_req_dataop_t *op) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:517>:
+    ib_marshal_repl_op()
+    ib_chunker_add_data()
+    ib_chunker_write_chunk()
+    ib_chunker_clear_chunk()
+    D()
+    gDecRefItem()
+    EXIT_RET()
+ib_trse_bkp_session_abort() <bool ib_trse_bkp_session_abort (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:193>:
+    ASSERT()
+    ib_trse_mqueue_enqueue()
+    EXIT_RET()
+ib_trse_bkp_session_abort_trse_data() <bool ib_trse_bkp_session_abort_trse_data (ib_trse_sess_t *session,ib_trse_opdata_t *trse_data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:212>:
+ib_trse_bkp_session_cleanup() <bool ib_trse_bkp_session_cleanup (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:466>:
+    ib_trse_remove_session()
+    ib_trse_mqueue_destroy()
+    sk_kmem_free()
+    EXIT_RET()
+ib_trse_bkp_session_create() <bool ib_trse_bkp_session_create (ib_trse_sess_t **session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:224>:
+    sk_kmem_zalloc()
+    D()
+    sk_kmem_free()
+    EXIT_RET()
+ib_trse_bkp_session_handler() <void ib_trse_bkp_session_handler (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:808>:
+    ASSERT()
+    ib_trse_mqueue_dequeue()
+    ib_trse_session_state_bkp_start_handler() <void ib_trse_session_state_bkp_start_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:720>:
+        ASSERT()
+        ib_trse_bkp_switch_state() <void ib_trse_bkp_switch_state (ib_trse_sess_t *session,ib_trse_session_state_t new_state) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:501>:
+            ASSERT()
+            D()
+        ib_trse_bkp_write_trse_header() <bool ib_trse_bkp_write_trse_header (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:494>:
+            EXIT_RET()
+        D()
+        ib_chunker_add_data()
+        ib_chunker_write_chunk()
+        ib_chunker_clear_chunk()
+        ib_trse_mqueue_enqueue()
+    ib_trse_session_state_bkp_init_handler() <void ib_trse_session_state_bkp_init_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:676>:
+        ASSERT()
+        ib_trse_bkp_switch_state() <void ib_trse_bkp_switch_state (ib_trse_sess_t *session,ib_trse_session_state_t new_state) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:501>:
+            ASSERT()
+            D()
+        ib_trse_mqueue_enqueue()
+    ib_trse_session_state_bkp_active_handler() <void ib_trse_session_state_bkp_active_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:618>:
+        ASSERT()
+        ib_trse_bkp_process_op() <bool ib_trse_bkp_process_op (ib_trse_sess_t *session,spinnp_repl_req_dataop_t *op) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:517>:
+            ib_marshal_repl_op()
+            ib_chunker_add_data()
+            ib_chunker_write_chunk()
+            ib_chunker_clear_chunk()
+            D()
+            gDecRefItem()
+            EXIT_RET()
+        D()
+        ib_trse_bkp_write_footer() <bool ib_trse_bkp_write_footer (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:567>:
+            EXIT_RET()
+        ib_trse_bkp_switch_state() <void ib_trse_bkp_switch_state (ib_trse_sess_t *session,ib_trse_session_state_t new_state) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:501>:
+            ASSERT()
+            D()
+    ib_trse_session_state_bkp_completed_handler() <void ib_trse_session_state_bkp_completed_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:586>:
+        ASSERT()
+        ib_trse_bkp_switch_state() <void ib_trse_bkp_switch_state (ib_trse_sess_t *session,ib_trse_session_state_t new_state) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:501>:
+            ASSERT()
+            D()
+    ib_trse_session_state_bkp_closing_handler() <void ib_trse_session_state_bkp_closing_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:574>:
+        ASSERT()
+        D()
+    ib_trse_session_state_bkp_error_handler() <void ib_trse_session_state_bkp_error_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:609>
+ib_trse_bkp_session_initialize() <bool ib_trse_bkp_session_initialize (ib_trse_sess_t *session,void *chunker,wafl_Volume *sVol,uint32_t snap_id) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:332>:
+    ASSERT()
+    sk_my_pid()
+    uuid_from_string()
+    oscall_getenv()
+    D()
+    uuid_create()
+    ib_trse_mqueue_create()
+    ib_trse_mqueue_init()
+    sk_kmem_zalloc()
+    ib_trse_get_transfer_inputs() <bool ib_trse_get_transfer_inputs (wafl_Volume *sVol,uint32_t snap_id,uuid_t *session_uuid,uuid_t *transfer_uuid,snapmirror_tape_input_t *tape_input) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:256>:
+        memset()
+        memcpy()
+        WAFL_VVOL_MSID()
+        SK_DOMAIN_REFERENCE()
+        snapshot_get_uuids()
+        D()
+        EXIT_RET()
+    replication_tape_backup_start_op()
+    ib_trse_add_session_to_list()
+    sk_kmem_free()
+    EXIT_RET()
+ib_trse_bkp_session_send_trse_data() <bool ib_trse_bkp_session_send_trse_data (ib_trse_sess_t *session,ib_trse_opdata_t *trse_data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:157>:
+    ASSERT()
+    ib_trse_mqueue_enqueue()
+    EXIT_RET()
+ib_trse_bkp_session_stub_abort() <bool ib_trse_bkp_session_stub_abort (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:162>:
+ib_trse_bkp_session_stub_abort_trse_data() <bool ib_trse_bkp_session_stub_abort_trse_data (ib_trse_sess_t *session,ib_trse_opdata_t *trse_data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:173>:
+ib_trse_bkp_session_stub_send_trse_data() <bool ib_trse_bkp_session_stub_send_trse_data (ib_trse_sess_t *session,ib_trse_opdata_t *trsedata) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:136>:
+ib_trse_bkp_session_stub_write_transfer_info() <bool ib_trse_bkp_session_stub_write_transfer_info (ib_trse_sess_t *session,ib_trse_transfer_info_t *transfer_info) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:97>:
+ib_trse_bkp_session_stub_writer_destroyed() <bool ib_trse_bkp_session_stub_writer_destroyed (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:149>:
+    sk_kmem_free()
+ib_trse_bkp_session_stub_writer_finalize() <bool ib_trse_bkp_session_stub_writer_finalize (ib_trse_sess_t *session,bool transfer_complete) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:124>:
+ib_trse_bkp_session_stub_writer_init() <bool ib_trse_bkp_session_stub_writer_init (ib_trse_sess_t *session,void *tape_writer,tape_writer_ops_t *tops) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:81>:
+ib_trse_bkp_session_stub_writer_start() <bool ib_trse_bkp_session_stub_writer_start (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:111>:
+ib_trse_bkp_session_write_transfer_info() <bool ib_trse_bkp_session_write_transfer_info (ib_trse_sess_t *session,ib_trse_transfer_info_t *transfer_info) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:110>:
+    EXIT_RET()
+ib_trse_bkp_session_writer_destroyed() <bool ib_trse_bkp_session_writer_destroyed (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:176>:
+    ASSERT()
+    ib_trse_mqueue_enqueue()
+    EXIT_RET()
+ib_trse_bkp_session_writer_finalize() <bool ib_trse_bkp_session_writer_finalize (ib_trse_sess_t *session,bool transfer_complete) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:140>:
+    ASSERT()
+    ib_trse_mqueue_enqueue()
+    EXIT_RET()
+ib_trse_bkp_session_writer_init() <bool ib_trse_bkp_session_writer_init (ib_trse_sess_t *session,void *tape_writer,tape_writer_ops_t *tape_ops) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:77>:
+    ASSERT()
+    ib_trse_mqueue_enqueue()
+    EXIT_RET()
+ib_trse_bkp_session_writer_start() <bool ib_trse_bkp_session_writer_start (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:122>:
+    ASSERT()
+    ib_trse_mqueue_enqueue()
+    EXIT_RET()
+ib_trse_bkp_switch_state() <void ib_trse_bkp_switch_state (ib_trse_sess_t *session,ib_trse_session_state_t new_state) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:501>:
+    ASSERT()
+    D()
+ib_trse_bkp_write_footer() <bool ib_trse_bkp_write_footer (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:567>:
+    EXIT_RET()
+ib_trse_bkp_write_trse_header() <bool ib_trse_bkp_write_trse_header (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:494>:
+    EXIT_RET()
+ib_trse_get_transfer_inputs() <bool ib_trse_get_transfer_inputs (wafl_Volume *sVol,uint32_t snap_id,uuid_t *session_uuid,uuid_t *transfer_uuid,snapmirror_tape_input_t *tape_input) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:256>:
+    memset()
+    memcpy()
+    WAFL_VVOL_MSID()
+    SK_DOMAIN_REFERENCE()
+    snapshot_get_uuids()
+    D()
+    EXIT_RET()
+ib_trse_session_state_bkp_active_handler() <void ib_trse_session_state_bkp_active_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:618>:
+    ASSERT()
+    ib_trse_bkp_process_op() <bool ib_trse_bkp_process_op (ib_trse_sess_t *session,spinnp_repl_req_dataop_t *op) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:517>:
+        ib_marshal_repl_op()
+        ib_chunker_add_data()
+        ib_chunker_write_chunk()
+        ib_chunker_clear_chunk()
+        D()
+        gDecRefItem()
+        EXIT_RET()
+    D()
+    ib_trse_bkp_write_footer() <bool ib_trse_bkp_write_footer (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:567>:
+        EXIT_RET()
+    ib_trse_bkp_switch_state() <void ib_trse_bkp_switch_state (ib_trse_sess_t *session,ib_trse_session_state_t new_state) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:501>:
+        ASSERT()
+        D()
+ib_trse_session_state_bkp_closing_handler() <void ib_trse_session_state_bkp_closing_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:574>:
+    ASSERT()
+    D()
+ib_trse_session_state_bkp_completed_handler() <void ib_trse_session_state_bkp_completed_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:586>:
+    ASSERT()
+    ib_trse_bkp_switch_state() <void ib_trse_bkp_switch_state (ib_trse_sess_t *session,ib_trse_session_state_t new_state) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:501>:
+        ASSERT()
+        D()
+ib_trse_session_state_bkp_init_handler() <void ib_trse_session_state_bkp_init_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:676>:
+    ASSERT()
+    ib_trse_bkp_switch_state() <void ib_trse_bkp_switch_state (ib_trse_sess_t *session,ib_trse_session_state_t new_state) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:501>:
+        ASSERT()
+        D()
+    ib_trse_mqueue_enqueue()
+ib_trse_session_state_bkp_start_handler() <void ib_trse_session_state_bkp_start_handler (ib_trse_sess_t *session,ib_trse_session_event_t msg_type,void *data) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:720>:
+    ASSERT()
+    ib_trse_bkp_switch_state() <void ib_trse_bkp_switch_state (ib_trse_sess_t *session,ib_trse_session_state_t new_state) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:501>:
+        ASSERT()
+        D()
+    ib_trse_bkp_write_trse_header() <bool ib_trse_bkp_write_trse_header (ib_trse_sess_t *session) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:494>:
+        EXIT_RET()
+    D()
+    ib_chunker_add_data()
+    ib_chunker_write_chunk()
+    ib_chunker_clear_chunk()
+    ib_trse_mqueue_enqueue()
+ib_trse_stub_lookup_session() <ib_trse_sess_t *ib_trse_stub_lookup_session (uuid_t *session_uuid,void **ops) at /home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:182>:
+    sk_kmem_zalloc()

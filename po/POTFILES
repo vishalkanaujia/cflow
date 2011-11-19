@@ -1,0 +1,10 @@
+     ../src/c.l \
+     ../src/main.c \
+     ../src/parser.c \
+     ../src/rc.c \
+     ../src/symbol.c \
+     ../lib/argp-help.c \
+     ../lib/argp-parse.c \
+     ../lib/error.c \
+     ../lib/getopt.c \
+     ../lib/obstack.c

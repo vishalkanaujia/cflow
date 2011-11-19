@@ -1,0 +1,1824 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDRESS_FUNCTION	./lib/alloca.c	72;"	d	file:
+ALIGN_SIZE	./lib/alloca.c	130;"	d	file:
+ALLOCA_LIMIT	./lib/error.c	142;"	d	file:
+ARGP_EI	./lib/argp-xinl.c	32;"	d	file:
+ARGP_EI	./lib/argp.h	566;"	d
+ARGP_ERR_UNKNOWN	./lib/argp.h	165;"	d
+ARGP_FMTSTREAM_USE_LINEWRAP	./lib/argp-fmtstream.h	53;"	d
+ARGP_FS_EI	./lib/argp-fmtstream.h	210;"	d
+ARGP_FS_EI	./lib/argp-fs-xinl.c	25;"	d	file:
+ARGP_HELP_BUG_ADDR	./lib/argp.h	460;"	d
+ARGP_HELP_DOC	./lib/argp.h	459;"	d
+ARGP_HELP_EXIT_ERR	./lib/argp.h	465;"	d
+ARGP_HELP_EXIT_OK	./lib/argp.h	466;"	d
+ARGP_HELP_LONG	./lib/argp.h	456;"	d
+ARGP_HELP_LONG_ONLY	./lib/argp.h	461;"	d
+ARGP_HELP_POST_DOC	./lib/argp.h	458;"	d
+ARGP_HELP_PRE_DOC	./lib/argp.h	457;"	d
+ARGP_HELP_SEE	./lib/argp.h	455;"	d
+ARGP_HELP_SHORT_USAGE	./lib/argp.h	454;"	d
+ARGP_HELP_STD_ERR	./lib/argp.h	470;"	d
+ARGP_HELP_STD_HELP	./lib/argp.h	477;"	d
+ARGP_HELP_STD_USAGE	./lib/argp.h	474;"	d
+ARGP_HELP_USAGE	./lib/argp.h	453;"	d
+ARGP_IN_ORDER	./lib/argp.h	392;"	d
+ARGP_KEY_ARG	./lib/argp.h	193;"	d
+ARGP_KEY_ARGS	./lib/argp.h	199;"	d
+ARGP_KEY_END	./lib/argp.h	201;"	d
+ARGP_KEY_ERROR	./lib/argp.h	218;"	d
+ARGP_KEY_FINI	./lib/argp.h	213;"	d
+ARGP_KEY_HELP_ARGS_DOC	./lib/argp.h	288;"	d
+ARGP_KEY_HELP_DUP_ARGS_NOTE	./lib/argp.h	287;"	d
+ARGP_KEY_HELP_EXTRA	./lib/argp.h	283;"	d
+ARGP_KEY_HELP_HEADER	./lib/argp.h	282;"	d
+ARGP_KEY_HELP_POST_DOC	./lib/argp.h	281;"	d
+ARGP_KEY_HELP_PRE_DOC	./lib/argp.h	280;"	d
+ARGP_KEY_INIT	./lib/argp.h	211;"	d
+ARGP_KEY_NO_ARGS	./lib/argp.h	207;"	d
+ARGP_KEY_SUCCESS	./lib/argp.h	216;"	d
+ARGP_LONG_ONLY	./lib/argp.h	402;"	d
+ARGP_NO_ARGS	./lib/argp.h	388;"	d
+ARGP_NO_ERRS	./lib/argp.h	376;"	d
+ARGP_NO_EXIT	./lib/argp.h	399;"	d
+ARGP_NO_HELP	./lib/argp.h	396;"	d
+ARGP_PARSE_ARGV0	./lib/argp.h	370;"	d
+ARGP_SILENT	./lib/argp.h	405;"	d
+ARG_NONE	./lib/printf-parse.h	34;"	d
+ATTRIBUTE_NORETURN	./lib/xalloc.h	39;"	d
+AnyStorage	./src/cflow.h	/^     AnyStorage$/;"	e	enum:storage
+AutoStorage	./src/cflow.h	/^     AutoStorage,$/;"	e	enum:storage
+BEGIN	./src/c.c	79;"	d	file:
+Bucket	./src/symbol.c	/^typedef struct bucket Bucket;$/;"	t	typeref:struct:bucket	file:
+CALL_CHUNKFUN	./lib/obstack.c	135;"	d	file:
+CALL_FREEFUN	./lib/obstack.c	140;"	d	file:
+CAR	./src/cflow.h	55;"	d
+CDR	./src/cflow.h	56;"	d
+CFLOW_PREPROC	./src/cflow.h	121;"	d
+CHAR_T	./lib/printf-parse.c	49;"	d	file:
+CHAR_T	./lib/printf-parse.c	536;"	d	file:
+CHAR_T	./lib/printf-parse.c	54;"	d	file:
+CHAR_T	./lib/vasnprintf.c	100;"	d	file:
+CHAR_T	./lib/vasnprintf.c	85;"	d	file:
+CHAR_T	./lib/vasnprintf.c	901;"	d	file:
+CHAR_TO_SM	./src/main.c	218;"	d	file:
+CHMOD_MODE_BITS	./lib/stat-macros.h	253;"	d
+CLEANUP	./lib/vasnprintf.c	126;"	d	file:
+COPYING_UNIT	./lib/obstack.c	97;"	d	file:
+COUNT	./doc/wc.c	70;"	d	file:
+CRAY_STACK	./lib/alloca.c	229;"	d	file:
+Cons	./src/cflow.h	/^typedef struct cons Cons;$/;"	t	typeref:struct:cons
+Consptr	./src/cflow.h	/^typedef struct cons *Consptr;$/;"	t	typeref:struct:cons
+DEFAULT_ALIGNMENT	./lib/obstack.c	/^    DEFAULT_ALIGNMENT = offsetof (struct fooalign, u),$/;"	e	enum:__anon8	file:
+DEFAULT_GROWTH_FACTOR	./lib/hash.c	118;"	d	file:
+DEFAULT_GROWTH_THRESHOLD	./lib/hash.c	117;"	d	file:
+DEFAULT_ROUNDING	./lib/obstack.c	/^    DEFAULT_ROUNDING = sizeof (union fooround)$/;"	e	enum:__anon8	file:
+DEFAULT_SHRINK_FACTOR	./lib/hash.c	127;"	d	file:
+DEFAULT_SHRINK_THRESHOLD	./lib/hash.c	126;"	d	file:
+DIRECTIVE	./lib/printf-parse.c	50;"	d	file:
+DIRECTIVE	./lib/printf-parse.c	535;"	d	file:
+DIRECTIVE	./lib/printf-parse.c	55;"	d	file:
+DIRECTIVE	./lib/vasnprintf.c	101;"	d	file:
+DIRECTIVE	./lib/vasnprintf.c	86;"	d	file:
+DIRECTIVE	./lib/vasnprintf.c	900;"	d	file:
+DIRECTIVES	./lib/printf-parse.c	51;"	d	file:
+DIRECTIVES	./lib/printf-parse.c	534;"	d	file:
+DIRECTIVES	./lib/printf-parse.c	56;"	d	file:
+DIRECTIVES	./lib/vasnprintf.c	102;"	d	file:
+DIRECTIVES	./lib/vasnprintf.c	87;"	d	file:
+DIRECTIVES	./lib/vasnprintf.c	899;"	d	file:
+DOC_OPT_COL	./lib/argp-help.c	71;"	d	file:
+DUP_ARGS	./lib/argp-help.c	67;"	d	file:
+DUP_ARGS_NOTE	./lib/argp-help.c	68;"	d	file:
+EBADKEY	./lib/argp-parse.c	67;"	d	file:
+ECHO	./src/c.c	686;"	d	file:
+ELIDE_CODE	./lib/obstack.c	51;"	d	file:
+ENABLE_NLS	./config.h	14;"	d
+ENSURE_ALLOCATION	./lib/vasnprintf.c	189;"	d	file:
+ENUM	./src/parser.h	31;"	d
+EOB_ACT_CONTINUE_SCAN	./src/c.c	104;"	d	file:
+EOB_ACT_END_OF_FILE	./src/c.c	105;"	d	file:
+EOB_ACT_LAST_MATCH	./src/c.c	106;"	d	file:
+EOVERFLOW	./lib/vasnprintf.c	57;"	d	file:
+EXIT_FAILURE	./lib/exit.h	30;"	d
+EXIT_SUCCESS	./lib/exit.h	27;"	d
+EXTERN	./src/parser.h	24;"	d
+EX_CANTCREAT	./lib/sysexit_.h	33;"	d
+EX_CONFIG	./lib/sysexit_.h	38;"	d
+EX_DATAERR	./lib/sysexit_.h	25;"	d
+EX_IOERR	./lib/sysexit_.h	34;"	d
+EX_NOHOST	./lib/sysexit_.h	28;"	d
+EX_NOINPUT	./lib/sysexit_.h	26;"	d
+EX_NOPERM	./lib/sysexit_.h	37;"	d
+EX_NOUSER	./lib/sysexit_.h	27;"	d
+EX_OSERR	./lib/sysexit_.h	31;"	d
+EX_OSFILE	./lib/sysexit_.h	32;"	d
+EX_PROTOCOL	./lib/sysexit_.h	36;"	d
+EX_SOFTWARE	./lib/sysexit_.h	30;"	d
+EX_TEMPFAIL	./lib/sysexit_.h	35;"	d
+EX_UNAVAILABLE	./lib/sysexit_.h	29;"	d
+EX_USAGE	./lib/sysexit_.h	24;"	d
+ExplicitExternStorage	./src/cflow.h	/^     ExplicitExternStorage,$/;"	e	enum:storage
+ExternStorage	./src/cflow.h	/^     ExternStorage,$/;"	e	enum:storage
+FLAG_ALT	./lib/printf-parse.h	30;"	d
+FLAG_GROUP	./lib/printf-parse.h	26;"	d
+FLAG_LEFT	./lib/printf-parse.h	27;"	d
+FLAG_SHOWSIGN	./lib/printf-parse.h	28;"	d
+FLAG_SPACE	./lib/printf-parse.h	29;"	d
+FLAG_ZERO	./lib/printf-parse.h	31;"	d
+FLEX_DEBUG	./src/c.c	265;"	d	file:
+FLEX_DEBUG	./src/c.c	270;"	d	file:
+FLEX_SCANNER	./src/c.c	7;"	d	file:
+GROUP_BITS	./lib/argp-parse.c	60;"	d	file:
+GROUP_ID	./src/main.c	116;"	d	file:
+GROUP_ID	./src/main.c	117;"	d	file:
+GROUP_ID	./src/main.c	150;"	d	file:
+GROUP_ID	./src/main.c	151;"	d	file:
+GROUP_ID	./src/main.c	162;"	d	file:
+GROUP_ID	./src/main.c	54;"	d	file:
+GROUP_ID	./src/main.c	86;"	d	file:
+GROUP_ID	./src/main.c	87;"	d	file:
+HASH_H_	./lib/hash.h	26;"	d
+HASH_ONE_CHAR	./lib/hash.c	400;"	d	file:
+HASH_ONE_CHAR	./lib/hash.c	411;"	d	file:
+HAVE_ALLOCA	./config.h	21;"	d
+HAVE_ALLOCA_H	./config.h	25;"	d
+HAVE_DCGETTEXT	./config.h	37;"	d
+HAVE_DECL_CLEARERR_UNLOCKED	./config.h	41;"	d
+HAVE_DECL_FEOF_UNLOCKED	./config.h	45;"	d
+HAVE_DECL_FERROR_UNLOCKED	./config.h	49;"	d
+HAVE_DECL_FFLUSH_UNLOCKED	./config.h	53;"	d
+HAVE_DECL_FGETS_UNLOCKED	./config.h	57;"	d
+HAVE_DECL_FPUTC_UNLOCKED	./config.h	61;"	d
+HAVE_DECL_FPUTS_UNLOCKED	./config.h	65;"	d
+HAVE_DECL_FREAD_UNLOCKED	./config.h	69;"	d
+HAVE_DECL_FWRITE_UNLOCKED	./config.h	73;"	d
+HAVE_DECL_GETCHAR_UNLOCKED	./config.h	77;"	d
+HAVE_DECL_GETC_UNLOCKED	./config.h	81;"	d
+HAVE_DECL_PROGRAM_INVOCATION_NAME	./config.h	85;"	d
+HAVE_DECL_PROGRAM_INVOCATION_SHORT_NAME	./config.h	89;"	d
+HAVE_DECL_PUTCHAR_UNLOCKED	./config.h	93;"	d
+HAVE_DECL_PUTC_UNLOCKED	./config.h	97;"	d
+HAVE_DECL_STRERROR_R	./config.h	101;"	d
+HAVE_DECL_VSNPRINTF	./config.h	109;"	d
+HAVE_FEATURES_H	./config.h	112;"	d
+HAVE_FLOCKFILE	./config.h	115;"	d
+HAVE_FUNLOCKFILE	./config.h	118;"	d
+HAVE_GETTEXT	./config.h	127;"	d
+HAVE_INTMAX_T	./config.h	133;"	d
+HAVE_INTTYPES_H	./config.h	136;"	d
+HAVE_INTTYPES_H_WITH_UINTMAX	./config.h	140;"	d
+HAVE_LOCALE_H	./config.h	146;"	d
+HAVE_LONG_DOUBLE	./config.h	149;"	d
+HAVE_LONG_LONG	./config.h	152;"	d
+HAVE_MALLOC	./config.h	160;"	d
+HAVE_MEMMOVE	./config.h	163;"	d
+HAVE_MEMORY_H	./config.h	166;"	d
+HAVE_MEMPCPY	./config.h	169;"	d
+HAVE_MEMSET	./config.h	172;"	d
+HAVE_OBSTACK	./config.h	175;"	d
+HAVE_PTRDIFF_T	./config.h	178;"	d
+HAVE_SETLOCALE	./config.h	181;"	d
+HAVE_SNPRINTF	./config.h	184;"	d
+HAVE_STDBOOL_H	./config.h	191;"	d
+HAVE_STDINT_H	./config.h	194;"	d
+HAVE_STDINT_H_WITH_UINTMAX	./config.h	198;"	d
+HAVE_STDLIB_H	./config.h	201;"	d
+HAVE_STRCASECMP	./config.h	204;"	d
+HAVE_STRCHRNUL	./config.h	207;"	d
+HAVE_STRDUP	./config.h	210;"	d
+HAVE_STRERROR	./config.h	213;"	d
+HAVE_STRERROR_R	./config.h	216;"	d
+HAVE_STRINGS_H	./config.h	219;"	d
+HAVE_STRING_H	./config.h	222;"	d
+HAVE_STRNCASECMP	./config.h	225;"	d
+HAVE_STRNDUP	./config.h	228;"	d
+HAVE_STRTOL	./config.h	231;"	d
+HAVE_SYSEXITS_H	./config.h	234;"	d
+HAVE_SYS_STAT_H	./config.h	237;"	d
+HAVE_SYS_TYPES_H	./config.h	240;"	d
+HAVE_UINTMAX_T	./config.h	243;"	d
+HAVE_UNISTD_H	./config.h	246;"	d
+HAVE_UNSIGNED_LONG_LONG	./config.h	249;"	d
+HAVE_VSNPRINTF	./config.h	255;"	d
+HAVE_WCHAR_T	./config.h	258;"	d
+HAVE_WCSLEN	./config.h	261;"	d
+HAVE_WINT_T	./config.h	264;"	d
+HAVE__BOOL	./config.h	267;"	d
+HEADER_COL	./lib/argp-help.c	73;"	d	file:
+Hash_comparator	./lib/hash.h	/^typedef bool (*Hash_comparator) (const void *, const void *);$/;"	t
+Hash_data_freer	./lib/hash.h	/^typedef void (*Hash_data_freer) (void *);$/;"	t
+Hash_hasher	./lib/hash.h	/^typedef size_t (*Hash_hasher) (const void *, size_t);$/;"	t
+Hash_processor	./lib/hash.h	/^typedef bool (*Hash_processor) (void *, void *);$/;"	t
+Hash_table	./lib/hash.h	/^typedef struct hash_table Hash_table;$/;"	t	typeref:struct:hash_table
+Hash_tuning	./lib/hash.h	/^typedef struct hash_tuning Hash_tuning;$/;"	t	typeref:struct:hash_tuning
+IDENTIFIER	./src/parser.h	23;"	d
+INITIAL	./src/c.c	563;"	d	file:
+INIT_BUF_SIZE	./lib/argp-fmtstream.c	49;"	d	file:
+Ident	./src/parser.c	/^} Ident;$/;"	t	typeref:struct:__anon17	file:
+KEY_ARG	./lib/argp-parse.c	52;"	d	file:
+KEY_END	./lib/argp-parse.c	51;"	d	file:
+KEY_ERR	./lib/argp-parse.c	53;"	d	file:
+LBRACE	./src/parser.h	32;"	d
+LBRACE0	./src/parser.h	21;"	d
+LENGTH_LIMIT	./lib/strncasecmp.c	1;"	d	file:
+LENGTH_LIMIT_EXPR	./lib/strcasecmp.c	26;"	d	file:
+LENGTH_LIMIT_EXPR	./lib/strcasecmp.c	30;"	d	file:
+LEVEL_BEGIN	./src/main.c	359;"	d	file:
+LEVEL_END0	./src/main.c	362;"	d	file:
+LEVEL_END1	./src/main.c	363;"	d	file:
+LEVEL_INDENT0	./src/main.c	360;"	d	file:
+LEVEL_INDENT1	./src/main.c	361;"	d	file:
+LOCAL_RC	./src/rc.c	26;"	d	file:
+LONG_OPT_COL	./lib/argp-help.c	70;"	d	file:
+LSTAT	./lib/lstat.c	23;"	d	file:
+LSTAT_FOLLOWS_SLASHED_SYMLINK	./config.h	271;"	d
+MAX	./lib/minmax.h	46;"	d
+MAXLEVELINDENT	./src/main.c	358;"	d	file:
+MAX_OUTPUT_DRIVERS	./src/cflow.h	124;"	d
+MEMBER_OF	./src/parser.h	34;"	d
+MIN	./lib/minmax.h	51;"	d
+MODIFIER	./src/parser.h	28;"	d
+NONOPTION_P	./lib/getopt.c	400;"	d	file:
+NULL	./lib/getopt1.c	41;"	d	file:
+NUMITEMS	./src/cflow.h	46;"	d
+N_	./lib/argp-parse.c	42;"	d	file:
+N_	./src/cflow.h	37;"	d
+OBSTACK_INTERFACE_VERSION	./lib/obstack.c	36;"	d	file:
+OP	./src/parser.h	29;"	d
+OPTION_ALIAS	./lib/argp.h	123;"	d
+OPTION_ARG_OPTIONAL	./lib/argp.h	115;"	d
+OPTION_DOC	./lib/argp.h	136;"	d
+OPTION_HIDDEN	./lib/argp.h	118;"	d
+OPTION_NO_TRANS	./lib/argp.h	149;"	d
+OPTION_NO_USAGE	./lib/argp.h	145;"	d
+OPT_DEBUG	./src/main.c	/^     OPT_DEBUG,$/;"	e	enum:option_code	file:
+OPT_DEFINES	./src/main.c	/^     OPT_DEFINES = 256,$/;"	e	enum:option_code	file:
+OPT_DOC_COL	./lib/argp-help.c	72;"	d	file:
+OPT_EMACS	./src/main.c	/^     OPT_EMACS,$/;"	e	enum:option_code	file:
+OPT_HANG	./lib/argp-parse.c	79;"	d	file:
+OPT_LEVEL_INDENT	./src/main.c	/^     OPT_LEVEL_INDENT,$/;"	e	enum:option_code	file:
+OPT_NO_ANSI	./src/main.c	/^     OPT_NO_ANSI,$/;"	e	enum:option_code	file:
+OPT_NO_BRIEF	./src/main.c	/^     OPT_NO_BRIEF,$/;"	e	enum:option_code	file:
+OPT_NO_EMACS	./src/main.c	/^     OPT_NO_EMACS,$/;"	e	enum:option_code	file:
+OPT_NO_NUMBER	./src/main.c	/^     OPT_NO_NUMBER,$/;"	e	enum:option_code	file:
+OPT_NO_OMIT_ARGUMENTS	./src/main.c	/^     OPT_NO_OMIT_ARGUMENTS,$/;"	e	enum:option_code	file:
+OPT_NO_OMIT_SYMBOL_NAMES	./src/main.c	/^     OPT_NO_OMIT_SYMBOL_NAMES$/;"	e	enum:option_code	file:
+OPT_NO_PREPROCESS	./src/main.c	/^     OPT_NO_PREPROCESS,$/;"	e	enum:option_code	file:
+OPT_NO_PRINT_LEVEL	./src/main.c	/^     OPT_NO_PRINT_LEVEL,$/;"	e	enum:option_code	file:
+OPT_NO_REVERSE	./src/main.c	/^     OPT_NO_REVERSE,$/;"	e	enum:option_code	file:
+OPT_NO_TREE	./src/main.c	/^     OPT_NO_TREE,$/;"	e	enum:option_code	file:
+OPT_NO_USE_INDENTATION	./src/main.c	/^     OPT_NO_USE_INDENTATION,$/;"	e	enum:option_code	file:
+OPT_NO_VERBOSE	./src/main.c	/^     OPT_NO_VERBOSE,$/;"	e	enum:option_code	file:
+OPT_OMIT_ARGUMENTS	./src/main.c	/^     OPT_OMIT_ARGUMENTS,$/;"	e	enum:option_code	file:
+OPT_OMIT_SYMBOL_NAMES	./src/main.c	/^     OPT_OMIT_SYMBOL_NAMES,$/;"	e	enum:option_code	file:
+OPT_PREPROCESS	./src/main.c	/^     OPT_PREPROCESS,$/;"	e	enum:option_code	file:
+OPT_PROGNAME	./lib/argp-parse.c	77;"	d	file:
+OPT_USAGE	./lib/argp-parse.c	78;"	d	file:
+PACKAGE	./config.h	274;"	d
+PACKAGE_BUGREPORT	./config.h	277;"	d
+PACKAGE_NAME	./config.h	280;"	d
+PACKAGE_STRING	./config.h	283;"	d
+PACKAGE_TARNAME	./config.h	286;"	d
+PACKAGE_VERSION	./config.h	289;"	d
+PARM_WRAPPER	./src/parser.h	37;"	d
+PERMUTE	./lib/getopt_int.h	/^      REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:_getopt_data::__anon7
+POSIXLY_CORRECT	./lib/getopt.c	/^enum { POSIXLY_CORRECT = 0 };$/;"	e	enum:__anon3	file:
+POSIXLY_CORRECT	./lib/getopt.c	/^enum { POSIXLY_CORRECT = 1 };$/;"	e	enum:__anon4	file:
+PRINTF_PARSE	./lib/printf-parse.c	/^PRINTF_PARSE (const CHAR_T *format, DIRECTIVES *d, arguments *a)$/;"	f
+PRINTF_PARSE	./lib/printf-parse.c	48;"	d	file:
+PRINTF_PARSE	./lib/printf-parse.c	537;"	d	file:
+PRINTF_PARSE	./lib/printf-parse.c	53;"	d	file:
+PRINTF_PARSE	./lib/vasnprintf.c	103;"	d	file:
+PRINTF_PARSE	./lib/vasnprintf.c	88;"	d	file:
+PRINTF_PARSE	./lib/vasnprintf.c	898;"	d	file:
+PRINTF_SIZE_GUESS	./lib/argp-fmtstream.c	50;"	d	file:
+PRINT_TREE	./src/cflow.h	118;"	d
+PRINT_XREF	./src/cflow.h	117;"	d
+PROGRAM_INVOCATION_NAME_DECLARED	./config.h	292;"	d
+PTR_INT_TYPE	./lib/obstack.h	123;"	d
+PTR_INT_TYPE	./lib/obstack.h	126;"	d
+QUOTE	./lib/argp-parse.c	57;"	d	file:
+RBRACE	./src/parser.h	33;"	d
+RBRACE0	./src/parser.h	22;"	d
+REGISTER_ARG	./lib/printf-parse.c	83;"	d	file:
+REJECT	./src/c.c	557;"	d	file:
+REQUIRE_ORDER	./lib/getopt_int.h	/^      REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:_getopt_data::__anon7
+RETURN_IN_ORDER	./lib/getopt_int.h	/^      REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:_getopt_data::__anon7
+RMARGIN	./lib/argp-help.c	75;"	d	file:
+ROTATE_LEFT	./lib/hash.c	398;"	d	file:
+ROTATE_LEFT	./lib/hash.c	410;"	d	file:
+Ref	./src/cflow.h	/^} Ref;$/;"	t	typeref:struct:__anon15
+SHORT_OPT_COL	./lib/argp-help.c	69;"	d	file:
+SIZE_MAX	./lib/argp-help.c	56;"	d	file:
+SIZE_MAX	./lib/error.c	93;"	d	file:
+SIZE_MAX	./lib/hash.c	50;"	d	file:
+SIZE_MAX	./lib/xmalloc.c	31;"	d	file:
+SKIPWS	./lib/argp-help.c	141;"	d	file:
+SM_DATA	./src/main.c	213;"	d	file:
+SM_FUNCTIONS	./src/main.c	212;"	d	file:
+SM_STATIC	./src/main.c	214;"	d	file:
+SM_TYPEDEF	./src/main.c	216;"	d	file:
+SM_UNDERSCORE	./src/main.c	215;"	d	file:
+SNPRINTF	./lib/vasnprintf.c	107;"	d	file:
+SNPRINTF	./lib/vasnprintf.c	110;"	d	file:
+SNPRINTF	./lib/vasnprintf.c	896;"	d	file:
+SNPRINTF	./lib/vasnprintf.c	93;"	d	file:
+SNPRINTF	./lib/vasnprintf.c	96;"	d	file:
+SNPRINTF_BUF	./lib/vasnprintf.c	602;"	d	file:
+STACK_DIR	./lib/alloca.c	91;"	d	file:
+STACK_DIR	./lib/alloca.c	96;"	d	file:
+STACK_DIRECTION	./lib/alloca.c	86;"	d	file:
+STATIC	./src/parser.h	25;"	d
+STAT_MACROS_H	./lib/stat-macros.h	23;"	d
+STDC_HEADERS	./config.h	310;"	d
+STRERROR_R_CHAR_P	./config.h	313;"	d
+STRING	./src/parser.h	36;"	d
+STRUCT	./src/parser.h	27;"	d
+STRXCASECMP_DECLARE_N	./lib/strcasecmp.c	25;"	d	file:
+STRXCASECMP_DECLARE_N	./lib/strcasecmp.c	29;"	d	file:
+STRXCASECMP_FUNCTION	./lib/strcasecmp.c	/^STRXCASECMP_FUNCTION (const char *s1, const char *s2 STRXCASECMP_DECLARE_N)$/;"	f
+STRXCASECMP_FUNCTION	./lib/strcasecmp.c	24;"	d	file:
+STRXCASECMP_FUNCTION	./lib/strcasecmp.c	28;"	d	file:
+SWAP_FLAGS	./lib/getopt.c	149;"	d	file:
+SWAP_FLAGS	./lib/getopt.c	157;"	d	file:
+SWAP_FLAGS	./lib/getopt.c	160;"	d	file:
+SYMBOL_EXCLUDE	./src/main.c	223;"	d	file:
+SYMBOL_INCLUDE	./src/main.c	222;"	d	file:
+S_IFMT	./lib/stat-macros.h	30;"	d
+S_IRGRP	./lib/stat-macros.h	201;"	d
+S_IROTH	./lib/stat-macros.h	204;"	d
+S_IRUSR	./lib/stat-macros.h	195;"	d
+S_IRUSR	./lib/stat-macros.h	198;"	d
+S_IRWXG	./lib/stat-macros.h	237;"	d
+S_IRWXO	./lib/stat-macros.h	240;"	d
+S_IRWXU	./lib/stat-macros.h	234;"	d
+S_IRWXUGO	./lib/stat-macros.h	249;"	d
+S_ISBLK	./lib/stat-macros.h	34;"	d
+S_ISBLK	./lib/stat-macros.h	51;"	d
+S_ISBLK	./lib/stat-macros.h	53;"	d
+S_ISCHR	./lib/stat-macros.h	35;"	d
+S_ISCHR	./lib/stat-macros.h	59;"	d
+S_ISCHR	./lib/stat-macros.h	61;"	d
+S_ISCTG	./lib/stat-macros.h	167;"	d
+S_ISDIR	./lib/stat-macros.h	36;"	d
+S_ISDIR	./lib/stat-macros.h	67;"	d
+S_ISDIR	./lib/stat-macros.h	69;"	d
+S_ISDOOR	./lib/stat-macros.h	37;"	d
+S_ISDOOR	./lib/stat-macros.h	75;"	d
+S_ISDOOR	./lib/stat-macros.h	77;"	d
+S_ISFIFO	./lib/stat-macros.h	38;"	d
+S_ISFIFO	./lib/stat-macros.h	83;"	d
+S_ISFIFO	./lib/stat-macros.h	85;"	d
+S_ISGID	./lib/stat-macros.h	186;"	d
+S_ISLNK	./lib/stat-macros.h	39;"	d
+S_ISLNK	./lib/stat-macros.h	91;"	d
+S_ISLNK	./lib/stat-macros.h	93;"	d
+S_ISMPB	./lib/stat-macros.h	102;"	d
+S_ISMPB	./lib/stat-macros.h	41;"	d
+S_ISMPB	./lib/stat-macros.h	99;"	d
+S_ISMPC	./lib/stat-macros.h	100;"	d
+S_ISMPC	./lib/stat-macros.h	103;"	d
+S_ISMPC	./lib/stat-macros.h	42;"	d
+S_ISNAM	./lib/stat-macros.h	109;"	d
+S_ISNAM	./lib/stat-macros.h	111;"	d
+S_ISNAM	./lib/stat-macros.h	40;"	d
+S_ISNWK	./lib/stat-macros.h	117;"	d
+S_ISNWK	./lib/stat-macros.h	119;"	d
+S_ISNWK	./lib/stat-macros.h	43;"	d
+S_ISOFD	./lib/stat-macros.h	172;"	d
+S_ISOFL	./lib/stat-macros.h	177;"	d
+S_ISREG	./lib/stat-macros.h	125;"	d
+S_ISREG	./lib/stat-macros.h	127;"	d
+S_ISREG	./lib/stat-macros.h	44;"	d
+S_ISSOCK	./lib/stat-macros.h	133;"	d
+S_ISSOCK	./lib/stat-macros.h	135;"	d
+S_ISSOCK	./lib/stat-macros.h	45;"	d
+S_ISUID	./lib/stat-macros.h	183;"	d
+S_ISVTX	./lib/stat-macros.h	191;"	d
+S_IWGRP	./lib/stat-macros.h	214;"	d
+S_IWOTH	./lib/stat-macros.h	217;"	d
+S_IWUSR	./lib/stat-macros.h	208;"	d
+S_IWUSR	./lib/stat-macros.h	211;"	d
+S_IXGRP	./lib/stat-macros.h	227;"	d
+S_IXOTH	./lib/stat-macros.h	230;"	d
+S_IXUGO	./lib/stat-macros.h	245;"	d
+S_IXUSR	./lib/stat-macros.h	221;"	d
+S_IXUSR	./lib/stat-macros.h	224;"	d
+S_TYPEISMQ	./lib/stat-macros.h	141;"	d
+S_TYPEISSEM	./lib/stat-macros.h	151;"	d
+S_TYPEISSEM	./lib/stat-macros.h	153;"	d
+S_TYPEISSHM	./lib/stat-macros.h	159;"	d
+S_TYPEISSHM	./lib/stat-macros.h	161;"	d
+S_TYPEISTMO	./lib/stat-macros.h	145;"	d
+Stackpos	./src/parser.c	/^typedef int Stackpos[1];$/;"	t	file:
+StaticStorage	./src/cflow.h	/^     StaticStorage,$/;"	e	enum:storage
+SymIdentifier	./src/cflow.h	/^     SymIdentifier  \/* Function or variable *\/$/;"	e	enum:symtype
+SymToken	./src/cflow.h	/^     SymToken,      \/* A token *\/$/;"	e	enum:symtype
+SymUndefined	./src/cflow.h	/^     SymUndefined,  \/* Undefined or deleted symbol *\/$/;"	e	enum:symtype
+Symbol	./src/cflow.h	/^typedef struct symbol Symbol;$/;"	t	typeref:struct:symbol
+TOKSTK	./src/parser.c	/^} TOKSTK;$/;"	t	typeref:struct:__anon18	file:
+TOLOWER	./lib/strcasecmp.c	36;"	d	file:
+TYPE	./src/parser.h	35;"	d
+TYPEDEF	./src/parser.h	26;"	d
+TYPE_CHAR	./lib/printf-args.h	/^  TYPE_CHAR,$/;"	e	enum:__anon9
+TYPE_COUNT_INT_POINTER	./lib/printf-args.h	/^  TYPE_COUNT_INT_POINTER,$/;"	e	enum:__anon9
+TYPE_COUNT_LONGINT_POINTER	./lib/printf-args.h	/^  TYPE_COUNT_LONGINT_POINTER$/;"	e	enum:__anon9
+TYPE_COUNT_LONGLONGINT_POINTER	./lib/printf-args.h	/^, TYPE_COUNT_LONGLONGINT_POINTER$/;"	e	enum:__anon9
+TYPE_COUNT_SCHAR_POINTER	./lib/printf-args.h	/^  TYPE_COUNT_SCHAR_POINTER,$/;"	e	enum:__anon9
+TYPE_COUNT_SHORT_POINTER	./lib/printf-args.h	/^  TYPE_COUNT_SHORT_POINTER,$/;"	e	enum:__anon9
+TYPE_DOUBLE	./lib/printf-args.h	/^  TYPE_DOUBLE,$/;"	e	enum:__anon9
+TYPE_INT	./lib/printf-args.h	/^  TYPE_INT,$/;"	e	enum:__anon9
+TYPE_LONGDOUBLE	./lib/printf-args.h	/^  TYPE_LONGDOUBLE,$/;"	e	enum:__anon9
+TYPE_LONGINT	./lib/printf-args.h	/^  TYPE_LONGINT,$/;"	e	enum:__anon9
+TYPE_LONGLONGINT	./lib/printf-args.h	/^  TYPE_LONGLONGINT,$/;"	e	enum:__anon9
+TYPE_NONE	./lib/printf-args.h	/^  TYPE_NONE,$/;"	e	enum:__anon9
+TYPE_POINTER	./lib/printf-args.h	/^  TYPE_POINTER,$/;"	e	enum:__anon9
+TYPE_SCHAR	./lib/printf-args.h	/^  TYPE_SCHAR,$/;"	e	enum:__anon9
+TYPE_SHORT	./lib/printf-args.h	/^  TYPE_SHORT,$/;"	e	enum:__anon9
+TYPE_STRING	./lib/printf-args.h	/^  TYPE_STRING,$/;"	e	enum:__anon9
+TYPE_UCHAR	./lib/printf-args.h	/^  TYPE_UCHAR,$/;"	e	enum:__anon9
+TYPE_UINT	./lib/printf-args.h	/^  TYPE_UINT,$/;"	e	enum:__anon9
+TYPE_ULONGINT	./lib/printf-args.h	/^  TYPE_ULONGINT,$/;"	e	enum:__anon9
+TYPE_ULONGLONGINT	./lib/printf-args.h	/^  TYPE_ULONGLONGINT,$/;"	e	enum:__anon9
+TYPE_USHORT	./lib/printf-args.h	/^  TYPE_USHORT,$/;"	e	enum:__anon9
+TYPE_WIDE_CHAR	./lib/printf-args.h	/^  TYPE_WIDE_CHAR,$/;"	e	enum:__anon9
+TYPE_WIDE_STRING	./lib/printf-args.h	/^  TYPE_WIDE_STRING,$/;"	e	enum:__anon9
+UNION	./src/parser.h	30;"	d
+UNLOCKED_IO_H	./lib/unlocked-io.h	23;"	d
+USAGE_INDENT	./lib/argp-help.c	74;"	d	file:
+USER_BITS	./lib/argp-parse.c	63;"	d	file:
+USER_MASK	./lib/argp-parse.c	64;"	d	file:
+USE_SNPRINTF	./lib/vasnprintf.c	104;"	d	file:
+USE_SNPRINTF	./lib/vasnprintf.c	897;"	d	file:
+USE_SNPRINTF	./lib/vasnprintf.c	89;"	d	file:
+USE_UNLOCKED_IO	./config.h	318;"	d
+VASNPRINTF	./lib/vasnprintf.c	/^VASNPRINTF (CHAR_T *resultbuf, size_t *lengthp, const CHAR_T *format, va_list args)$/;"	f
+VASNPRINTF	./lib/vasnprintf.c	84;"	d	file:
+VASNPRINTF	./lib/vasnprintf.c	902;"	d	file:
+VASNPRINTF	./lib/vasnprintf.c	99;"	d	file:
+VERSION	./config.h	321;"	d
+VSNPRINTF_H	./lib/vsnprintf.h	21;"	d
+WORD	./src/parser.h	20;"	d
+XALLOC_H_	./lib/xalloc.h	22;"	d
+YYSTATE	./src/c.c	86;"	d	file:
+YYSTYPE	./src/parser.h	/^} YYSTYPE;$/;"	t	typeref:struct:__anon19
+YY_AT_BOL	./src/c.c	262;"	d	file:
+YY_BREAK	./src/c.c	745;"	d	file:
+YY_BUFFER_EOF_PENDING	./src/c.c	198;"	d	file:
+YY_BUFFER_NEW	./src/c.c	186;"	d	file:
+YY_BUFFER_NORMAL	./src/c.c	187;"	d	file:
+YY_BUFFER_STATE	./src/c.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	./src/c.c	97;"	d	file:
+YY_CHAR	./src/c.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	./src/c.c	207;"	d	file:
+YY_DECL	./src/c.c	733;"	d	file:
+YY_DO_BEFORE_ACTION	./src/c.c	282;"	d	file:
+YY_END_OF_BUFFER	./src/c.c	290;"	d	file:
+YY_END_OF_BUFFER_CHAR	./src/c.c	94;"	d	file:
+YY_EXIT_FAILURE	./src/c.c	1944;"	d	file:
+YY_FATAL_ERROR	./src/c.c	726;"	d	file:
+YY_FLEX_MAJOR_VERSION	./src/c.c	8;"	d	file:
+YY_FLEX_MINOR_VERSION	./src/c.c	9;"	d	file:
+YY_FLUSH_BUFFER	./src/c.c	236;"	d	file:
+YY_INPUT	./src/c.c	693;"	d	file:
+YY_MORE_ADJ	./src/c.c	559;"	d	file:
+YY_NEW_FILE	./src/c.c	92;"	d	file:
+YY_NO_POP_STATE	./src/c.c	656;"	d	file:
+YY_NO_PUSH_STATE	./src/c.c	655;"	d	file:
+YY_NO_TOP_STATE	./src/c.c	657;"	d	file:
+YY_NULL	./src/c.c	66;"	d	file:
+YY_NUM_RULES	./src/c.c	289;"	d	file:
+YY_PROTO	./src/c.c	60;"	d	file:
+YY_PROTO	./src/c.c	62;"	d	file:
+YY_READ_BUF_SIZE	./src/c.c	677;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	./src/c.c	560;"	d	file:
+YY_RULE_SETUP	./src/c.c	748;"	d	file:
+YY_SC_TO_UI	./src/c.c	73;"	d	file:
+YY_START	./src/c.c	85;"	d	file:
+YY_START_STACK_INCR	./src/c.c	721;"	d	file:
+YY_STATE_EOF	./src/c.c	89;"	d	file:
+YY_USER_ACTION	./src/c.c	740;"	d	file:
+YY_USE_CONST	./src/c.c	31;"	d	file:
+YY_USE_CONST	./src/c.c	38;"	d	file:
+YY_USE_CONST	./src/c.c	48;"	d	file:
+YY_USE_PROTOS	./src/c.c	28;"	d	file:
+YY_USE_PROTOS	./src/c.c	37;"	d	file:
+YY_USE_PROTOS	./src/c.c	49;"	d	file:
+_	./lib/error.c	47;"	d	file:
+_	./lib/getopt.c	55;"	d	file:
+_	./lib/obstack.c	414;"	d	file:
+_	./src/cflow.h	36;"	d
+_ARGCV_H	./lib/argcv.h	20;"	d
+_ARGP_FMTSTREAM_H	./lib/argp-fmtstream.h	27;"	d
+_ARGP_H	./lib/argp.h	22;"	d
+_Bool	./lib/stdbool_.h	/^typedef bool _Bool;$/;"	t
+_Bool	./lib/stdbool_.h	/^typedef enum { _Bool_must_promote_to_int = -1, false = 0, true = 1 } _Bool;$/;"	t	typeref:enum:__anon14
+_Bool	./lib/stdbool_.h	78;"	d
+_Bool_must_promote_to_int	./lib/stdbool_.h	/^typedef enum { _Bool_must_promote_to_int = -1, false = 0, true = 1 } _Bool;$/;"	e	enum:__anon14
+_ERROR_H	./lib/error.h	21;"	d
+_EXIT_H	./lib/exit.h	20;"	d
+_GETOPT_DATA_INITIALIZER	./lib/getopt_int.h	113;"	d
+_GETOPT_H	./lib/getopt.h	24;"	d
+_GETOPT_H	./lib/getopt_.h	24;"	d
+_GETOPT_INT_H	./lib/getopt_int.h	22;"	d
+_GNULIB_ALLOCA_H	./lib/alloca.h	24;"	d
+_GNULIB_ALLOCA_H	./lib/alloca_.h	24;"	d
+_GNU_SOURCE	./config.h	336;"	d
+_GNU_SOURCE	./lib/argp-help.c	22;"	d	file:
+_GNU_SOURCE	./lib/vasnprintf.c	23;"	d	file:
+_LIBGETTEXT_H	./lib/gettext.h	20;"	d
+_MINMAX_H	./lib/minmax.h	20;"	d
+_NO_PROTO	./lib/getopt.c	27;"	d	file:
+_OBSTACK_H	./lib/obstack.h	111;"	d
+_PRINTF_ARGS_H	./lib/printf-args.h	20;"	d
+_PRINTF_PARSE_H	./lib/printf-parse.h	20;"	d
+_STDBOOL_H	./lib/stdbool_.h	20;"	d
+_STRCASE_H	./lib/strcase.h	20;"	d
+_SYSEXITS_H	./lib/sysexit_.h	22;"	d
+_VASNPRINTF_H	./lib/vasnprintf.h	20;"	d
+_XSIZE_H	./lib/xsize.h	21;"	d
+__BPTR_ALIGN	./lib/obstack.h	133;"	d
+__EXTENSIONS__	./config.h	351;"	d
+__GETOPT_CONCAT	./lib/getopt.h	49;"	d
+__GETOPT_CONCAT	./lib/getopt_.h	49;"	d
+__GETOPT_ID	./lib/getopt.h	51;"	d
+__GETOPT_ID	./lib/getopt_.h	51;"	d
+__GETOPT_PREFIX	./config.h	356;"	d
+__GETOPT_XCONCAT	./lib/getopt.h	50;"	d
+__GETOPT_XCONCAT	./lib/getopt_.h	50;"	d
+__GNUC_PREREQ	./lib/getopt.h	98;"	d
+__GNUC_PREREQ	./lib/getopt_.h	98;"	d
+__NTH	./lib/argp.h	39;"	d
+__OPTIMIZE__	./lib/argp-fs-xinl.c	26;"	d	file:
+__OPTIMIZE__	./lib/argp-fs-xinl.c	27;"	d	file:
+__OPTIMIZE__	./lib/argp-xinl.c	33;"	d	file:
+__OPTIMIZE__	./lib/argp-xinl.c	34;"	d	file:
+__P	./lib/argcv.h	33;"	d
+__P	./lib/argcv.h	35;"	d
+__PTR_ALIGN	./lib/obstack.h	142;"	d
+__THROW	./lib/argp.h	36;"	d
+__THROW	./lib/getopt.h	101;"	d
+__THROW	./lib/getopt.h	103;"	d
+__THROW	./lib/getopt_.h	101;"	d
+__THROW	./lib/getopt_.h	103;"	d
+__USE_EXTERN_INLINES	./lib/argp-xinl.c	30;"	d	file:
+__argp_error	./lib/argp-namefrob.h	39;"	d
+__argp_error	./lib/argp-namefrob.h	40;"	d
+__argp_failure	./lib/argp-namefrob.h	41;"	d
+__argp_failure	./lib/argp-namefrob.h	42;"	d
+__argp_fmtstream_ensure	./lib/argp-fmtstream.c	/^__argp_fmtstream_ensure (struct argp_fmtstream *fs, size_t amount)$/;"	f
+__argp_fmtstream_ensure	./lib/argp-fmtstream.h	206;"	d
+__argp_fmtstream_ensure	./lib/argp-fmtstream.h	303;"	d
+__argp_fmtstream_ensure	./lib/argp-namefrob.h	71;"	d
+__argp_fmtstream_ensure	./lib/argp-namefrob.h	72;"	d
+__argp_fmtstream_free	./lib/argp-fmtstream.c	/^__argp_fmtstream_free (argp_fmtstream_t fs)$/;"	f
+__argp_fmtstream_free	./lib/argp-fmtstream.h	69;"	d
+__argp_fmtstream_free	./lib/argp-namefrob.h	51;"	d
+__argp_fmtstream_free	./lib/argp-namefrob.h	52;"	d
+__argp_fmtstream_lmargin	./lib/argp-fmtstream.h	162;"	d
+__argp_fmtstream_lmargin	./lib/argp-fmtstream.h	80;"	d
+__argp_fmtstream_lmargin	./lib/argp-namefrob.h	73;"	d
+__argp_fmtstream_lmargin	./lib/argp-namefrob.h	74;"	d
+__argp_fmtstream_point	./lib/argp-fmtstream.h	/^__argp_fmtstream_point (argp_fmtstream_t __fs)$/;"	f
+__argp_fmtstream_point	./lib/argp-fmtstream.h	204;"	d
+__argp_fmtstream_point	./lib/argp-fmtstream.h	301;"	d
+__argp_fmtstream_point	./lib/argp-fmtstream.h	92;"	d
+__argp_fmtstream_point	./lib/argp-namefrob.h	67;"	d
+__argp_fmtstream_point	./lib/argp-namefrob.h	68;"	d
+__argp_fmtstream_printf	./lib/argp-fmtstream.c	/^__argp_fmtstream_printf (struct argp_fmtstream *fs, const char *fmt, ...)$/;"	f
+__argp_fmtstream_printf	./lib/argp-fmtstream.h	77;"	d
+__argp_fmtstream_printf	./lib/argp-namefrob.h	59;"	d
+__argp_fmtstream_printf	./lib/argp-namefrob.h	60;"	d
+__argp_fmtstream_putc	./lib/argp-fmtstream.h	/^__argp_fmtstream_putc (argp_fmtstream_t __fs, int __ch)$/;"	f
+__argp_fmtstream_putc	./lib/argp-fmtstream.h	198;"	d
+__argp_fmtstream_putc	./lib/argp-fmtstream.h	295;"	d
+__argp_fmtstream_putc	./lib/argp-fmtstream.h	71;"	d
+__argp_fmtstream_putc	./lib/argp-namefrob.h	53;"	d
+__argp_fmtstream_putc	./lib/argp-namefrob.h	54;"	d
+__argp_fmtstream_puts	./lib/argp-fmtstream.h	/^__argp_fmtstream_puts (argp_fmtstream_t __fs, __const char *__str)$/;"	f
+__argp_fmtstream_puts	./lib/argp-fmtstream.h	199;"	d
+__argp_fmtstream_puts	./lib/argp-fmtstream.h	296;"	d
+__argp_fmtstream_puts	./lib/argp-fmtstream.h	73;"	d
+__argp_fmtstream_puts	./lib/argp-namefrob.h	55;"	d
+__argp_fmtstream_puts	./lib/argp-namefrob.h	56;"	d
+__argp_fmtstream_rmargin	./lib/argp-fmtstream.h	163;"	d
+__argp_fmtstream_rmargin	./lib/argp-fmtstream.h	84;"	d
+__argp_fmtstream_rmargin	./lib/argp-namefrob.h	75;"	d
+__argp_fmtstream_rmargin	./lib/argp-namefrob.h	76;"	d
+__argp_fmtstream_set_lmargin	./lib/argp-fmtstream.h	/^__argp_fmtstream_set_lmargin (argp_fmtstream_t __fs, size_t __lmargin)$/;"	f
+__argp_fmtstream_set_lmargin	./lib/argp-fmtstream.h	201;"	d
+__argp_fmtstream_set_lmargin	./lib/argp-fmtstream.h	298;"	d
+__argp_fmtstream_set_lmargin	./lib/argp-fmtstream.h	82;"	d
+__argp_fmtstream_set_lmargin	./lib/argp-namefrob.h	61;"	d
+__argp_fmtstream_set_lmargin	./lib/argp-namefrob.h	62;"	d
+__argp_fmtstream_set_rmargin	./lib/argp-fmtstream.h	/^__argp_fmtstream_set_rmargin (argp_fmtstream_t __fs, size_t __rmargin)$/;"	f
+__argp_fmtstream_set_rmargin	./lib/argp-fmtstream.h	202;"	d
+__argp_fmtstream_set_rmargin	./lib/argp-fmtstream.h	299;"	d
+__argp_fmtstream_set_rmargin	./lib/argp-fmtstream.h	86;"	d
+__argp_fmtstream_set_rmargin	./lib/argp-namefrob.h	63;"	d
+__argp_fmtstream_set_rmargin	./lib/argp-namefrob.h	64;"	d
+__argp_fmtstream_set_wmargin	./lib/argp-fmtstream.h	/^__argp_fmtstream_set_wmargin (argp_fmtstream_t __fs, size_t __wmargin)$/;"	f
+__argp_fmtstream_set_wmargin	./lib/argp-fmtstream.h	203;"	d
+__argp_fmtstream_set_wmargin	./lib/argp-fmtstream.h	300;"	d
+__argp_fmtstream_set_wmargin	./lib/argp-fmtstream.h	90;"	d
+__argp_fmtstream_set_wmargin	./lib/argp-namefrob.h	65;"	d
+__argp_fmtstream_set_wmargin	./lib/argp-namefrob.h	66;"	d
+__argp_fmtstream_update	./lib/argp-fmtstream.c	/^__argp_fmtstream_update (argp_fmtstream_t fs)$/;"	f
+__argp_fmtstream_update	./lib/argp-fmtstream.h	205;"	d
+__argp_fmtstream_update	./lib/argp-fmtstream.h	302;"	d
+__argp_fmtstream_update	./lib/argp-namefrob.h	69;"	d
+__argp_fmtstream_update	./lib/argp-namefrob.h	70;"	d
+__argp_fmtstream_wmargin	./lib/argp-fmtstream.h	164;"	d
+__argp_fmtstream_wmargin	./lib/argp-fmtstream.h	88;"	d
+__argp_fmtstream_wmargin	./lib/argp-namefrob.h	77;"	d
+__argp_fmtstream_wmargin	./lib/argp-namefrob.h	78;"	d
+__argp_fmtstream_write	./lib/argp-fmtstream.h	/^__argp_fmtstream_write (argp_fmtstream_t __fs,$/;"	f
+__argp_fmtstream_write	./lib/argp-fmtstream.h	200;"	d
+__argp_fmtstream_write	./lib/argp-fmtstream.h	297;"	d
+__argp_fmtstream_write	./lib/argp-fmtstream.h	75;"	d
+__argp_fmtstream_write	./lib/argp-namefrob.h	57;"	d
+__argp_fmtstream_write	./lib/argp-namefrob.h	58;"	d
+__argp_help	./lib/argp-help.c	/^void __argp_help (const struct argp *argp, FILE *stream,$/;"	f
+__argp_help	./lib/argp-namefrob.h	37;"	d
+__argp_help	./lib/argp-namefrob.h	38;"	d
+__argp_input	./lib/argp-namefrob.h	33;"	d
+__argp_input	./lib/argp-namefrob.h	34;"	d
+__argp_make_fmtstream	./lib/argp-fmtstream.c	/^__argp_make_fmtstream (FILE *stream,$/;"	f
+__argp_make_fmtstream	./lib/argp-fmtstream.h	67;"	d
+__argp_make_fmtstream	./lib/argp-namefrob.h	49;"	d
+__argp_make_fmtstream	./lib/argp-namefrob.h	50;"	d
+__argp_parse	./lib/argp-namefrob.h	27;"	d
+__argp_parse	./lib/argp-namefrob.h	28;"	d
+__argp_parse	./lib/argp-parse.c	/^__argp_parse (const struct argp *argp, int argc, char **argv, unsigned flags,$/;"	f
+__argp_short_program_name	./lib/argp-namefrob.h	154;"	d
+__argp_state_help	./lib/argp-help.c	/^__argp_state_help (const struct argp_state *state, FILE *stream, unsigned flags)$/;"	f
+__argp_state_help	./lib/argp-namefrob.h	43;"	d
+__argp_state_help	./lib/argp-namefrob.h	44;"	d
+__argp_state_help	./lib/argp.h	560;"	d
+__argp_state_help	./lib/argp.h	595;"	d
+__argp_usage	./lib/argp-namefrob.h	45;"	d
+__argp_usage	./lib/argp-namefrob.h	46;"	d
+__argp_usage	./lib/argp.h	/^__NTH (__argp_usage (__const struct argp_state *__state))$/;"	f
+__argp_usage	./lib/argp.h	559;"	d
+__argp_usage	./lib/argp.h	594;"	d
+__attribute__	./lib/argp-fmtstream.h	40;"	d
+__attribute__	./lib/argp.h	45;"	d
+__attribute__	./lib/error.h	26;"	d
+__attribute__	./lib/obstack.c	424;"	d	file:
+__attribute__	./lib/vasnprintf.h	31;"	d
+__attribute__	./lib/xalloc.h	34;"	d
+__bool_true_false_are_defined	./lib/stdbool_.h	92;"	d
+__const	./lib/argp-fmtstream.h	99;"	d
+__const	./lib/argp.h	32;"	d
+__cplusplus	./src/c.c	18;"	d	file:
+__error_t_defined	./lib/argp.h	69;"	d
+__extension__	./lib/obstack.h	262;"	d
+__first_nonopt	./lib/getopt_int.h	/^  int __first_nonopt;$/;"	m	struct:_getopt_data
+__flockfile	./lib/argp-namefrob.h	86;"	d
+__flockfile	./lib/argp-namefrob.h	87;"	d
+__format__	./lib/argp-fmtstream.h	45;"	d
+__format__	./lib/argp.h	50;"	d
+__format__	./lib/error.h	31;"	d
+__format__	./lib/vasnprintf.h	36;"	d
+__funlockfile	./lib/argp-namefrob.h	88;"	d
+__funlockfile	./lib/argp-namefrob.h	89;"	d
+__getopt_argv_const	./lib/getopt.h	79;"	d
+__getopt_argv_const	./lib/getopt.h	81;"	d
+__getopt_argv_const	./lib/getopt_.h	79;"	d
+__getopt_argv_const	./lib/getopt_.h	81;"	d
+__initialized	./lib/getopt_int.h	/^  int __initialized;$/;"	m	struct:_getopt_data
+__last_nonopt	./lib/getopt_int.h	/^  int __last_nonopt;$/;"	m	struct:_getopt_data
+__mempcpy	./lib/argp-namefrob.h	90;"	d
+__mempcpy	./lib/argp-namefrob.h	91;"	d
+__need_error_t	./lib/argp.h	28;"	d
+__need_getopt	./lib/getopt.h	226;"	d
+__need_getopt	./lib/getopt.h	41;"	d
+__need_getopt	./lib/getopt_.h	226;"	d
+__need_getopt	./lib/getopt_.h	41;"	d
+__nextchar	./lib/getopt_int.h	/^  char *__nextchar;$/;"	m	struct:_getopt_data
+__nonoption_flags_len	./lib/getopt_int.h	/^  int __nonoption_flags_len;$/;"	m	struct:_getopt_data
+__nonoption_flags_max_len	./lib/getopt_int.h	/^  int __nonoption_flags_max_len;$/;"	m	struct:_getopt_data
+__option_is_end	./lib/argp-namefrob.h	29;"	d
+__option_is_end	./lib/argp-namefrob.h	30;"	d
+__option_is_end	./lib/argp.h	/^__NTH (__option_is_end (__const struct argp_option *__opt))$/;"	f
+__option_is_end	./lib/argp.h	562;"	d
+__option_is_end	./lib/argp.h	597;"	d
+__option_is_short	./lib/argp-namefrob.h	31;"	d
+__option_is_short	./lib/argp-namefrob.h	32;"	d
+__option_is_short	./lib/argp.h	/^__NTH (__option_is_short (__const struct argp_option *__opt))$/;"	f
+__option_is_short	./lib/argp.h	561;"	d
+__option_is_short	./lib/argp.h	596;"	d
+__ordering	./lib/getopt_int.h	/^    } __ordering;$/;"	m	struct:_getopt_data	typeref:enum:_getopt_data::__anon7
+__posixly_correct	./lib/getopt_int.h	/^  int __posixly_correct;$/;"	m	struct:_getopt_data
+__printf__	./lib/argp-fmtstream.h	46;"	d
+__printf__	./lib/argp.h	51;"	d
+__printf__	./lib/error.h	32;"	d
+__printf__	./lib/vasnprintf.h	37;"	d
+__restrict	./lib/argp.h	60;"	d
+__restrict	./lib/argp.h	62;"	d
+__set_errno	./lib/argp-namefrob.h	150;"	d
+__sleep	./lib/argp-namefrob.h	92;"	d
+__sleep	./lib/argp-namefrob.h	93;"	d
+__strcasecmp	./lib/argp-namefrob.h	94;"	d
+__strcasecmp	./lib/argp-namefrob.h	95;"	d
+__strchrnul	./lib/argp-namefrob.h	96;"	d
+__strchrnul	./lib/argp-namefrob.h	97;"	d
+__strerror_r	./lib/argp-namefrob.h	98;"	d
+__strerror_r	./lib/argp-namefrob.h	99;"	d
+__strerror_r	./lib/error.c	101;"	d	file:
+__strndup	./lib/argp-namefrob.h	100;"	d
+__strndup	./lib/argp-namefrob.h	101;"	d
+__strndup	./lib/strndup.c	/^__strndup (const char *s, size_t n)$/;"	f
+__strndup	./lib/strndup.c	35;"	d	file:
+__strndup	./lib/strndup.c	39;"	d	file:
+__strnlen	./lib/strnlen.c	/^__strnlen (const char *string, size_t maxlen)$/;"	f
+__strnlen	./lib/strnlen.c	27;"	d	file:
+__strnlen	./lib/strnlen.c	35;"	d	file:
+__vsnprintf	./lib/argp-fmtstream.c	46;"	d	file:
+__vsnprintf	./lib/argp-namefrob.h	102;"	d
+__vsnprintf	./lib/argp-namefrob.h	103;"	d
+_argp_hang	./lib/argp-parse.c	/^static volatile int _argp_hang;$/;"	v	file:
+_getopt_data	./lib/getopt_int.h	/^struct _getopt_data$/;"	s
+_getopt_initialize	./lib/getopt.c	/^_getopt_initialize (int argc, char **argv, const char *optstring,$/;"	f	file:
+_getopt_internal	./lib/getopt.c	/^_getopt_internal (int argc, char **argv, const char *optstring,$/;"	f
+_getopt_internal_r	./lib/getopt.c	/^_getopt_internal_r (int argc, char **argv, const char *optstring,$/;"	f
+_getopt_long_only_r	./lib/getopt1.c	/^_getopt_long_only_r (int argc, char **argv, const char *options,$/;"	f
+_getopt_long_r	./lib/getopt1.c	/^_getopt_long_r (int argc, char **argv, const char *options,$/;"	f
+_help	./lib/argp-help.c	/^_help (const struct argp *argp, const struct argp_state *state, FILE *stream,$/;"	f	file:
+_obstack_begin	./lib/obstack.c	/^_obstack_begin (struct obstack *h,$/;"	f
+_obstack_begin_1	./lib/obstack.c	/^_obstack_begin_1 (struct obstack *h, int size, int alignment,$/;"	f
+_obstack_chunk	./lib/obstack.h	/^struct _obstack_chunk		\/* Lives at front of each chunk. *\/$/;"	s
+_obstack_compat	./lib/obstack.c	/^struct obstack *_obstack_compat;$/;"	v	typeref:struct:obstack
+_obstack_newchunk	./lib/obstack.c	/^_obstack_newchunk (struct obstack *h, int length)$/;"	f
+a	./lib/printf-args.h	/^  a;$/;"	m	struct:__anon10	typeref:union:__anon10::__anon11
+a_char	./lib/printf-args.h	/^    int				a_char;$/;"	m	union:__anon10::__anon11
+a_count_int_pointer	./lib/printf-args.h	/^    int *			a_count_int_pointer;$/;"	m	union:__anon10::__anon11
+a_count_longint_pointer	./lib/printf-args.h	/^    long int *			a_count_longint_pointer;$/;"	m	union:__anon10::__anon11
+a_count_longlongint_pointer	./lib/printf-args.h	/^    long long int *		a_count_longlongint_pointer;$/;"	m	union:__anon10::__anon11
+a_count_schar_pointer	./lib/printf-args.h	/^    signed char *		a_count_schar_pointer;$/;"	m	union:__anon10::__anon11
+a_count_short_pointer	./lib/printf-args.h	/^    short *			a_count_short_pointer;$/;"	m	union:__anon10::__anon11
+a_double	./lib/printf-args.h	/^    double			a_double;$/;"	m	union:__anon10::__anon11
+a_float	./lib/printf-args.h	/^    float			a_float;$/;"	m	union:__anon10::__anon11
+a_int	./lib/printf-args.h	/^    int				a_int;$/;"	m	union:__anon10::__anon11
+a_longdouble	./lib/printf-args.h	/^    long double			a_longdouble;$/;"	m	union:__anon10::__anon11
+a_longint	./lib/printf-args.h	/^    long int			a_longint;$/;"	m	union:__anon10::__anon11
+a_longlongint	./lib/printf-args.h	/^    long long int		a_longlongint;$/;"	m	union:__anon10::__anon11
+a_pointer	./lib/printf-args.h	/^    void*			a_pointer;$/;"	m	union:__anon10::__anon11
+a_schar	./lib/printf-args.h	/^    signed char			a_schar;$/;"	m	union:__anon10::__anon11
+a_short	./lib/printf-args.h	/^    short			a_short;$/;"	m	union:__anon10::__anon11
+a_string	./lib/printf-args.h	/^    const char*			a_string;$/;"	m	union:__anon10::__anon11
+a_uchar	./lib/printf-args.h	/^    unsigned char		a_uchar;$/;"	m	union:__anon10::__anon11
+a_uint	./lib/printf-args.h	/^    unsigned int		a_uint;$/;"	m	union:__anon10::__anon11
+a_ulongint	./lib/printf-args.h	/^    unsigned long int		a_ulongint;$/;"	m	union:__anon10::__anon11
+a_ulonglongint	./lib/printf-args.h	/^    unsigned long long int	a_ulonglongint;$/;"	m	union:__anon10::__anon11
+a_ushort	./lib/printf-args.h	/^    unsigned short		a_ushort;$/;"	m	union:__anon10::__anon11
+a_wide_char	./lib/printf-args.h	/^    wint_t			a_wide_char;$/;"	m	union:__anon10::__anon11
+a_wide_string	./lib/printf-args.h	/^    const wchar_t*		a_wide_string;$/;"	m	union:__anon10::__anon11
+ack	./doc/ack.c	/^ack (u_long a, u_long b) $/;"	f
+active	./src/cflow.h	/^     int active;                   \/* Set to 1 when the symbol's subtree is$/;"	m	struct:symbol
+add_argless_short_opt	./lib/argp-help.c	/^add_argless_short_opt (const struct argp_option *opt,$/;"	f	file:
+add_name	./src/main.c	/^add_name(const char *name)$/;"	f	file:
+add_preproc_option	./src/main.c	/^add_preproc_option(int key, const char *arg)$/;"	f	file:
+add_reference	./src/parser.c	/^add_reference(char *name, int line)$/;"	f
+align	./lib/alloca.c	/^  char align[ALIGN_SIZE];	\/* To force sizeof(header).  *\/$/;"	m	union:hdr	file:
+alignment_mask	./lib/obstack.h	/^  int   alignment_mask;		\/* Mask of alignment for each object. *\/$/;"	m	struct:obstack
+alignof	./lib/argp-parse.c	47;"	d	file:
+alignto	./lib/argp-parse.c	48;"	d	file:
+alloc_cons	./src/symbol.c	/^alloc_cons()$/;"	f
+alloc_cons_from_bucket	./src/symbol.c	/^alloc_cons_from_bucket()$/;"	f
+alloc_failed	./lib/obstack.h	/^  unsigned alloc_failed:1;	\/* No longer used, as we now call the failed$/;"	m	struct:obstack
+alloc_new_bucket	./src/symbol.c	/^alloc_new_bucket()$/;"	f
+alloca	./lib/alloca.c	/^alloca (size_t size)$/;"	f
+alloca	./lib/alloca.h	38;"	d
+alloca	./lib/alloca.h	40;"	d
+alloca	./lib/alloca.h	43;"	d
+alloca	./lib/alloca_.h	38;"	d
+alloca	./lib/alloca_.h	40;"	d
+alloca	./lib/alloca_.h	43;"	d
+allocate_entry	./lib/hash.c	/^allocate_entry (Hash_table *table)$/;"	f	file:
+append_to_list	./src/symbol.c	/^append_to_list(Consptr *root_ptr, void *car)$/;"	f
+arg	./lib/argp-help.c	/^arg (const struct argp_option *real, const char *req_fmt, const char *opt_fmt,$/;"	f	file:
+arg	./lib/argp.h	/^  __const char *arg;$/;"	m	struct:argp_option
+arg	./lib/printf-args.h	/^  argument *arg;$/;"	m	struct:__anon12
+arg_index	./lib/printf-parse.h	/^  size_t arg_index;$/;"	m	struct:__anon5
+arg_num	./lib/argp.h	/^  unsigned arg_num;$/;"	m	struct:argp_state
+arg_type	./lib/printf-args.h	/^} arg_type;$/;"	t	typeref:enum:__anon9
+argc	./lib/argp.h	/^  int argc;$/;"	m	struct:argp_state
+argcv_free	./lib/argcv.c	/^argcv_free (int argc, char **argv)$/;"	f
+argcv_get	./lib/argcv.c	/^argcv_get (const char *command, const char *delim, const char *cmnt,$/;"	f
+argcv_quote_char	./lib/argcv.c	/^argcv_quote_char (int c)$/;"	f
+argcv_quote_copy	./lib/argcv.c	/^argcv_quote_copy (char *dst, const char *src)$/;"	f
+argcv_quoted_length	./lib/argcv.c	/^argcv_quoted_length (const char *str, int *quote)$/;"	f
+argcv_scan	./lib/argcv.c	/^argcv_scan (int len, const char *command, const char *delim, const char* cmnt,$/;"	f	file:
+argcv_string	./lib/argcv.c	/^argcv_string (int argc, char **argv, char **pstring)$/;"	f
+argcv_unquote_char	./lib/argcv.c	/^argcv_unquote_char (int c)$/;"	f
+argcv_unquote_copy	./lib/argcv.c	/^argcv_unquote_copy (char *dst, const char *src, size_t n)$/;"	f
+arglist	./src/main.c	/^Consptr arglist;        \/* List of command line arguments *\/$/;"	v
+argp	./lib/argp-help.c	/^  const struct argp *argp;$/;"	m	struct:hol_cluster	typeref:struct:hol_cluster::argp	file:
+argp	./lib/argp-help.c	/^  const struct argp *argp;$/;"	m	struct:hol_entry	typeref:struct:hol_entry::argp	file:
+argp	./lib/argp-parse.c	/^  const struct argp *argp;$/;"	m	struct:group	typeref:struct:group::argp	file:
+argp	./lib/argp-parse.c	/^  const struct argp *argp;$/;"	m	struct:parser	typeref:struct:parser::argp	file:
+argp	./lib/argp.h	/^  __const struct argp *argp;$/;"	m	struct:argp_child	typeref:struct:argp_child::argp
+argp	./lib/argp.h	/^struct argp$/;"	s
+argp	./src/main.c	/^static struct argp argp = {$/;"	v	typeref:struct:argp	file:
+argp_args_levels	./lib/argp-help.c	/^argp_args_levels (const struct argp *argp)$/;"	f	file:
+argp_args_usage	./lib/argp-help.c	/^argp_args_usage (const struct argp *argp, const struct argp_state *state,$/;"	f	file:
+argp_child	./lib/argp.h	/^struct argp_child$/;"	s
+argp_default_argp	./lib/argp-parse.c	/^static const struct argp argp_default_argp =$/;"	v	typeref:struct:argp	file:
+argp_default_options	./lib/argp-parse.c	/^static const struct argp_option argp_default_options[] =$/;"	v	typeref:struct:argp_option	file:
+argp_default_parser	./lib/argp-parse.c	/^argp_default_parser (int key, char *arg, struct argp_state *state)$/;"	f	file:
+argp_doc	./lib/argp-help.c	/^argp_doc (const struct argp *argp, const struct argp_state *state,$/;"	f	file:
+argp_domain	./lib/argp.h	/^  const char *argp_domain;$/;"	m	struct:argp
+argp_err_exit_status	./lib/argp-eexst.c	/^error_t argp_err_exit_status = EX_USAGE;$/;"	v
+argp_fmtstream	./lib/argp-fmtstream.h	/^struct argp_fmtstream$/;"	s
+argp_fmtstream_free	./lib/argp-fmtstream.h	68;"	d
+argp_fmtstream_lmargin	./lib/argp-fmtstream.h	159;"	d
+argp_fmtstream_lmargin	./lib/argp-fmtstream.h	81;"	d
+argp_fmtstream_point	./lib/argp-fmtstream.h	93;"	d
+argp_fmtstream_printf	./lib/argp-fmtstream.h	78;"	d
+argp_fmtstream_putc	./lib/argp-fmtstream.h	72;"	d
+argp_fmtstream_puts	./lib/argp-fmtstream.h	74;"	d
+argp_fmtstream_rmargin	./lib/argp-fmtstream.h	160;"	d
+argp_fmtstream_rmargin	./lib/argp-fmtstream.h	85;"	d
+argp_fmtstream_set_lmargin	./lib/argp-fmtstream.h	83;"	d
+argp_fmtstream_set_rmargin	./lib/argp-fmtstream.h	87;"	d
+argp_fmtstream_set_wmargin	./lib/argp-fmtstream.h	91;"	d
+argp_fmtstream_t	./lib/argp-fmtstream.h	/^typedef FILE *argp_fmtstream_t;$/;"	t
+argp_fmtstream_t	./lib/argp-fmtstream.h	/^typedef struct argp_fmtstream *argp_fmtstream_t;$/;"	t	typeref:struct:argp_fmtstream
+argp_fmtstream_wmargin	./lib/argp-fmtstream.h	161;"	d
+argp_fmtstream_wmargin	./lib/argp-fmtstream.h	89;"	d
+argp_fmtstream_write	./lib/argp-fmtstream.h	76;"	d
+argp_hol	./lib/argp-help.c	/^argp_hol (const struct argp *argp, struct hol_cluster *cluster)$/;"	f	file:
+argp_make_fmtstream	./lib/argp-fmtstream.h	66;"	d
+argp_option	./lib/argp.h	/^struct argp_option$/;"	s
+argp_parser_t	./lib/argp.h	/^typedef error_t (*argp_parser_t) (int key, char *arg,$/;"	t
+argp_program_bug_address	./lib/argp-ba.c	/^const char *argp_program_bug_address;$/;"	v
+argp_program_bug_address	./src/main.c	/^const char *argp_program_bug_address = "<" PACKAGE_BUGREPORT ">";$/;"	v
+argp_program_version	./lib/argp-pv.c	/^const char *argp_program_version;$/;"	v
+argp_program_version	./src/main.c	/^const char *argp_program_version = "cflow (" PACKAGE_NAME ") " VERSION;$/;"	v
+argp_program_version_hook	./lib/argp-pvh.c	/^void (*argp_program_version_hook) (FILE *stream, struct argp_state *state) = NULL;$/;"	v
+argp_state	./lib/argp.h	/^struct argp_state$/;"	s
+argp_version_argp	./lib/argp-parse.c	/^static const struct argp argp_version_argp =$/;"	v	typeref:struct:argp	file:
+argp_version_options	./lib/argp-parse.c	/^static const struct argp_option argp_version_options[] =$/;"	v	typeref:struct:argp_option	file:
+argp_version_parser	./lib/argp-parse.c	/^argp_version_parser (int key, char *arg, struct argp_state *state)$/;"	f	file:
+args_doc	./lib/argp.h	/^  __const char *args_doc;$/;"	m	struct:argp
+args_processed	./lib/argp-parse.c	/^  unsigned args_processed;$/;"	m	struct:group	file:
+argument	./lib/printf-args.h	/^argument;$/;"	t	typeref:struct:__anon10
+arguments	./lib/printf-args.h	/^arguments;$/;"	t	typeref:struct:__anon12
+argv	./lib/argp.h	/^  char **argv;$/;"	m	struct:argp_state
+arity	./src/cflow.h	/^     int arity;                    \/* Number of parameters or -1 for$/;"	m	struct:symbol
+asnprintf	./lib/asnprintf.c	/^asnprintf (char *resultbuf, size_t *lengthp, const char *format, ...)$/;"	f
+attribute_hidden	./lib/getopt.c	63;"	d	file:
+auto_processor	./src/symbol.c	/^auto_processor(void *data, void *proc_data)$/;"	f
+backslash	./src/c.c	/^backslash()$/;"	f
+begin	./src/output.c	/^begin()$/;"	f	file:
+bind_textdomain_codeset	./lib/gettext.h	66;"	d
+bindtextdomain	./lib/gettext.h	65;"	d
+bool	./lib/stdbool_.h	87;"	d
+brief_listing	./src/main.c	/^int brief_listing;      \/* Produce short listing *\/$/;"	v
+bucket	./lib/hash.c	/^    struct hash_entry *bucket;$/;"	m	struct:hash_table	typeref:struct:hash_table::hash_entry	file:
+bucket	./src/symbol.c	/^struct bucket {$/;"	s	file:
+bucket_limit	./lib/hash.c	/^    struct hash_entry const *bucket_limit;$/;"	m	struct:hash_table	file:
+bucket_nodes	./src/symbol.c	/^static int bucket_nodes = 512;$/;"	v	file:
+buf	./lib/argp-fmtstream.h	/^  char *buf;			\/* Output buffer.  *\/$/;"	m	struct:argp_fmtstream
+c	./lib/obstack.c	/^  char c;$/;"	m	struct:fooalign	file:
+calc_sizes	./lib/argp-parse.c	/^calc_sizes (const struct argp *argp,  struct parser_sizes *szs)$/;"	f	file:
+call	./src/parser.c	/^call(char *name, int line)$/;"	f
+callee	./src/cflow.h	/^     Consptr callee;               \/* List of callees *\/$/;"	m	struct:symbol
+caller	./src/cflow.h	/^     Consptr caller;               \/* List of callers *\/$/;"	m	struct:symbol
+caller	./src/parser.c	/^Symbol *caller;             \/* Current caller *\/$/;"	v
+canon_doc_option	./lib/argp-help.c	/^canon_doc_option (const char **name)$/;"	f	file:
+canonical_filename	./src/c.c	/^char *canonical_filename; $/;"	v
+car	./src/cflow.h	/^     Consptr car;$/;"	m	struct:cons
+ccount	./doc/wc.c	/^count_t ccount;$/;"	v
+cdr	./src/cflow.h	/^     Consptr cdr;$/;"	m	struct:cons
+cflow_license_text	./src/main.c	/^char *cflow_license_text = N_($/;"	v
+cflow_output_begin	./src/cflow.h	/^     cflow_output_begin,$/;"	e	enum:__anon16
+cflow_output_command	./src/cflow.h	/^} cflow_output_command;$/;"	t	typeref:enum:__anon16
+cflow_output_end	./src/cflow.h	/^     cflow_output_end,$/;"	e	enum:__anon16
+cflow_output_init	./src/cflow.h	/^     cflow_output_init,$/;"	e	enum:__anon16
+cflow_output_newline	./src/cflow.h	/^     cflow_output_newline,$/;"	e	enum:__anon16
+cflow_output_separator	./src/cflow.h	/^     cflow_output_separator,$/;"	e	enum:__anon16
+cflow_output_symbol	./src/cflow.h	/^     cflow_output_symbol,$/;"	e	enum:__anon16
+cflow_output_text	./src/cflow.h	/^     cflow_output_text$/;"	e	enum:__anon16
+char_directive	./lib/printf-parse.h	/^char_directive;$/;"	t	typeref:struct:__anon5
+char_directives	./lib/printf-parse.h	/^char_directives;$/;"	t	typeref:struct:__anon6
+check_tuning	./lib/hash.c	/^check_tuning (Hash_table *table)$/;"	f	file:
+child_inputs	./lib/argp-parse.c	/^  void **child_inputs;$/;"	m	struct:parser	file:
+child_inputs	./lib/argp-parse.c	/^  void *input, **child_inputs;$/;"	m	struct:group	file:
+child_inputs	./lib/argp.h	/^  void **child_inputs;$/;"	m	struct:argp_state
+child_inputs_end	./lib/argp-parse.c	/^  void **child_inputs_end;$/;"	m	struct:parser_convert_state	file:
+children	./lib/argp.h	/^  __const struct argp_child *children;$/;"	m	struct:argp	typeref:struct:argp::argp_child
+chunk	./lib/obstack.h	/^  struct _obstack_chunk *chunk;	\/* address of current struct obstack_chunk *\/$/;"	m	struct:obstack	typeref:struct:obstack::_obstack_chunk
+chunk_limit	./lib/obstack.h	/^  char	*chunk_limit;		\/* address of char after current chunk *\/$/;"	m	struct:obstack
+chunk_size	./lib/obstack.h	/^  long	chunk_size;		\/* preferred size to allocate chunks in *\/$/;"	m	struct:obstack
+chunkfun	./lib/obstack.h	/^  struct _obstack_chunk *(*chunkfun) (void *, long);$/;"	m	struct:obstack	typeref:struct:obstack::chunkfun
+cleanup	./src/symbol.c	/^cleanup()$/;"	f
+cleanup_processor	./src/symbol.c	/^cleanup_processor(void *data, void *proc_data)$/;"	f	file:
+cleanup_stack	./src/parser.c	/^cleanup_stack()$/;"	f
+clear_active	./src/output.c	/^clear_active(Symbol *sym)$/;"	f	file:
+clearerr	./lib/unlocked-io.h	39;"	d
+clearerr	./lib/unlocked-io.h	40;"	d
+clearerr_unlocked	./lib/argp-namefrob.h	106;"	d
+clearerr_unlocked	./lib/unlocked-io.h	42;"	d
+clearstack	./src/parser.c	/^clearstack()$/;"	f
+cluster	./lib/argp-help.c	/^  struct hol_cluster *cluster;$/;"	m	struct:hol_entry	typeref:struct:hol_entry::hol_cluster	file:
+clusters	./lib/argp-help.c	/^  struct hol_cluster *clusters;$/;"	m	struct:hol	typeref:struct:hol::hol_cluster	file:
+collect_data	./src/symbol.c	/^struct collect_data {$/;"	s	file:
+collect_processor	./src/symbol.c	/^collect_processor(void *data, void *proc_data)$/;"	f	file:
+collect_symbols	./src/symbol.c	/^collect_symbols(Symbol ***return_sym, int (*sel)(Symbol *p))$/;"	f
+comma	./lib/argp-help.c	/^comma (unsigned col, struct pentry_state *pest)$/;"	f	file:
+comment	./src/c.c	581;"	d	file:
+comparator	./lib/hash.c	/^    Hash_comparator comparator;$/;"	m	struct:hash_table	file:
+compare	./src/output.c	/^compare(const void *ap, const void *bp)$/;"	f	file:
+cons	./src/cflow.h	/^struct cons {$/;"	s
+cons	./src/symbol.c	/^     Cons cons[1];$/;"	m	struct:bucket	file:
+contents	./lib/obstack.h	/^  char	contents[4];		\/* objects begin here *\/$/;"	m	struct:_obstack_chunk
+conversion	./lib/printf-parse.h	/^  char conversion; \/* d i o u x X f e E g G c s p n U % but not C S *\/$/;"	m	struct:__anon5
+convert_options	./lib/argp-parse.c	/^convert_options (const struct argp *argp,$/;"	f	file:
+count	./lib/printf-args.h	/^  size_t count;$/;"	m	struct:__anon12
+count	./lib/printf-parse.h	/^  size_t count;$/;"	m	struct:__anon6
+count_t	./doc/wc.c	/^typedef unsigned long count_t;  \/* Counter type *\/$/;"	t	file:
+counter	./doc/wc.c	/^counter (char *file)$/;"	f
+current_address	./lib/alloca.c	/^    long current_address;	\/* Current stack segment address.  *\/$/;"	m	struct:stk_stat	file:
+current_size	./lib/alloca.c	/^    long current_size;		\/* Current stack segment size.  This$/;"	m	struct:stk_stat	file:
+curs	./src/parser.c	/^int curs;$/;"	v
+d	./lib/obstack.c	/^  long double d;$/;"	m	union:fooround	file:
+data	./lib/hash.h	/^    void *data;$/;"	m	struct:hash_entry
+data_freer	./lib/hash.c	/^    Hash_data_freer data_freer;$/;"	m	struct:hash_table	file:
+dcgettext	./lib/gettext.h	57;"	d
+dcl	./src/parser.c	/^dcl(Ident *idptr)$/;"	f
+dcngettext	./lib/gettext.h	62;"	d
+debug	./src/main.c	/^int debug;              \/* debug level *\/$/;"	v
+decl	./src/cflow.h	/^     char *decl;                   \/* Declaration *\/ $/;"	m	struct:symbol
+declare	./src/parser.c	/^declare(Ident *ident)$/;"	f
+declare_type	./src/parser.c	/^declare_type(Ident *ident)$/;"	f
+deep	./lib/alloca.c	/^      char *deep;		\/* For stack depth measure.  *\/$/;"	m	struct:hdr::__anon1	file:
+def_line	./src/cflow.h	/^     int def_line;                 \/* Source line *\/$/;"	m	struct:symbol
+default_tuning	./lib/hash.c	/^static const Hash_tuning default_tuning =$/;"	v	file:
+delete_autos	./src/symbol.c	/^delete_autos(int level)$/;"	f
+delete_parm_processor	./src/symbol.c	/^delete_parm_processor(void *data, void *proc_data)$/;"	f	file:
+delete_parms	./src/symbol.c	/^delete_parms(int level)$/;"	f
+delete_statics	./src/symbol.c	/^delete_statics()$/;"	f
+delete_symbol	./src/symbol.c	/^delete_symbol(Symbol *s)$/;"	f	file:
+depth	./lib/argp-help.c	/^  int depth;$/;"	m	struct:hol_cluster	file:
+dgettext	./lib/argp-help.c	44;"	d	file:
+dgettext	./lib/argp-help.c	45;"	d	file:
+dgettext	./lib/argp-parse.c	36;"	d	file:
+dgettext	./lib/argp-parse.c	37;"	d	file:
+dgettext	./lib/gettext.h	56;"	d
+dir	./lib/printf-parse.h	/^  char_directive *dir;$/;"	m	struct:__anon6
+dir_end	./lib/printf-parse.h	/^  const char* dir_end;$/;"	m	struct:__anon5
+dir_start	./lib/printf-parse.h	/^  const char* dir_start;$/;"	m	struct:__anon5
+dirdcl	./src/parser.c	/^dirdcl(Ident *idptr)$/;"	f
+direct	./src/cflow.h	/^     int direct;$/;"	m	struct:output_symbol
+direct_tree	./src/output.c	/^direct_tree(int lev, int last, Symbol *sym)$/;"	f	file:
+dngettext	./lib/gettext.h	60;"	d
+doc	./lib/argp.h	/^  __const char *doc;$/;"	m	struct:argp
+doc	./lib/argp.h	/^  __const char *doc;$/;"	m	struct:argp_option
+doc	./src/main.c	/^static char doc[] = N_("generate a program flowgraph\\v* The effect of each option marked with an asterisk is reversed if the option's long name is prefixed with `no-'. For example, --no-cpp cancels --cpp.");$/;"	v	file:
+doc_opt_col	./lib/argp-help.c	/^  int doc_opt_col;$/;"	m	struct:uparams	file:
+driver_index	./src/output.c	/^static int driver_index;$/;"	v	file:
+driver_max	./src/output.c	/^static int driver_max=0;$/;"	v	file:
+dup_args	./lib/argp-help.c	/^  int dup_args;$/;"	m	struct:uparams	file:
+dup_args_note	./lib/argp-help.c	/^  int dup_args_note;$/;"	m	struct:uparams	file:
+egroup	./lib/argp-parse.c	/^  struct group *egroup;$/;"	m	struct:parser	typeref:struct:parser::group	file:
+emacs_option	./src/main.c	/^int emacs_option;       \/* Format and check for use with Emacs cflow-mode *\/ $/;"	v
+end	./lib/argp-fmtstream.h	/^  char *end;			\/* Absolute end of BUF.  *\/$/;"	m	struct:argp_fmtstream
+end	./src/output.c	/^end()$/;"	f	file:
+entries	./lib/argp-help.c	/^  struct hol_entry *entries;$/;"	m	struct:hol	typeref:struct:hol::hol_entry	file:
+entry	./lib/argp-help.c	/^  const struct hol_entry *entry;$/;"	m	struct:pentry_state	typeref:struct:pentry_state::hol_entry	file:
+entry_stack	./lib/hash.c	/^    struct obstack entry_stack;$/;"	m	struct:hash_table	typeref:struct:hash_table::obstack	file:
+err_stream	./lib/argp.h	/^  FILE *err_stream;		\/* For errors; initialized to stderr. *\/$/;"	m	struct:argp_state
+errf	./doc/wc.c	/^errf (char *fmt, ...)$/;"	f	file:
+error	./lib/error.c	/^error (int status, int errnum, const char *message, ...)$/;"	f
+error	./lib/error.c	301;"	d	file:
+error	./lib/error.c	73;"	d	file:
+error_at_line	./lib/error.c	/^error_at_line (int status, int errnum, const char *file_name,$/;"	f
+error_at_line	./lib/error.c	302;"	d	file:
+error_at_line	./lib/error.c	74;"	d	file:
+error_message_count	./lib/error.c	/^unsigned int error_message_count;$/;"	v
+error_one_per_line	./lib/error.c	/^int error_one_per_line;$/;"	v
+error_print	./doc/wc.c	/^error_print (int perr, char *fmt, va_list ap)$/;"	f	file:
+error_print_progname	./lib/error.c	/^void (*error_print_progname) (void);$/;"	v
+error_t	./lib/argp.h	/^typedef int error_t;$/;"	t
+error_tail	./lib/error.c	/^error_tail (int status, int errnum, const char *message, va_list args)$/;"	f	file:
+exchange	./lib/getopt.c	/^exchange (char **argv, struct _getopt_data *d)$/;"	f	file:
+exit_failure	./lib/exitfail.c	/^int volatile exit_failure = EXIT_FAILURE;$/;"	v
+expand_argcv	./src/rc.c	/^expand_argcv(int *argc_ptr, char ***argv_ptr, int argc, char **argv)$/;"	f	file:
+expand_line	./src/cflow.h	/^     int expand_line;              \/* Output line when this symbol was first$/;"	m	struct:symbol
+expression	./src/parser.c	/^expression()$/;"	f
+extends	./lib/alloca.c	/^    long extends;		\/* Number of block extensions.  *\/$/;"	m	struct:stk_stat	file:
+extra_arg	./lib/obstack.h	/^  void *extra_arg;		\/* first arg for chunk alloc\/dealloc funcs *\/$/;"	m	struct:obstack
+f	./doc/foo.c	/^f()$/;"	f
+fake_struct	./src/parser.c	/^fake_struct(Ident *ident)$/;"	f
+false	./lib/stdbool_.h	/^enum { false = 0, true = 1 };$/;"	e	enum:__anon13
+false	./lib/stdbool_.h	/^typedef enum { _Bool_must_promote_to_int = -1, false = 0, true = 1 } _Bool;$/;"	e	enum:__anon14
+false	./lib/stdbool_.h	61;"	d
+false	./lib/stdbool_.h	90;"	d
+feof	./lib/unlocked-io.h	46;"	d
+feof	./lib/unlocked-io.h	47;"	d
+feof_unlocked	./lib/argp-namefrob.h	109;"	d
+feof_unlocked	./lib/unlocked-io.h	49;"	d
+ferror	./lib/unlocked-io.h	53;"	d
+ferror	./lib/unlocked-io.h	54;"	d
+ferror_unlocked	./lib/argp-namefrob.h	112;"	d
+ferror_unlocked	./lib/unlocked-io.h	56;"	d
+fflush	./lib/error.c	77;"	d	file:
+fflush	./lib/unlocked-io.h	60;"	d
+fflush	./lib/unlocked-io.h	61;"	d
+fflush_unlocked	./lib/argp-namefrob.h	115;"	d
+fflush_unlocked	./lib/unlocked-io.h	63;"	d
+fgets	./lib/unlocked-io.h	67;"	d
+fgets	./lib/unlocked-io.h	68;"	d
+fgets_unlocked	./lib/argp-namefrob.h	118;"	d
+fgets_unlocked	./lib/unlocked-io.h	70;"	d
+file_error	./src/parser.c	/^file_error(char *msg, int near)$/;"	f	file:
+filename	./src/c.c	/^char *filename;$/;"	v
+fill_in_uparams	./lib/argp-help.c	/^fill_in_uparams (const struct argp_state *state)$/;"	f	file:
+filter_doc	./lib/argp-help.c	/^filter_doc (const char *doc, int key, const struct argp *argp,$/;"	f	file:
+find_char	./lib/argp-help.c	/^find_char (char ch, char *beg, char *end)$/;"	f	file:
+find_long_option	./lib/argp-parse.c	/^find_long_option (struct option *long_options, const char *name)$/;"	f	file:
+find_option_type	./src/main.c	/^find_option_type(struct option_type *optype, const char *str, int len)$/;"	f	file:
+find_stack_direction	./lib/alloca.c	/^find_stack_direction (void)$/;"	f	file:
+finish_save_stack	./src/parser.c	/^finish_save_stack(char *name)$/;"	f
+first	./lib/argp-help.c	/^  int first;$/;"	m	struct:pentry_state	file:
+flag	./lib/getopt.h	/^  int *flag;$/;"	m	struct:option
+flag	./lib/getopt_.h	/^  int *flag;$/;"	m	struct:option
+flag	./src/cflow.h	/^     enum symbol_flag flag;        \/* Specific flag *\/$/;"	m	struct:symbol	typeref:enum:symbol::symbol_flag
+flags	./lib/argp.h	/^  int flags;$/;"	m	struct:argp_child
+flags	./lib/argp.h	/^  int flags;$/;"	m	struct:argp_option
+flags	./lib/argp.h	/^  unsigned flags;$/;"	m	struct:argp_state
+flags	./lib/printf-parse.h	/^  int flags;$/;"	m	struct:__anon5
+flockfile	./lib/unlocked-io.h	129;"	d
+flockfile	./lib/unlocked-io.h	130;"	d
+fooalign	./lib/obstack.c	/^struct fooalign$/;"	s	file:
+fooround	./lib/obstack.c	/^union fooround$/;"	u	file:
+fputc	./lib/unlocked-io.h	74;"	d
+fputc	./lib/unlocked-io.h	75;"	d
+fputc_unlocked	./lib/argp-namefrob.h	121;"	d
+fputc_unlocked	./lib/unlocked-io.h	77;"	d
+fputs	./lib/unlocked-io.h	81;"	d
+fputs	./lib/unlocked-io.h	82;"	d
+fputs_unlocked	./lib/argp-namefrob.h	124;"	d
+fputs_unlocked	./lib/unlocked-io.h	84;"	d
+fread	./lib/unlocked-io.h	88;"	d
+fread	./lib/unlocked-io.h	89;"	d
+fread_unlocked	./lib/argp-namefrob.h	127;"	d
+fread_unlocked	./lib/unlocked-io.h	91;"	d
+free	./lib/alloca.c	37;"	d	file:
+free	./lib/alloca.c	38;"	d	file:
+free	./src/symbol.c	/^     int free;$/;"	m	struct:bucket	file:
+free_entry	./lib/hash.c	/^free_entry (Hash_table *table, struct hash_entry *entry)$/;"	f	file:
+free_entry_list	./lib/hash.c	/^    struct hash_entry *free_entry_list;$/;"	m	struct:hash_table	typeref:struct:hash_table::hash_entry	file:
+freefun	./lib/obstack.h	/^  void (*freefun) (void *, struct _obstack_chunk *);$/;"	m	struct:obstack
+ftrylockfile	./lib/unlocked-io.h	132;"	d
+ftrylockfile	./lib/unlocked-io.h	133;"	d
+func_body	./src/parser.c	/^func_body()$/;"	f
+funlockfile	./lib/unlocked-io.h	135;"	d
+funlockfile	./lib/unlocked-io.h	136;"	d
+fwrite	./lib/unlocked-io.h	95;"	d
+fwrite	./lib/unlocked-io.h	96;"	d
+fwrite_unlocked	./lib/argp-namefrob.h	130;"	d
+fwrite_unlocked	./lib/unlocked-io.h	98;"	d
+get_symbol	./src/parser.c	/^get_symbol(char *name)$/;"	f
+get_token	./src/c.c	/^get_token()$/;"	f
+getc	./lib/unlocked-io.h	102;"	d
+getc	./lib/unlocked-io.h	103;"	d
+getc_unlocked	./lib/argp-namefrob.h	133;"	d
+getc_unlocked	./lib/unlocked-io.h	105;"	d
+getchar	./lib/unlocked-io.h	109;"	d
+getchar	./lib/unlocked-io.h	110;"	d
+getchar_unlocked	./lib/argp-namefrob.h	136;"	d
+getchar_unlocked	./lib/unlocked-io.h	112;"	d
+getnum	./src/c.c	/^getnum(unsigned  base, int  count)$/;"	f	file:
+getopt	./lib/getopt.c	/^getopt (int argc, char *const *argv, const char *optstring)$/;"	f
+getopt	./lib/getopt.h	42;"	d
+getopt	./lib/getopt.h	52;"	d
+getopt	./lib/getopt_.h	42;"	d
+getopt	./lib/getopt_.h	52;"	d
+getopt_data	./lib/getopt.c	/^static struct _getopt_data getopt_data;$/;"	v	typeref:struct:_getopt_data	file:
+getopt_long	./lib/getopt.h	43;"	d
+getopt_long	./lib/getopt.h	53;"	d
+getopt_long	./lib/getopt1.c	/^getopt_long (int argc, char *__getopt_argv_const *argv, const char *options,$/;"	f
+getopt_long	./lib/getopt_.h	43;"	d
+getopt_long	./lib/getopt_.h	53;"	d
+getopt_long_only	./lib/getopt.h	44;"	d
+getopt_long_only	./lib/getopt.h	54;"	d
+getopt_long_only	./lib/getopt1.c	/^getopt_long_only (int argc, char *__getopt_argv_const *argv,$/;"	f
+getopt_long_only	./lib/getopt_.h	44;"	d
+getopt_long_only	./lib/getopt_.h	54;"	d
+gettext	./lib/gettext.h	55;"	d
+gettext_noop	./lib/gettext.h	77;"	d
+getword	./doc/wc.c	/^getword (FILE *fp)$/;"	f
+globals_only	./src/main.c	/^globals_only()$/;"	f
+gnu_output_handler	./src/gnu.c	/^gnu_output_handler(cflow_output_command cmd,$/;"	f
+group	./lib/argp-help.c	/^  int group;$/;"	m	struct:hol_cluster	file:
+group	./lib/argp-help.c	/^  int group;$/;"	m	struct:hol_entry	file:
+group	./lib/argp-parse.c	/^struct group$/;"	s	file:
+group	./lib/argp.h	/^  int group;$/;"	m	struct:argp_child
+group	./lib/argp.h	/^  int group;$/;"	m	struct:argp_option
+group_cmp	./lib/argp-help.c	/^group_cmp (int group1, int group2, int eq)$/;"	f	file:
+group_parse	./lib/argp-parse.c	/^group_parse (struct group *group, struct argp_state *state, int key, char *arg)$/;"	f	file:
+groups	./lib/argp-parse.c	/^  struct group *groups;$/;"	m	struct:parser	typeref:struct:parser::group	file:
+growth_factor	./lib/hash.h	/^    float growth_factor;	\/* ratio of new bigger size to original size *\/$/;"	m	struct:hash_tuning
+growth_threshold	./lib/hash.h	/^    float growth_threshold;	\/* ratio of used buckets to trigger a growth *\/$/;"	m	struct:hash_tuning
+h	./lib/alloca.c	/^    } h;$/;"	m	union:hdr	typeref:struct:hdr::__anon1	file:
+handler	./src/output.c	/^     int (*handler) (cflow_output_command cmd,$/;"	m	struct:output_driver	file:
+handler_data	./src/output.c	/^     void *handler_data;$/;"	m	struct:output_driver	file:
+has_arg	./lib/getopt.h	/^  int has_arg;$/;"	m	struct:option
+has_arg	./lib/getopt_.h	/^  int has_arg;$/;"	m	struct:option
+hash_clear	./lib/hash.c	/^hash_clear (Hash_table *table)$/;"	f
+hash_delete	./lib/hash.c	/^hash_delete (Hash_table *table, const void *entry)$/;"	f
+hash_do_for_each	./lib/hash.c	/^hash_do_for_each (const Hash_table *table, Hash_processor processor,$/;"	f
+hash_entry	./lib/hash.h	/^struct hash_entry$/;"	s
+hash_find_entry	./lib/hash.c	/^hash_find_entry (Hash_table *table, const void *entry,$/;"	f	file:
+hash_free	./lib/hash.c	/^hash_free (Hash_table *table)$/;"	f
+hash_get_entries	./lib/hash.c	/^hash_get_entries (const Hash_table *table, void **buffer,$/;"	f
+hash_get_first	./lib/hash.c	/^hash_get_first (const Hash_table *table)$/;"	f
+hash_get_max_bucket_length	./lib/hash.c	/^hash_get_max_bucket_length (const Hash_table *table)$/;"	f
+hash_get_n_buckets	./lib/hash.c	/^hash_get_n_buckets (const Hash_table *table)$/;"	f
+hash_get_n_buckets_used	./lib/hash.c	/^hash_get_n_buckets_used (const Hash_table *table)$/;"	f
+hash_get_n_entries	./lib/hash.c	/^hash_get_n_entries (const Hash_table *table)$/;"	f
+hash_get_next	./lib/hash.c	/^hash_get_next (const Hash_table *table, const void *entry)$/;"	f
+hash_initialize	./lib/hash.c	/^hash_initialize (size_t candidate, const Hash_tuning *tuning,$/;"	f
+hash_insert	./lib/hash.c	/^hash_insert (Hash_table *table, const void *entry)$/;"	f
+hash_lookup	./lib/hash.c	/^hash_lookup (const Hash_table *table, const void *entry)$/;"	f
+hash_print	./lib/hash.c	/^hash_print (const Hash_table *table)$/;"	f
+hash_print_statistics	./lib/hash.c	/^hash_print_statistics (const Hash_table *table, FILE *stream)$/;"	f
+hash_rehash	./lib/hash.c	/^hash_rehash (Hash_table *table, size_t candidate)$/;"	f
+hash_reset_tuning	./lib/hash.c	/^hash_reset_tuning (Hash_tuning *tuning)$/;"	f
+hash_string	./lib/hash.c	/^hash_string (const char *string, size_t n_buckets)$/;"	f
+hash_symbol_compare	./src/symbol.c	/^hash_symbol_compare(void const *data1, void const *data2)$/;"	f	file:
+hash_symbol_hasher	./src/symbol.c	/^hash_symbol_hasher(void const *data, unsigned n_buckets)$/;"	f	file:
+hash_table	./lib/hash.c	/^struct hash_table$/;"	s	file:
+hash_table_ok	./lib/hash.c	/^hash_table_ok (const Hash_table *table)$/;"	f
+hash_tuning	./lib/hash.h	/^struct hash_tuning$/;"	s
+hasher	./lib/hash.c	/^    Hash_hasher hasher;$/;"	m	struct:hash_table	file:
+hdr	./lib/alloca.c	/^typedef union hdr$/;"	u	file:
+header	./lib/alloca.c	/^} header;$/;"	t	typeref:union:hdr	file:
+header	./lib/argp-help.c	/^  const char *header;$/;"	m	struct:hol_cluster	file:
+header	./lib/argp.h	/^  __const char *header;$/;"	m	struct:argp_child
+header_col	./lib/argp-help.c	/^  int header_col;$/;"	m	struct:uparams	file:
+help_filter	./lib/argp.h	/^  char *(*help_filter) (int __key, __const char *__text, void *__input);$/;"	m	struct:argp
+hhstate	./lib/argp-help.c	/^  struct hol_help_state *hhstate;$/;"	m	struct:pentry_state	typeref:struct:pentry_state::hol_help_state	file:
+high_water	./lib/alloca.c	/^    long high_water;		\/* Stack high-water mark.  *\/$/;"	m	struct:stk_stat	file:
+hits	./lib/alloca.c	/^    long hits;			\/* Number of internal buffer hits.  *\/$/;"	m	struct:stk_stat	file:
+hol	./lib/argp-help.c	/^struct hol$/;"	s	file:
+hol_add_cluster	./lib/argp-help.c	/^hol_add_cluster (struct hol *hol, int group, const char *header, int index,$/;"	f	file:
+hol_append	./lib/argp-help.c	/^hol_append (struct hol *hol, struct hol *more)$/;"	f	file:
+hol_cluster	./lib/argp-help.c	/^struct hol_cluster$/;"	s	file:
+hol_cluster_base	./lib/argp-help.c	/^hol_cluster_base (struct hol_cluster *cl)$/;"	f	file:
+hol_cluster_cmp	./lib/argp-help.c	/^hol_cluster_cmp (const struct hol_cluster *cl1, const struct hol_cluster *cl2)$/;"	f	file:
+hol_cluster_is_child	./lib/argp-help.c	/^hol_cluster_is_child (const struct hol_cluster *cl1,$/;"	f	file:
+hol_entry	./lib/argp-help.c	/^struct hol_entry$/;"	s	file:
+hol_entry_cmp	./lib/argp-help.c	/^hol_entry_cmp (const struct hol_entry *entry1,$/;"	f	file:
+hol_entry_first_long	./lib/argp-help.c	/^hol_entry_first_long (const struct hol_entry *entry)$/;"	f	file:
+hol_entry_first_short	./lib/argp-help.c	/^hol_entry_first_short (const struct hol_entry *entry)$/;"	f	file:
+hol_entry_help	./lib/argp-help.c	/^hol_entry_help (struct hol_entry *entry, const struct argp_state *state,$/;"	f	file:
+hol_entry_long_iterate	./lib/argp-help.c	/^hol_entry_long_iterate (const struct hol_entry *entry,$/;"	f	file:
+hol_entry_qcmp	./lib/argp-help.c	/^hol_entry_qcmp (const void *entry1_v, const void *entry2_v)$/;"	f	file:
+hol_entry_short_iterate	./lib/argp-help.c	/^hol_entry_short_iterate (const struct hol_entry *entry,$/;"	f	file:
+hol_find_entry	./lib/argp-help.c	/^hol_find_entry (struct hol *hol, const char *name)$/;"	f	file:
+hol_free	./lib/argp-help.c	/^hol_free (struct hol *hol)$/;"	f	file:
+hol_help	./lib/argp-help.c	/^hol_help (struct hol *hol, const struct argp_state *state,$/;"	f	file:
+hol_help_state	./lib/argp-help.c	/^struct hol_help_state$/;"	s	file:
+hol_set_group	./lib/argp-help.c	/^hol_set_group (struct hol *hol, const char *name, int group)$/;"	f	file:
+hol_sort	./lib/argp-help.c	/^hol_sort (struct hol *hol)$/;"	f	file:
+hol_usage	./lib/argp-help.c	/^hol_usage (struct hol *hol, argp_fmtstream_t stream)$/;"	f	file:
+hook	./lib/argp-parse.c	/^  void *hook;$/;"	m	struct:group	file:
+hook	./lib/argp.h	/^  void *hook;$/;"	m	struct:argp_state
+i	./lib/obstack.c	/^  uintmax_t i;$/;"	m	union:fooround	file:
+i00afunc	./lib/alloca.c	/^i00afunc (long *address)$/;"	f	file:
+i00afunc	./lib/alloca.c	/^i00afunc (long address)$/;"	f	file:
+ident	./src/c.c	/^ident()$/;"	f
+ignored_names	./doc/d.c	/^static char *ignored_names[] = { ".", "..", NULL };$/;"	v	file:
+ignorent	./doc/d.c	/^ignorent (char *name)$/;"	f
+include_symbol	./src/main.c	/^include_symbol(Symbol *sym)$/;"	f
+indent_to	./lib/argp-help.c	/^indent_to (argp_fmtstream_t stream, unsigned col)$/;"	f	file:
+index	./lib/argp-help.c	/^  int index;$/;"	m	struct:hol_cluster	file:
+index	./src/symbol.c	/^     size_t index;$/;"	m	struct:collect_data	file:
+init	./src/main.c	/^init()$/;"	f
+init_lex	./src/c.c	/^init_lex(int debug_level)$/;"	f
+init_parse	./src/parser.c	/^init_parse()$/;"	f
+initial_address	./lib/alloca.c	/^    long initial_address;	\/* Address of initial segment.  *\/$/;"	m	struct:stk_stat	file:
+initial_size	./lib/alloca.c	/^    long initial_size;		\/* Size of initial segment.  *\/$/;"	m	struct:stk_stat	file:
+initializer_list	./src/parser.c	/^initializer_list()$/;"	f
+input	./lib/argp-parse.c	/^  void *input, **child_inputs;$/;"	m	struct:group	file:
+input	./lib/argp.h	/^  void *input;$/;"	m	struct:argp_state
+input_file_count	./src/c.c	/^unsigned input_file_count; \/* Number of input files, processed by source() *\/$/;"	v
+install	./src/symbol.c	/^install(char *name)$/;"	f
+inverted_tree	./src/output.c	/^inverted_tree(int lev, int last, Symbol *sym)$/;"	f	file:
+is_bool	./lib/argp-help.c	/^  int is_bool;			\/* Whether it's `boolean'.  *\/$/;"	m	struct:uparam_name	file:
+is_function	./src/parser.c	/^is_function()$/;"	f	file:
+is_last	./src/output.c	/^is_last(Consptr cons)$/;"	f	file:
+is_n_buckets	./lib/hash.h	/^    bool is_n_buckets;		\/* if CANDIDATE really means table size *\/$/;"	m	struct:hash_tuning
+is_prime	./lib/hash.c	/^is_prime (size_t candidate)$/;"	f	file:
+is_printable	./src/output.c	/^is_printable(Consptr cons)$/;"	f	file:
+is_var	./src/output.c	/^is_var(Symbol *symp)$/;"	f	file:
+isblank	./lib/argp-fmtstream.c	40;"	d	file:
+isdelim	./lib/argcv.c	36;"	d	file:
+isdir	./doc/d.c	/^isdir (char *name)$/;"	f	file:
+isword	./doc/wc.c	/^isword (unsigned char c)$/;"	f	file:
+isws	./lib/argcv.c	35;"	d	file:
+key	./lib/argp.h	/^  int key;$/;"	m	struct:argp_option
+keywords	./src/c.c	/^static char *keywords[] = {$/;"	v	file:
+last	./src/cflow.h	/^     int last;$/;"	m	struct:output_symbol
+last_alloca_header	./lib/alloca.c	/^static header *last_alloca_header = NULL;	\/* -> last alloca header.  *\/$/;"	v	file:
+last_bucket	./src/symbol.c	/^static Bucket *root_bucket, *last_bucket;$/;"	v	file:
+lcount	./doc/wc.c	/^count_t lcount;$/;"	v
+level	./src/cflow.h	/^     int level;                    \/* Block nesting level (for local vars),$/;"	m	struct:symbol
+level	./src/cflow.h	/^     int level;$/;"	m	struct:output_symbol
+level	./src/parser.c	/^int level;                  \/* Current nesting level *\/$/;"	v
+level_begin	./src/main.c	/^char *level_begin = "";$/;"	v
+level_end	./src/main.c	/^char *level_end[] = { "", "" };$/;"	v
+level_indent	./src/main.c	/^char *level_indent[] = { NULL, NULL };$/;"	v
+level_indent_optype	./src/main.c	/^static struct option_type level_indent_optype[] = {$/;"	v	typeref:struct:option_type	file:
+level_mark	./src/output.c	/^unsigned char *level_mark;$/;"	v
+level_mark_incr	./src/output.c	/^int level_mark_incr = 128; \/* level_mark is expanded by this number of bytes *\/$/;"	v
+level_mark_size	./src/output.c	/^int level_mark_size = 0;   \/* Actual size of level_mark *\/$/;"	v
+lex_error	./src/c.c	604;"	d	file:
+limit	./lib/obstack.h	/^  char  *limit;			\/* 1 past end of this chunk *\/$/;"	m	struct:_obstack_chunk
+line	./src/cflow.h	/^     int line;$/;"	m	struct:__anon15
+line	./src/parser.c	/^     int line;$/;"	m	struct:__anon17	file:
+line	./src/parser.c	/^     int line;$/;"	m	struct:__anon18	file:
+line_num	./src/c.c	/^int line_num;$/;"	v
+link	./lib/alloca.c	/^    long link;			\/* Address of trailer block of previous$/;"	m	struct:stk_trailer	file:
+lmargin	./lib/argp-fmtstream.h	/^  size_t lmargin, rmargin;	\/* Left and right margins.  *\/$/;"	m	struct:argp_fmtstream
+local_wcslen	./lib/vasnprintf.c	/^local_wcslen (const wchar_t *s)$/;"	f	file:
+local_wcslen	./lib/vasnprintf.c	62;"	d	file:
+local_wcslen_defined	./lib/vasnprintf.c	69;"	d	file:
+long_end	./lib/argp-parse.c	/^  struct option *long_end;$/;"	m	struct:parser_convert_state	typeref:struct:parser_convert_state::option	file:
+long_len	./lib/argp-parse.c	/^  size_t long_len;		\/* Getopt long options vector.  *\/$/;"	m	struct:parser_sizes	file:
+long_opt_col	./lib/argp-help.c	/^  int long_opt_col;$/;"	m	struct:uparams	file:
+long_opts	./lib/argp-parse.c	/^  struct option *long_opts;$/;"	m	struct:parser	typeref:struct:parser::option	file:
+longline	./src/c.c	587;"	d	file:
+lookup	./src/symbol.c	/^lookup(char *name)$/;"	f
+main	./doc/d.c	/^main (int argc, char **argv)$/;"	f
+main	./doc/foo.c	/^main()$/;"	f
+main	./doc/wc.c	/^main (int argc, char **argv)$/;"	f
+main	./doc/whoami.c	/^main (int argc, char **argv)$/;"	f
+main	./lib/getopt.c	/^main (int argc, char **argv)$/;"	f
+main	./lib/getopt1.c	/^main (int argc, char **argv)$/;"	f
+main	./src/c.c	/^int main()$/;"	f
+main	./src/main.c	/^main(int argc, char **argv)$/;"	f
+make_hol	./lib/argp-help.c	/^make_hol (const struct argp *argp, struct hol_cluster *cluster)$/;"	f	file:
+malloc	./lib/malloc.c	24;"	d	file:
+mark	./src/parser.c	/^mark(Stackpos pos)$/;"	f
+max_depth	./src/main.c	/^int max_depth;          \/* The depth at which the flowgraph is cut off *\/$/;"	v
+max_level	./doc/d.c	/^int max_level = -1;$/;"	v
+max_precision_length	./lib/printf-parse.h	/^  size_t max_precision_length;$/;"	m	struct:__anon6
+max_width_length	./lib/printf-parse.h	/^  size_t max_width_length;$/;"	m	struct:__anon6
+maxc	./lib/alloca.c	/^    long maxc;			\/* Amount of contiguous space which would$/;"	m	struct:stk_stat	file:
+maxs	./lib/alloca.c	/^    long maxs;			\/* Maximum number of stack segments so far.  *\/$/;"	m	struct:stk_stat	file:
+maybe_empty_object	./lib/obstack.h	/^  unsigned maybe_empty_object:1;\/* There is a possibility that the current$/;"	m	struct:obstack
+maybe_parm_list	./src/parser.c	/^maybe_parm_list(int *parm_cnt_return)$/;"	f
+mbsrtowcs	./lib/error.c	39;"	d	file:
+memory_full	./lib/alloca.c	41;"	d	file:
+mempcpy	./lib/mempcpy.c	/^mempcpy (void *dest, const void *src, size_t n)$/;"	f
+min_match	./src/main.c	/^    int min_match;       \/* minimal number of characters to match *\/$/;"	m	struct:option_type	file:
+move_parm_processor	./src/symbol.c	/^move_parm_processor(void *data, void *proc_data)$/;"	f	file:
+move_parms	./src/symbol.c	/^move_parms(int level)$/;"	f
+n_buckets	./lib/hash.c	/^    size_t n_buckets;$/;"	m	struct:hash_table	file:
+n_buckets_used	./lib/hash.c	/^    size_t n_buckets_used;$/;"	m	struct:hash_table	file:
+n_entries	./lib/hash.c	/^    size_t n_entries;$/;"	m	struct:hash_table	file:
+name	./lib/argp-help.c	/^  const char *name;		\/* User name.  *\/$/;"	m	struct:uparam_name	file:
+name	./lib/argp.h	/^  __const char *name;$/;"	m	struct:argp_option
+name	./lib/argp.h	/^  char *name;$/;"	m	struct:argp_state
+name	./lib/getopt.h	/^  const char *name;$/;"	m	struct:option
+name	./lib/getopt_.h	/^  const char *name;$/;"	m	struct:option
+name	./src/cflow.h	/^     char *name;                   \/* Identifier *\/$/;"	m	struct:symbol
+name	./src/output.c	/^     char *name;$/;"	m	struct:output_driver	file:
+name	./src/parser.c	/^     char *name;$/;"	m	struct:__anon17	file:
+need_space	./src/parser.c	/^static int need_space;$/;"	v	file:
+newline	./src/output.c	/^newline()$/;"	f
+next	./lib/alloca.c	/^      union hdr *next;		\/* For chaining headers.  *\/$/;"	m	struct:hdr::__anon1	typeref:union:hdr::__anon1::hdr	file:
+next	./lib/argp-help.c	/^  struct hol_cluster *next;$/;"	m	struct:hol_cluster	typeref:struct:hol_cluster::hol_cluster	file:
+next	./lib/argp.h	/^  int next;$/;"	m	struct:argp_state
+next	./lib/hash.h	/^    struct hash_entry *next;$/;"	m	struct:hash_entry	typeref:struct:hash_entry::hash_entry
+next	./src/cflow.h	/^     Symbol *next;                 \/* Next symbol with the same hash *\/$/;"	m	struct:symbol
+next	./src/symbol.c	/^     Bucket *next; \/* Next bucket *\/$/;"	m	struct:bucket	file:
+next_free	./lib/obstack.h	/^  char	*next_free;		\/* where to add next char to current object *\/$/;"	m	struct:obstack
+next_prime	./lib/hash.c	/^next_prime (size_t candidate)$/;"	f	file:
+nexttoken	./src/parser.c	/^nexttoken()$/;"	f
+ngettext	./lib/gettext.h	58;"	d
+no_argument	./lib/getopt.h	176;"	d
+no_argument	./lib/getopt_.h	176;"	d
+now	./lib/alloca.c	/^    long now;			\/* Current total stack size.  *\/$/;"	m	struct:stk_stat	file:
+num	./lib/argp-help.c	/^  unsigned num;$/;"	m	struct:hol_entry	file:
+num_child_inputs	./lib/argp-parse.c	/^  size_t num_child_inputs;	\/* Child input slots.  *\/$/;"	m	struct:parser_sizes	file:
+num_entries	./lib/argp-help.c	/^  unsigned num_entries;$/;"	m	struct:hol	file:
+num_groups	./lib/argp-parse.c	/^  size_t num_groups;		\/* Group structures we allocate.  *\/$/;"	m	struct:parser_sizes	file:
+number	./src/main.c	/^number(const char **str_ptr, int base, int count)$/;"	f	file:
+oalias	./lib/argp-help.c	227;"	d	file:
+object_base	./lib/obstack.h	/^  char	*object_base;		\/* address of object we are building *\/$/;"	m	struct:obstack
+obstack	./lib/obstack.h	/^struct obstack		\/* control current object in current chunk *\/$/;"	s
+obstack_1grow	./lib/obstack.h	317;"	d
+obstack_1grow	./lib/obstack.h	449;"	d
+obstack_1grow_fast	./lib/obstack.h	251;"	d
+obstack_alignment_mask	./lib/obstack.h	222;"	d
+obstack_alloc	./lib/obstack.h	366;"	d
+obstack_alloc	./lib/obstack.h	476;"	d
+obstack_alloc_failed_handler	./lib/obstack.c	/^void (*obstack_alloc_failed_handler) (void) = print_and_abort;$/;"	v
+obstack_base	./lib/obstack.h	210;"	d
+obstack_begin	./lib/obstack.h	230;"	d
+obstack_blank	./lib/obstack.h	357;"	d
+obstack_blank	./lib/obstack.h	470;"	d
+obstack_blank_fast	./lib/obstack.h	253;"	d
+obstack_chunk_alloc	./lib/hash.c	42;"	d	file:
+obstack_chunk_alloc	./src/cflow.h	29;"	d
+obstack_chunk_free	./lib/hash.c	45;"	d	file:
+obstack_chunk_free	./src/cflow.h	30;"	d
+obstack_chunk_size	./lib/obstack.h	214;"	d
+obstack_chunkfun	./lib/obstack.h	245;"	d
+obstack_copy	./lib/obstack.h	372;"	d
+obstack_copy	./lib/obstack.h	479;"	d
+obstack_copy0	./lib/obstack.h	378;"	d
+obstack_copy0	./lib/obstack.h	482;"	d
+obstack_empty_p	./lib/obstack.h	288;"	d
+obstack_empty_p	./lib/obstack.h	417;"	d
+obstack_exit_failure	./lib/obstack.c	/^int obstack_exit_failure = EXIT_FAILURE;$/;"	v
+obstack_exit_failure	./lib/obstack.c	116;"	d	file:
+obstack_finish	./lib/obstack.h	386;"	d
+obstack_finish	./lib/obstack.h	485;"	d
+obstack_free	./lib/obstack.c	/^obstack_free (struct obstack *h, void *obj)$/;"	f
+obstack_free	./lib/obstack.c	356;"	d	file:
+obstack_free	./lib/obstack.h	401;"	d
+obstack_free	./lib/obstack.h	499;"	d
+obstack_freefun	./lib/obstack.h	248;"	d
+obstack_grow	./lib/obstack.h	296;"	d
+obstack_grow	./lib/obstack.h	434;"	d
+obstack_grow0	./lib/obstack.h	306;"	d
+obstack_grow0	./lib/obstack.h	441;"	d
+obstack_init	./lib/obstack.h	225;"	d
+obstack_int_grow	./lib/obstack.h	336;"	d
+obstack_int_grow	./lib/obstack.h	459;"	d
+obstack_int_grow_fast	./lib/obstack.h	350;"	d
+obstack_int_grow_fast	./lib/obstack.h	467;"	d
+obstack_make_room	./lib/obstack.h	280;"	d
+obstack_make_room	./lib/obstack.h	429;"	d
+obstack_memory_used	./lib/obstack.h	255;"	d
+obstack_next_free	./lib/obstack.h	218;"	d
+obstack_object_size	./lib/obstack.h	270;"	d
+obstack_object_size	./lib/obstack.h	411;"	d
+obstack_ptr_grow	./lib/obstack.h	329;"	d
+obstack_ptr_grow	./lib/obstack.h	454;"	d
+obstack_ptr_grow_fast	./lib/obstack.h	343;"	d
+obstack_ptr_grow_fast	./lib/obstack.h	464;"	d
+obstack_room	./lib/obstack.h	275;"	d
+obstack_room	./lib/obstack.h	414;"	d
+obstack_specify_allocation	./lib/obstack.h	235;"	d
+obstack_specify_allocation_with_arg	./lib/obstack.h	240;"	d
+odoc	./lib/argp-help.c	230;"	d	file:
+oend	./lib/argp-help.c	236;"	d	file:
+omit_arguments_option	./src/main.c	/^int omit_arguments_option;    \/* Omit arguments from function declaration string *\/$/;"	v
+omit_symbol_names_option	./src/main.c	/^int omit_symbol_names_option; \/* Omit symbol name from symbol declaration string *\/$/;"	v
+onotrans	./lib/argp-help.c	233;"	d	file:
+opt	./lib/argp-help.c	/^  const struct argp_option *opt;$/;"	m	struct:hol_entry	typeref:struct:hol_entry::argp_option	file:
+opt_data	./lib/argp-parse.c	/^  struct _getopt_data opt_data;$/;"	m	struct:parser	typeref:struct:parser::_getopt_data	file:
+opt_doc_col	./lib/argp-help.c	/^  int opt_doc_col;$/;"	m	struct:uparams	file:
+opt_stack	./src/c.c	/^static struct obstack *opt_stack;$/;"	v	typeref:struct:obstack	file:
+optarg	./lib/getopt.c	/^char *optarg;$/;"	v
+optarg	./lib/getopt.h	45;"	d
+optarg	./lib/getopt.h	55;"	d
+optarg	./lib/getopt_.h	45;"	d
+optarg	./lib/getopt_.h	55;"	d
+optarg	./lib/getopt_int.h	/^  char *optarg;$/;"	m	struct:_getopt_data
+opterr	./lib/getopt.c	/^int opterr = 1;$/;"	v
+opterr	./lib/getopt.h	46;"	d
+opterr	./lib/getopt.h	56;"	d
+opterr	./lib/getopt_.h	46;"	d
+opterr	./lib/getopt_.h	56;"	d
+opterr	./lib/getopt_int.h	/^  int opterr;$/;"	m	struct:_getopt_data
+optind	./lib/getopt.c	/^int optind = 1;$/;"	v
+optind	./lib/getopt.h	47;"	d
+optind	./lib/getopt.h	57;"	d
+optind	./lib/getopt_.h	47;"	d
+optind	./lib/getopt_.h	57;"	d
+optind	./lib/getopt_int.h	/^  int optind;$/;"	m	struct:_getopt_data
+option	./lib/getopt.h	/^struct option$/;"	s
+option	./lib/getopt_.h	/^struct option$/;"	s
+option_code	./src/main.c	/^enum option_code {$/;"	g	file:
+option_type	./src/main.c	/^struct option_type {$/;"	s	file:
+optional_argument	./lib/getopt.h	178;"	d
+optional_argument	./lib/getopt_.h	178;"	d
+options	./lib/argp.h	/^  __const struct argp_option *options;$/;"	m	struct:argp	typeref:struct:argp::argp_option
+options	./src/main.c	/^static struct argp_option options[] = {$/;"	v	typeref:struct:argp_option	file:
+optopt	./lib/getopt.c	/^int optopt = '?';$/;"	v
+optopt	./lib/getopt.h	48;"	d
+optopt	./lib/getopt.h	58;"	d
+optopt	./lib/getopt_.h	48;"	d
+optopt	./lib/getopt_.h	58;"	d
+optopt	./lib/getopt_int.h	/^  int optopt;$/;"	m	struct:_getopt_data
+oshort	./lib/argp-help.c	239;"	d	file:
+out_line	./src/output.c	/^int out_line = 1; \/* Current output line number *\/$/;"	v
+out_stream	./lib/argp.h	/^  FILE *out_stream;		\/* For information; initialized to stdout. *\/$/;"	m	struct:argp_state
+outfile	./src/output.c	/^FILE *outfile;    \/* Output file *\/$/;"	v
+outname	./src/main.c	/^char *outname = "-";    \/* default output file name *\/$/;"	v
+output	./src/output.c	/^output()$/;"	f
+output_driver	./src/output.c	/^struct output_driver output_driver[MAX_OUTPUT_DRIVERS];$/;"	v	typeref:struct:output_driver
+output_driver	./src/output.c	/^struct output_driver {$/;"	s	file:
+output_init	./src/output.c	/^output_init()$/;"	f
+output_symbol	./src/cflow.h	/^struct output_symbol {$/;"	s
+overflows	./lib/alloca.c	/^    long overflows;		\/* Number of stack overflow ($STKOFEN) calls.  *\/$/;"	m	struct:stk_stat	file:
+ovisible	./lib/argp-help.c	224;"	d	file:
+p	./lib/argp-fmtstream.h	/^  char *p;			\/* Current end of text in BUF. *\/$/;"	m	struct:argp_fmtstream
+p	./lib/obstack.c	/^  void *p;$/;"	m	union:fooround	file:
+pad_size	./lib/alloca.c	/^    long pad_size;		\/* Stack pad size.  *\/$/;"	m	struct:stk_stat	file:
+parent	./lib/argp-help.c	/^  struct hol_cluster *parent;$/;"	m	struct:hol_cluster	typeref:struct:hol_cluster::hol_cluster	file:
+parent	./lib/argp-parse.c	/^  struct group *parent;$/;"	m	struct:group	typeref:struct:group::group	file:
+parent_index	./lib/argp-parse.c	/^  unsigned parent_index;	\/* And the our position in the parent.   *\/$/;"	m	struct:group	file:
+parm_level	./src/parser.c	/^int parm_level;             \/* Parameter declaration nesting level *\/$/;"	v
+parmcnt	./src/parser.c	/^     int parmcnt;$/;"	m	struct:__anon17	file:
+parmdcl	./src/parser.c	/^parmdcl(Ident *idptr)$/;"	f
+parse_dcl	./src/parser.c	/^parse_dcl(Ident *ident)$/;"	f
+parse_declaration	./src/parser.c	/^parse_declaration(Ident *ident, int parm)$/;"	f
+parse_function_declaration	./src/parser.c	/^parse_function_declaration(Ident *ident, int parm)$/;"	f
+parse_knr_dcl	./src/parser.c	/^parse_knr_dcl(Ident *ident)$/;"	f
+parse_level_string	./src/main.c	/^parse_level_string(const char *str, char **return_ptr)$/;"	f	file:
+parse_opt	./src/main.c	/^parse_opt (int key, char *arg, struct argp_state *state)$/;"	f	file:
+parse_rc	./src/rc.c	/^parse_rc(int *argc_ptr, char ***argv_ptr, char *name)$/;"	f
+parse_typedef	./src/parser.c	/^parse_typedef()$/;"	f
+parse_variable_declaration	./src/parser.c	/^parse_variable_declaration(Ident *ident, int parm)$/;"	f
+parser	./lib/argp-parse.c	/^  argp_parser_t parser;$/;"	m	struct:group	file:
+parser	./lib/argp-parse.c	/^  struct parser *parser;$/;"	m	struct:parser_convert_state	typeref:struct:parser_convert_state::parser	file:
+parser	./lib/argp-parse.c	/^struct parser$/;"	s	file:
+parser	./lib/argp.h	/^  argp_parser_t parser;$/;"	m	struct:argp
+parser_convert	./lib/argp-parse.c	/^parser_convert (struct parser *parser, const struct argp *argp, int flags)$/;"	f	file:
+parser_convert_state	./lib/argp-parse.c	/^struct parser_convert_state$/;"	s	file:
+parser_finalize	./lib/argp-parse.c	/^parser_finalize (struct parser *parser,$/;"	f	file:
+parser_init	./lib/argp-parse.c	/^parser_init (struct parser *parser, const struct argp *argp,$/;"	f	file:
+parser_parse_arg	./lib/argp-parse.c	/^parser_parse_arg (struct parser *parser, char *val)$/;"	f	file:
+parser_parse_next	./lib/argp-parse.c	/^parser_parse_next (struct parser *parser, int *arg_ebadkey)$/;"	f	file:
+parser_parse_opt	./lib/argp-parse.c	/^parser_parse_opt (struct parser *parser, int opt, char *val)$/;"	f	file:
+parser_sizes	./lib/argp-parse.c	/^struct parser_sizes$/;"	s	file:
+pentry_state	./lib/argp-help.c	/^struct pentry_state$/;"	s	file:
+perrf	./doc/wc.c	/^perrf (char *fmt, ...)$/;"	f	file:
+point_col	./lib/argp-fmtstream.h	/^  ssize_t point_col;$/;"	m	struct:argp_fmtstream
+point_offs	./lib/argp-fmtstream.h	/^  size_t point_offs;$/;"	m	struct:argp_fmtstream
+posix_output_handler	./src/posix.c	/^posix_output_handler(cflow_output_command cmd,$/;"	f
+pp_bin	./src/c.c	/^char *pp_bin;$/;"	v
+pp_close	./src/c.c	/^pp_close(FILE *fp)$/;"	f
+pp_finalize	./src/c.c	/^pp_finalize()$/;"	f
+pp_open	./src/c.c	/^pp_open(const char *name)$/;"	f
+pp_option	./src/c.c	/^pp_option(const char *arg)$/;"	f
+pp_opts	./src/c.c	/^char *pp_opts;$/;"	v
+precision_arg_index	./lib/printf-parse.h	/^  size_t precision_arg_index;$/;"	m	struct:__anon5
+precision_end	./lib/printf-parse.h	/^  const char* precision_end;$/;"	m	struct:__anon5
+precision_start	./lib/printf-parse.h	/^  const char* precision_start;$/;"	m	struct:__anon5
+preprocess_option	./src/main.c	/^int preprocess_option = 0; \/* Do they want to preprocess sources? *\/$/;"	v
+prev	./lib/obstack.h	/^  struct _obstack_chunk *prev;	\/* address of prior chunk or NULL *\/$/;"	m	struct:_obstack_chunk	typeref:struct:_obstack_chunk::_obstack_chunk
+prev_entry	./lib/argp-help.c	/^  struct hol_entry *prev_entry;$/;"	m	struct:hol_help_state	typeref:struct:hol_help_state::hol_entry	file:
+print_and_abort	./lib/obstack.c	/^print_and_abort (void)$/;"	f	file:
+print_as_tree	./src/main.c	/^int print_as_tree;      \/* Print as tree *\/$/;"	v
+print_errno_message	./lib/error.c	/^print_errno_message (int errnum)$/;"	f	file:
+print_function	./src/output.c	/^print_function(Symbol *symp)$/;"	f	file:
+print_function_name	./src/gnu.c	/^print_function_name(Symbol *sym, int has_subtree)$/;"	f
+print_header	./lib/argp-help.c	/^print_header (const char *str, const struct argp *argp,$/;"	f	file:
+print_level	./src/output.c	/^print_level(int lev, int last)$/;"	f
+print_levels	./src/main.c	/^int print_levels;       \/* Print level number near every branch *\/$/;"	v
+print_line_numbers	./src/main.c	/^int print_line_numbers; \/* Print line numbers *\/$/;"	v
+print_option	./src/main.c	/^int print_option = 0;   \/* what to print. *\/$/;"	v
+print_optype	./src/main.c	/^static struct option_type print_optype[] = {$/;"	v	typeref:struct:option_type	file:
+print_refs	./src/output.c	/^print_refs(char *name, Consptr cons)$/;"	f
+print_symbol	./src/gnu.c	/^print_symbol(FILE *outfile, int line, struct output_symbol *s)$/;"	f	file:
+print_symbol	./src/output.c	/^print_symbol (int direct, int level, int last, Symbol *sym)$/;"	f	file:
+print_symbol	./src/posix.c	/^print_symbol(FILE *outfile, int line, struct output_symbol *s)$/;"	f	file:
+print_symbol_type	./src/posix.c	/^print_symbol_type(FILE *outfile, Symbol *sym)$/;"	f	file:
+print_text	./src/output.c	/^print_text(char *buf)$/;"	f	file:
+print_token	./src/parser.c	/^print_token(TOKSTK *tokptr)$/;"	f	file:
+print_type	./src/output.c	/^print_type(Symbol *symp)$/;"	f	file:
+printdir	./doc/d.c	/^printdir (int level, char *name)$/;"	f
+printf_fetchargs	./lib/printf-args.c	/^printf_fetchargs (va_list args, arguments *a)$/;"	f
+program_invocation_name	./lib/pin.c	/^char *program_invocation_name = 0;$/;"	v
+program_invocation_short_name	./lib/pin.c	/^char *program_invocation_short_name = 0;$/;"	v
+program_name	./config.h	393;"	d
+program_name	./lib/error.c	61;"	d	file:
+pstate	./lib/argp.h	/^  void *pstate;			\/* Private, for use by argp.  *\/$/;"	m	struct:argp_state
+putback	./src/parser.c	/^putback()$/;"	f
+putc	./lib/error.c	78;"	d	file:
+putc	./lib/error.c	79;"	d	file:
+putc	./lib/unlocked-io.h	116;"	d
+putc	./lib/unlocked-io.h	117;"	d
+putc_unlocked	./lib/argp-namefrob.h	139;"	d
+putc_unlocked	./lib/unlocked-io.h	119;"	d
+putchar	./lib/unlocked-io.h	123;"	d
+putchar	./lib/unlocked-io.h	124;"	d
+putchar_unlocked	./lib/argp-namefrob.h	142;"	d
+putchar_unlocked	./lib/unlocked-io.h	126;"	d
+quote_transtab	./lib/argcv.c	/^static char quote_transtab[] = "\\\\\\\\a\\ab\\bf\\fn\\nr\\rt\\t";$/;"	v	file:
+quoted	./lib/argp.h	/^  int quoted;$/;"	m	struct:argp_state
+record_defines	./src/main.c	/^int record_defines;     \/* Record macro definitions *\/$/;"	v
+recursive	./src/cflow.h	/^     int recursive;                \/* Is the function recursive *\/$/;"	m	struct:symbol
+ref_line	./src/cflow.h	/^     Consptr ref_line;             \/* Referenced in *\/$/;"	m	struct:symbol
+reference	./src/parser.c	/^reference(char *name, int line)$/;"	f
+register_output	./src/output.c	/^register_output(const char *name,$/;"	f
+report	./doc/wc.c	/^report (char *file, count_t ccount, count_t wcount, count_t lcount)$/;"	f
+required_argument	./lib/getopt.h	177;"	d
+required_argument	./lib/getopt_.h	177;"	d
+restore	./src/parser.c	/^restore(Stackpos pos)$/;"	f
+restrict	./config.h	372;"	d
+reverse_tree	./src/main.c	/^int reverse_tree;       \/* Generate reverse tree *\/$/;"	v
+rmargin	./lib/argp-fmtstream.h	/^  size_t lmargin, rmargin;	\/* Left and right margins.  *\/$/;"	m	struct:argp_fmtstream
+rmargin	./lib/argp-help.c	/^  int rmargin;$/;"	m	struct:uparams	file:
+root_argp	./lib/argp.h	/^  __const struct argp *root_argp;$/;"	m	struct:argp_state	typeref:struct:argp_state::argp
+root_bucket	./src/symbol.c	/^static Bucket *root_bucket, *last_bucket;$/;"	v	file:
+rpl_malloc	./lib/malloc.c	/^rpl_malloc (size_t n)$/;"	f
+rpl_xstat	./lib/stat.c	/^rpl_xstat (const char *file, struct stat *sbuf)$/;"	f
+rpl_xstat	./lib/stat.c	91;"	d	file:
+rpl_xstat	./lib/stat.c	98;"	d	file:
+save_end	./src/parser.c	/^static int save_end;       \/* Stack position up to which the tokens are saved *\/$/;"	v	file:
+save_stack	./src/parser.c	/^save_stack()$/;"	f
+save_token	./src/parser.c	/^save_token(TOKSTK *tokptr)$/;"	f
+scan_tree	./src/output.c	/^scan_tree(int lev, Symbol *sym)$/;"	f	file:
+segments	./lib/alloca.c	/^    long segments;		\/* Current number of stack segments.  *\/$/;"	m	struct:stk_stat	file:
+sel	./src/symbol.c	/^     int (*sel)(Symbol *p);$/;"	m	struct:collect_data	file:
+select_output_driver	./src/output.c	/^select_output_driver(const char *name)$/;"	f
+sep_groups	./lib/argp-help.c	/^  int sep_groups;$/;"	m	struct:hol_help_state	file:
+separator	./src/output.c	/^separator()$/;"	f	file:
+set_active	./src/output.c	/^set_active(Symbol *sym)$/;"	f	file:
+set_level_indent	./src/main.c	/^set_level_indent(const char *str)$/;"	f	file:
+set_level_mark	./src/output.c	/^set_level_mark(int lev, int mark)$/;"	f	file:
+set_preprocessor	./src/c.c	/^set_preprocessor(const char *arg)$/;"	f
+set_print_option	./src/main.c	/^set_print_option(char *str)$/;"	f	file:
+setlocale	./src/cflow.h	43;"	d
+shaseg	./lib/alloca.c	/^    long shaseg:32;		\/* Size of increments to stack.  *\/$/;"	m	struct:stack_control_header	file:
+shgrow	./lib/alloca.c	/^    long shgrow:32;		\/* Number of times stack has grown.  *\/$/;"	m	struct:stack_control_header	file:
+shhwm	./lib/alloca.c	/^    long shhwm:32;		\/* High water mark of stack.  *\/$/;"	m	struct:stack_control_header	file:
+short_end	./lib/argp-parse.c	/^  char *short_end;$/;"	m	struct:group	file:
+short_end	./lib/argp-parse.c	/^  char *short_end;$/;"	m	struct:parser_convert_state	file:
+short_len	./lib/argp-parse.c	/^  size_t short_len;		\/* Getopt short options string.  *\/$/;"	m	struct:parser_sizes	file:
+short_opt_col	./lib/argp-help.c	/^  int short_opt_col;$/;"	m	struct:uparams	file:
+short_options	./lib/argp-help.c	/^  char *short_options;$/;"	m	struct:hol	file:
+short_options	./lib/argp-help.c	/^  char *short_options;$/;"	m	struct:hol_entry	file:
+short_opts	./lib/argp-parse.c	/^  char *short_opts;$/;"	m	struct:parser	file:
+shrink_factor	./lib/hash.h	/^    float shrink_factor;	\/* ratio of new smaller size to original size *\/$/;"	m	struct:hash_tuning
+shrink_threshold	./lib/hash.h	/^    float shrink_threshold;	\/* ratio of used buckets to trigger a shrink *\/$/;"	m	struct:hash_tuning
+shsize	./lib/alloca.c	/^    long shsize:32;		\/* Current size of stack (all segments).  *\/$/;"	m	struct:stack_control_header	file:
+size_in_bounds_p	./lib/xsize.h	106;"	d
+size_overflow_p	./lib/xsize.h	103;"	d
+skip_struct	./src/parser.c	/^skip_struct()$/;"	f
+skip_to	./src/parser.c	/^skip_to(int c)$/;"	f
+slash_aware_lstat	./lib/stat.c	/^slash_aware_lstat (const char *file, struct stat *sbuf)$/;"	f	file:
+source	./src/c.c	/^source(char *name)$/;"	f
+source	./src/cflow.h	/^     char *source;                 \/* Source file *\/$/;"	m	struct:symbol
+source	./src/cflow.h	/^     char *source;$/;"	m	struct:__anon15
+sourcerc	./src/rc.c	/^sourcerc(int *argc_ptr, char ***argv_ptr)$/;"	f
+space	./lib/argp-help.c	/^space (argp_fmtstream_t stream, size_t ensure)$/;"	f	file:
+ss	./lib/alloca.c	/^    long ss[0200];		\/* 0200 overflow words.  *\/$/;"	m	struct:stack_segment_linkage	file:
+ssa0	./lib/alloca.c	/^    long ssa0;$/;"	m	struct:stack_segment_linkage	file:
+ssa1	./lib/alloca.c	/^    long ssa1;$/;"	m	struct:stack_segment_linkage	file:
+ssa2	./lib/alloca.c	/^    long ssa2;$/;"	m	struct:stack_segment_linkage	file:
+ssa3	./lib/alloca.c	/^    long ssa3;$/;"	m	struct:stack_segment_linkage	file:
+ssa4	./lib/alloca.c	/^    long ssa4;$/;"	m	struct:stack_segment_linkage	file:
+ssa5	./lib/alloca.c	/^    long ssa5;$/;"	m	struct:stack_segment_linkage	file:
+ssa6	./lib/alloca.c	/^    long ssa6;$/;"	m	struct:stack_segment_linkage	file:
+ssa7	./lib/alloca.c	/^    long ssa7;$/;"	m	struct:stack_segment_linkage	file:
+ssbase	./lib/alloca.c	/^    long ssbase:32;		\/* Offset to stack base.  *\/$/;"	m	struct:stack_segment_linkage	file:
+sscray	./lib/alloca.c	/^    long sscray[7];		\/* Reserved for Cray Research.  *\/$/;"	m	struct:stack_segment_linkage	file:
+sscsnm	./lib/alloca.c	/^    long sscsnm;		\/* Private control structure number for$/;"	m	struct:stack_segment_linkage	file:
+ssgvup	./lib/alloca.c	/^    long ssgvup;		\/* Pointer to multitasking thread giveup.  *\/$/;"	m	struct:stack_segment_linkage	file:
+sspseg	./lib/alloca.c	/^    long sspseg:32;		\/* Offset to linkage control of previous$/;"	m	struct:stack_segment_linkage	file:
+sss0	./lib/alloca.c	/^    long sss0;$/;"	m	struct:stack_segment_linkage	file:
+sss1	./lib/alloca.c	/^    long sss1;$/;"	m	struct:stack_segment_linkage	file:
+sss2	./lib/alloca.c	/^    long sss2;$/;"	m	struct:stack_segment_linkage	file:
+sss3	./lib/alloca.c	/^    long sss3;$/;"	m	struct:stack_segment_linkage	file:
+sss4	./lib/alloca.c	/^    long sss4;$/;"	m	struct:stack_segment_linkage	file:
+sss5	./lib/alloca.c	/^    long sss5;$/;"	m	struct:stack_segment_linkage	file:
+sss6	./lib/alloca.c	/^    long sss6;$/;"	m	struct:stack_segment_linkage	file:
+sss7	./lib/alloca.c	/^    long sss7;$/;"	m	struct:stack_segment_linkage	file:
+sssize	./lib/alloca.c	/^    long sssize:32;		\/* Number of words in this segment.  *\/$/;"	m	struct:stack_segment_linkage	file:
+sstcpt	./lib/alloca.c	/^    long sstcpt:32;		\/* Pointer to task common address block.  *\/$/;"	m	struct:stack_segment_linkage	file:
+sstpid	./lib/alloca.c	/^    long sstpid;		\/* Process ID for pid based multi-tasking.  *\/$/;"	m	struct:stack_segment_linkage	file:
+ssusr1	./lib/alloca.c	/^    long ssusr1;		\/* Reserved for user.  *\/$/;"	m	struct:stack_segment_linkage	file:
+ssusr2	./lib/alloca.c	/^    long ssusr2;		\/* Reserved for user.  *\/$/;"	m	struct:stack_segment_linkage	file:
+stack_control_header	./lib/alloca.c	/^struct stack_control_header$/;"	s	file:
+stack_dir	./lib/alloca.c	/^static int stack_dir;		\/* 1 or -1 once known.  *\/$/;"	v	file:
+stack_segment_linkage	./lib/alloca.c	/^struct stack_segment_linkage$/;"	s	file:
+start_name	./src/main.c	/^char *start_name = "main"; \/* Name of start symbol *\/$/;"	v
+start_pos	./src/parser.c	/^static Stackpos start_pos; \/* Start position in stack for saving tokens *\/$/;"	v	file:
+state	./lib/argp-help.c	/^  const struct argp_state *state;$/;"	m	struct:pentry_state	typeref:struct:pentry_state::argp_state	file:
+state	./lib/argp-parse.c	/^  struct argp_state state;$/;"	m	struct:parser	typeref:struct:parser::argp_state	file:
+static_processor	./src/symbol.c	/^static_processor(void *data, void *proc_data)$/;"	f	file:
+stk_stat	./lib/alloca.c	/^struct stk_stat$/;"	s	file:
+stk_trailer	./lib/alloca.c	/^struct stk_trailer$/;"	s	file:
+stkm_free	./lib/alloca.c	/^    long stkm_free;		\/* Number of deallocations by $STKMRET.  *\/$/;"	m	struct:stk_stat	file:
+stko_free	./lib/alloca.c	/^    long stko_free;		\/* Number of deallocations by $STKRETN.  *\/$/;"	m	struct:stk_stat	file:
+stko_mallocs	./lib/alloca.c	/^    long stko_mallocs;		\/* Block allocations by $STKOFEN.  *\/$/;"	m	struct:stk_stat	file:
+storage	./lib/argp-parse.c	/^  void *storage;$/;"	m	struct:parser	file:
+storage	./src/cflow.h	/^     enum storage storage;         \/* Storage type *\/$/;"	m	struct:symbol	typeref:enum:symbol::storage
+storage	./src/cflow.h	/^enum storage {$/;"	g
+storage	./src/parser.c	/^     enum storage storage;$/;"	m	struct:__anon17	typeref:enum:__anon17::storage	file:
+str	./src/main.c	/^    char *str;           \/* optarg value *\/$/;"	m	struct:option_type	file:
+str	./src/parser.h	/^    char *str;$/;"	m	struct:__anon19
+strchrnul	./lib/strchrnul.c	/^strchrnul (const char *s, int c_in)$/;"	f
+stream	./lib/argp-fmtstream.h	/^  FILE *stream;			\/* The stream we're outputting to.  *\/$/;"	m	struct:argp_fmtstream
+stream	./lib/argp-help.c	/^  argp_fmtstream_t stream;$/;"	m	struct:pentry_state	file:
+strict_ansi	./src/main.c	/^int strict_ansi;        \/* Assume sources to be written in ANSI C *\/$/;"	v
+string	./src/c.c	583;"	d	file:
+string_stk	./src/c.c	/^struct obstack string_stk;$/;"	v	typeref:struct:obstack
+stringwait	./src/c.c	585;"	d	file:
+strndup	./lib/strndup.c	36;"	d	file:
+strnlen	./lib/strnlen.c	23;"	d	file:
+strnlen	./lib/strnlen.c	28;"	d	file:
+strnlen	./lib/strnlen.c	31;"	d	file:
+strong_alias	./lib/obstack.c	/^strong_alias (obstack_free, _obstack_free)$/;"	f
+suppressed_dup_arg	./lib/argp-help.c	/^  int suppressed_dup_arg;$/;"	m	struct:hol_help_state	file:
+sym	./src/cflow.h	/^     Symbol *sym;$/;"	m	struct:output_symbol
+sym	./src/symbol.c	/^     Symbol **sym;$/;"	m	struct:collect_data	file:
+symbol	./src/cflow.h	/^struct symbol {$/;"	s
+symbol_flag	./src/cflow.h	/^enum symbol_flag {$/;"	g
+symbol_in_list	./src/symbol.c	/^symbol_in_list(Symbol *sym, Consptr list)$/;"	f
+symbol_map	./src/main.c	/^int symbol_map;  \/* A bitmap of symbols included in the graph. *\/$/;"	v
+symbol_none	./src/cflow.h	/^     symbol_none,$/;"	e	enum:symbol_flag
+symbol_optype	./src/main.c	/^static struct option_type symbol_optype[] = {$/;"	v	typeref:struct:option_type	file:
+symbol_override	./src/main.c	/^symbol_override(const char *str)$/;"	f	file:
+symbol_parm	./src/cflow.h	/^     symbol_parm                   \/* Parameter *\/$/;"	e	enum:symbol_flag
+symbol_table	./src/symbol.c	/^Hash_table *symbol_table;$/;"	v
+symbol_temp	./src/cflow.h	/^     symbol_temp,                  \/* Temporary symbol. Must be deleted after$/;"	e	enum:symbol_flag
+symtype	./src/cflow.h	/^enum symtype {$/;"	g
+temp	./lib/obstack.h	/^  } temp;			\/* Temporary for some macros.  *\/$/;"	m	struct:obstack	typeref:union:obstack::__anon2
+temp_processor	./src/symbol.c	/^temp_processor(void *data, void *proc_data)$/;"	f	file:
+tempint	./lib/obstack.h	/^    PTR_INT_TYPE tempint;$/;"	m	union:obstack::__anon2
+tempptr	./lib/obstack.h	/^    void *tempptr;$/;"	m	union:obstack::__anon2
+text_stk	./src/parser.c	/^struct obstack text_stk;    \/* Obstack for composing declaration line *\/$/;"	v	typeref:struct:obstack
+textdomain	./lib/gettext.h	64;"	d
+this_address	./lib/alloca.c	/^    long this_address;		\/* Address of this block.  *\/$/;"	m	struct:stk_trailer	file:
+this_size	./lib/alloca.c	/^    long this_size;		\/* Size of this block (does not include$/;"	m	struct:stk_trailer	file:
+to_num	./lib/argcv.c	138;"	d	file:
+tok	./src/parser.c	/^TOKSTK tok;$/;"	v
+token	./src/parser.c	/^     char *token;$/;"	m	struct:__anon18	file:
+token_stack	./src/parser.c	/^TOKSTK *token_stack;$/;"	v
+token_stack_increase	./src/parser.c	/^int token_stack_increase = 32;$/;"	v
+token_stack_length	./src/parser.c	/^int token_stack_length = 64;$/;"	v
+token_type	./src/cflow.h	/^     int token_type;               \/* Type of the token *\/$/;"	m	struct:symbol
+tokpush	./src/parser.c	/^tokpush(int type, int line, char *token)$/;"	f
+tos	./src/parser.c	/^int tos;$/;"	v
+total_ccount	./doc/wc.c	/^count_t total_ccount = 0;$/;"	v
+total_lcount	./doc/wc.c	/^count_t total_lcount = 0;$/;"	v
+total_wcount	./doc/wc.c	/^count_t total_wcount = 0;$/;"	v
+tree_output	./src/output.c	/^tree_output()$/;"	f	file:
+true	./lib/stdbool_.h	/^enum { false = 0, true = 1 };$/;"	e	enum:__anon13
+true	./lib/stdbool_.h	/^typedef enum { _Bool_must_promote_to_int = -1, false = 0, true = 1 } _Bool;$/;"	e	enum:__anon14
+true	./lib/stdbool_.h	62;"	d
+true	./lib/stdbool_.h	91;"	d
+try_getopt	./lib/argp-parse.c	/^  int try_getopt;$/;"	m	struct:parser	file:
+tuning	./lib/hash.c	/^    const Hash_tuning *tuning;$/;"	m	struct:hash_table	file:
+type	./lib/printf-args.h	/^  arg_type type;$/;"	m	struct:__anon10
+type	./src/cflow.h	/^     enum symtype type;            \/* Type of the symbol *\/$/;"	m	struct:symbol	typeref:enum:symbol::symtype
+type	./src/main.c	/^    int type;            \/* data associated with the arg *\/$/;"	m	struct:option_type	file:
+type	./src/parser.c	/^     int type;$/;"	m	struct:__anon18	file:
+type_end	./src/parser.c	/^     int type_end;$/;"	m	struct:__anon17	file:
+types	./src/c.c	/^static char *types[] = {$/;"	v	file:
+u	./lib/obstack.c	/^  union fooround u;$/;"	m	struct:fooalign	typeref:union:fooalign::fooround	file:
+u_long	./doc/ack.c	/^typedef unsigned long u_long;$/;"	t	file:
+underflows	./lib/alloca.c	/^    long underflows;		\/* Number of stack underflow calls ($STKRETN).  *\/$/;"	m	struct:stk_stat	file:
+undo_save_stack	./src/parser.c	/^undo_save_stack()$/;"	f
+unknown10	./lib/alloca.c	/^    long unknown10;$/;"	m	struct:stk_trailer	file:
+unknown11	./lib/alloca.c	/^    long unknown11;$/;"	m	struct:stk_trailer	file:
+unknown12	./lib/alloca.c	/^    long unknown12;$/;"	m	struct:stk_trailer	file:
+unknown13	./lib/alloca.c	/^    long unknown13;$/;"	m	struct:stk_trailer	file:
+unknown14	./lib/alloca.c	/^    long unknown14;$/;"	m	struct:stk_trailer	file:
+unknown2	./lib/alloca.c	/^    long unknown2;$/;"	m	struct:stk_trailer	file:
+unknown3	./lib/alloca.c	/^    long unknown3;$/;"	m	struct:stk_trailer	file:
+unknown5	./lib/alloca.c	/^    long unknown5;$/;"	m	struct:stk_trailer	file:
+unknown6	./lib/alloca.c	/^    long unknown6;$/;"	m	struct:stk_trailer	file:
+unknown7	./lib/alloca.c	/^    long unknown7;$/;"	m	struct:stk_trailer	file:
+unknown8	./lib/alloca.c	/^    long unknown8;$/;"	m	struct:stk_trailer	file:
+unknown9	./lib/alloca.c	/^    long unknown9;$/;"	m	struct:stk_trailer	file:
+unput	./src/c.c	135;"	d	file:
+until_short	./lib/argp-help.c	/^until_short (const struct argp_option *opt, const struct argp_option *real,$/;"	f	file:
+uparam_name	./lib/argp-help.c	/^struct uparam_name$/;"	s	file:
+uparam_names	./lib/argp-help.c	/^static const struct uparam_name uparam_names[] =$/;"	v	typeref:struct:uparam_name	file:
+uparams	./lib/argp-help.c	/^static struct uparams uparams = {$/;"	v	typeref:struct:uparams	file:
+uparams	./lib/argp-help.c	/^struct uparams$/;"	s	file:
+uparams_offs	./lib/argp-help.c	/^  size_t uparams_offs;		\/* Location of the (int) field in UPARAMS.  *\/$/;"	m	struct:uparam_name	file:
+update_loc	./src/c.c	/^update_loc()$/;"	f
+usage_argful_short_opt	./lib/argp-help.c	/^usage_argful_short_opt (const struct argp_option *opt,$/;"	f	file:
+usage_indent	./lib/argp-help.c	/^  int usage_indent;$/;"	m	struct:uparams	file:
+usage_long_opt	./lib/argp-help.c	/^usage_long_opt (const struct argp_option *opt,$/;"	f	file:
+use_extra_arg	./lib/obstack.h	/^  unsigned use_extra_arg:1;	\/* chunk alloc\/dealloc funcs take extra arg *\/$/;"	m	struct:obstack
+use_indentation	./src/main.c	/^int use_indentation;    \/* Rely on indentation,$/;"	v
+val	./lib/getopt.h	/^  int val;$/;"	m	struct:option
+val	./lib/getopt_.h	/^  int val;$/;"	m	struct:option
+valid	./lib/argp-help.c	/^  int valid;			\/* True when the values in here are valid.  *\/$/;"	m	struct:uparams	file:
+verbose	./src/main.c	/^int verbose;            \/* be verbose on output *\/$/;"	v
+vsnprintf	./lib/vsnprintf.c	/^vsnprintf (char *str, size_t size, const char *format, va_list args)$/;"	f
+wcount	./doc/wc.c	/^count_t wcount;$/;"	v
+weak_alias	./lib/argp-help.c	/^weak_alias (__argp_error, argp_error)$/;"	f
+weak_alias	./lib/argp-help.c	/^weak_alias (__argp_help, argp_help)$/;"	f
+weak_alias	./lib/argp-help.c	/^weak_alias (__argp_state_help, argp_state_help)$/;"	f
+weak_alias	./lib/argp-parse.c	/^weak_alias (__argp_parse, argp_parse)$/;"	f
+who_am_i	./doc/whoami.c	/^who_am_i (void)$/;"	f
+width_arg_index	./lib/printf-parse.h	/^  size_t width_arg_index;$/;"	m	struct:__anon5
+width_end	./lib/printf-parse.h	/^  const char* width_end;$/;"	m	struct:__anon5
+width_start	./lib/printf-parse.h	/^  const char* width_start;$/;"	m	struct:__anon5
+wmargin	./lib/argp-fmtstream.h	/^  ssize_t wmargin;		\/* Margin to wrap to, or -1 to truncate.  *\/$/;"	m	struct:argp_fmtstream
+x2nrealloc	./lib/xmalloc.c	/^x2nrealloc (void *p, size_t *pn, size_t s)$/;"	f
+x2nrealloc_inline	./lib/xmalloc.c	/^x2nrealloc_inline (void *p, size_t *pn, size_t s)$/;"	f	file:
+x2realloc	./lib/xmalloc.c	/^x2realloc (void *p, size_t *pn)$/;"	f
+xalloc_die	./src/main.c	/^xalloc_die(void)$/;"	f
+xalloc_oversized	./lib/xalloc.h	72;"	d
+xcalloc	./lib/xmalloc.c	/^xcalloc (size_t n, size_t s)$/;"	f
+xcast_size_t	./lib/xsize.h	49;"	d
+xmalloc	./lib/xmalloc.c	/^xmalloc (size_t n)$/;"	f
+xmax	./lib/xsize.h	/^xmax (size_t size1, size_t size2)$/;"	f
+xmemdup	./lib/xmalloc.c	/^xmemdup (void const *p, size_t s)$/;"	f
+xnmalloc	./lib/xmalloc.c	/^xnmalloc (size_t n, size_t s)$/;"	f
+xnmalloc_inline	./lib/xmalloc.c	/^xnmalloc_inline (size_t n, size_t s)$/;"	f	file:
+xnrealloc	./lib/xmalloc.c	/^xnrealloc (void *p, size_t n, size_t s)$/;"	f
+xnrealloc_inline	./lib/xmalloc.c	/^xnrealloc_inline (void *p, size_t n, size_t s)$/;"	f	file:
+xrealloc	./lib/xmalloc.c	/^xrealloc (void *p, size_t n)$/;"	f
+xref_output	./src/output.c	/^xref_output()$/;"	f
+xstat_return_val	./lib/stat.c	93;"	d	file:
+xstat_return_val	./lib/stat.c	95;"	d	file:
+xstat_return_val	./lib/stat.c	99;"	d	file:
+xstrdup	./lib/xmalloc.c	/^xstrdup (char const *string)$/;"	f
+xsum	./lib/xsize.h	/^xsum (size_t size1, size_t size2)$/;"	f
+xsum3	./lib/xsize.h	/^xsum3 (size_t size1, size_t size2, size_t size3)$/;"	f
+xsum4	./lib/xsize.h	/^xsum4 (size_t size1, size_t size2, size_t size3, size_t size4)$/;"	f
+xtimes	./lib/xsize.h	99;"	d
+xtonum	./lib/argcv.c	/^xtonum (int *pval, const char *src, int base, int cnt)$/;"	f	file:
+xzalloc	./lib/xmalloc.c	/^xzalloc (size_t s)$/;"	f
+yy_accept	./src/c.c	/^static yyconst short int yy_accept[191] =$/;"	v	file:
+yy_at_bol	./src/c.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	./src/c.c	/^static yyconst short int yy_base[212] =$/;"	v	file:
+yy_buf_pos	./src/c.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	./src/c.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_state	./src/c.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	./src/c.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	./src/c.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	./src/c.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	./src/c.c	/^static yyconst short int yy_chk[531] =$/;"	v	file:
+yy_create_buffer	./src/c.c	/^YY_BUFFER_STATE yy_create_buffer( FILE *file, int size )$/;"	f
+yy_current_buffer	./src/c.c	/^static YY_BUFFER_STATE yy_current_buffer = 0;$/;"	v	file:
+yy_def	./src/c.c	/^static yyconst short int yy_def[212] =$/;"	v	file:
+yy_delete_buffer	./src/c.c	/^void yy_delete_buffer( YY_BUFFER_STATE b )$/;"	f
+yy_did_buffer_switch_on_eof	./src/c.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	./src/c.c	/^static yyconst int yy_ec[256] =$/;"	v	file:
+yy_fatal_error	./src/c.c	/^static void yy_fatal_error( yyconst char msg[] )$/;"	f	file:
+yy_fill_buffer	./src/c.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_alloc	./src/c.c	/^static void *yy_flex_alloc( yy_size_t size )$/;"	f	file:
+yy_flex_debug	./src/c.c	/^int yy_flex_debug = 1;$/;"	v
+yy_flex_free	./src/c.c	/^static void yy_flex_free( void *ptr )$/;"	f	file:
+yy_flex_realloc	./src/c.c	/^static void *yy_flex_realloc( void *ptr, yy_size_t size )$/;"	f	file:
+yy_flex_strlen	./src/c.c	/^static int yy_flex_strlen( yyconst char *s )$/;"	f	file:
+yy_flex_strncpy	./src/c.c	/^static void yy_flex_strncpy( char *s1, yyconst char *s2, int n )$/;"	f	file:
+yy_flush_buffer	./src/c.c	/^void yy_flush_buffer( YY_BUFFER_STATE b )$/;"	f
+yy_get_next_buffer	./src/c.c	/^static int yy_get_next_buffer()$/;"	f	file:
+yy_get_previous_state	./src/c.c	/^static yy_state_type yy_get_previous_state()$/;"	f	file:
+yy_hold_char	./src/c.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	./src/c.c	/^static int yy_init = 1;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	./src/c.c	/^void yy_init_buffer( YY_BUFFER_STATE b, FILE *file )$/;"	f
+yy_input_file	./src/c.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	./src/c.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	./src/c.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	./src/c.c	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	./src/c.c	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	./src/c.c	/^void yy_load_buffer_state( void )$/;"	f
+yy_meta	./src/c.c	/^static yyconst int yy_meta[47] =$/;"	v	file:
+yy_n_chars	./src/c.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	./src/c.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	./src/c.c	246;"	d	file:
+yy_nxt	./src/c.c	/^static yyconst short int yy_nxt[531] =$/;"	v	file:
+yy_pop_state	./src/c.c	/^static void yy_pop_state()$/;"	f	file:
+yy_push_state	./src/c.c	/^static void yy_push_state( int new_state )$/;"	f	file:
+yy_rule_linenum	./src/c.c	/^static yyconst short int yy_rule_linenum[72] =$/;"	v	file:
+yy_scan_buffer	./src/c.c	/^YY_BUFFER_STATE yy_scan_buffer( char *base, yy_size_t size )$/;"	f
+yy_scan_bytes	./src/c.c	/^YY_BUFFER_STATE yy_scan_bytes( yyconst char *bytes, int len )$/;"	f
+yy_scan_string	./src/c.c	/^YY_BUFFER_STATE yy_scan_string( yyconst char *yy_str )$/;"	f
+yy_set_bol	./src/c.c	255;"	d	file:
+yy_set_interactive	./src/c.c	248;"	d	file:
+yy_size_t	./src/c.c	/^typedef unsigned int yy_size_t;$/;"	t	file:
+yy_start	./src/c.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_start_stack	./src/c.c	/^static int *yy_start_stack = 0;$/;"	v	file:
+yy_start_stack_depth	./src/c.c	/^static int yy_start_stack_depth = 0;$/;"	v	file:
+yy_start_stack_ptr	./src/c.c	/^static int yy_start_stack_ptr = 0;$/;"	v	file:
+yy_state_type	./src/c.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	./src/c.c	/^void yy_switch_to_buffer( YY_BUFFER_STATE new_buffer )$/;"	f
+yy_top_state	./src/c.c	/^static int yy_top_state()$/;"	f	file:
+yy_try_NUL_trans	./src/c.c	/^static yy_state_type yy_try_NUL_trans( yy_state_type yy_current_state )$/;"	f	file:
+yyconst	./src/c.c	53;"	d	file:
+yyconst	./src/c.c	55;"	d	file:
+yyin	./src/c.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyinput	./src/c.c	/^static int yyinput()$/;"	f	file:
+yyleng	./src/c.c	/^int yyleng;$/;"	v
+yyless	./src/c.c	124;"	d	file:
+yyless	./src/c.c	1962;"	d	file:
+yyless	./src/c.c	1963;"	d	file:
+yylval	./src/c.c	/^YYSTYPE yylval;$/;"	v
+yymore	./src/c.c	558;"	d	file:
+yyout	./src/c.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyparse	./src/parser.c	/^yyparse()$/;"	f
+yyrestart	./src/c.c	/^void yyrestart( FILE *input_file )$/;"	f
+yyterminate	./src/c.c	716;"	d	file:
+yytext	./src/c.c	/^char *yytext;$/;"	v
+yytext_ptr	./src/c.c	272;"	d	file:
+yyunput	./src/c.c	/^static void yyunput( int c, register char *yy_bp )$/;"	f	file:
+yywrap	./src/c.c	/^yywrap()$/;"	f

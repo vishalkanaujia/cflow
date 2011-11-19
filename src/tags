@@ -1,0 +1,567 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AnyStorage	./cflow.h	/^     AnyStorage$/;"	e	enum:storage
+AutoStorage	./cflow.h	/^     AutoStorage,$/;"	e	enum:storage
+BEGIN	./c.c	79;"	d	file:
+BUF_SIZE	./parser.c	1030;"	d	file:
+Bucket	./symbol.c	/^typedef struct bucket Bucket;$/;"	t	typeref:struct:bucket	file:
+CAR	./cflow.h	59;"	d
+CDR	./cflow.h	60;"	d
+CFLOW_PREPROC	./cflow.h	125;"	d
+CHAR_TO_SM	./main.c	218;"	d	file:
+Cons	./cflow.h	/^typedef struct cons Cons;$/;"	t	typeref:struct:cons
+Consptr	./cflow.h	/^typedef struct cons *Consptr;$/;"	t	typeref:struct:cons
+ECHO	./c.c	686;"	d	file:
+ENTER	./my.c	/^ENTER()$/;"	f
+ENUM	./parser.h	31;"	d
+EOB_ACT_CONTINUE_SCAN	./c.c	104;"	d	file:
+EOB_ACT_END_OF_FILE	./c.c	105;"	d	file:
+EOB_ACT_LAST_MATCH	./c.c	106;"	d	file:
+EXIT_RET	./my.c	/^EXIT_RET(){$/;"	f
+EXTERN	./parser.h	24;"	d
+ExplicitExternStorage	./cflow.h	/^     ExplicitExternStorage,$/;"	e	enum:storage
+ExternStorage	./cflow.h	/^     ExternStorage,$/;"	e	enum:storage
+FLEX_DEBUG	./c.c	265;"	d	file:
+FLEX_DEBUG	./c.c	270;"	d	file:
+FLEX_SCANNER	./c.c	7;"	d	file:
+GROUP_ID	./main.c	116;"	d	file:
+GROUP_ID	./main.c	117;"	d	file:
+GROUP_ID	./main.c	150;"	d	file:
+GROUP_ID	./main.c	151;"	d	file:
+GROUP_ID	./main.c	162;"	d	file:
+GROUP_ID	./main.c	54;"	d	file:
+GROUP_ID	./main.c	86;"	d	file:
+GROUP_ID	./main.c	87;"	d	file:
+IDENTIFIER	./parser.h	23;"	d
+INITIAL	./c.c	563;"	d	file:
+Ident	./parse2.c	/^} Ident;$/;"	t	typeref:struct:__anon3	file:
+Ident	./parser.c	/^} Ident;$/;"	t	typeref:struct:__anon5	file:
+LBRACE	./parser.h	32;"	d
+LBRACE0	./parser.h	21;"	d
+LEVEL_BEGIN	./main.c	359;"	d	file:
+LEVEL_END0	./main.c	362;"	d	file:
+LEVEL_END1	./main.c	363;"	d	file:
+LEVEL_INDENT0	./main.c	360;"	d	file:
+LEVEL_INDENT1	./main.c	361;"	d	file:
+LOCAL_RC	./rc.c	26;"	d	file:
+MAXLEVELINDENT	./main.c	358;"	d	file:
+MAX_OUTPUT_DRIVERS	./cflow.h	128;"	d
+MAX_SYMS	./parser.c	1029;"	d	file:
+MEMBER_OF	./parser.h	34;"	d
+MODIFIER	./parser.h	28;"	d
+NUMITEMS	./cflow.h	50;"	d
+N_	./cflow.h	41;"	d
+OP	./parser.h	29;"	d
+OPT_DEBUG	./main.c	/^     OPT_DEBUG,$/;"	e	enum:option_code	file:
+OPT_DEFINES	./main.c	/^     OPT_DEFINES = 256,$/;"	e	enum:option_code	file:
+OPT_EMACS	./main.c	/^     OPT_EMACS,$/;"	e	enum:option_code	file:
+OPT_LEVEL_INDENT	./main.c	/^     OPT_LEVEL_INDENT,$/;"	e	enum:option_code	file:
+OPT_NO_ANSI	./main.c	/^     OPT_NO_ANSI,$/;"	e	enum:option_code	file:
+OPT_NO_BRIEF	./main.c	/^     OPT_NO_BRIEF,$/;"	e	enum:option_code	file:
+OPT_NO_EMACS	./main.c	/^     OPT_NO_EMACS,$/;"	e	enum:option_code	file:
+OPT_NO_NUMBER	./main.c	/^     OPT_NO_NUMBER,$/;"	e	enum:option_code	file:
+OPT_NO_OMIT_ARGUMENTS	./main.c	/^     OPT_NO_OMIT_ARGUMENTS,$/;"	e	enum:option_code	file:
+OPT_NO_OMIT_SYMBOL_NAMES	./main.c	/^     OPT_NO_OMIT_SYMBOL_NAMES$/;"	e	enum:option_code	file:
+OPT_NO_PREPROCESS	./main.c	/^     OPT_NO_PREPROCESS,$/;"	e	enum:option_code	file:
+OPT_NO_PRINT_LEVEL	./main.c	/^     OPT_NO_PRINT_LEVEL,$/;"	e	enum:option_code	file:
+OPT_NO_REVERSE	./main.c	/^     OPT_NO_REVERSE,$/;"	e	enum:option_code	file:
+OPT_NO_TREE	./main.c	/^     OPT_NO_TREE,$/;"	e	enum:option_code	file:
+OPT_NO_USE_INDENTATION	./main.c	/^     OPT_NO_USE_INDENTATION,$/;"	e	enum:option_code	file:
+OPT_NO_VERBOSE	./main.c	/^     OPT_NO_VERBOSE,$/;"	e	enum:option_code	file:
+OPT_OMIT_ARGUMENTS	./main.c	/^     OPT_OMIT_ARGUMENTS,$/;"	e	enum:option_code	file:
+OPT_OMIT_SYMBOL_NAMES	./main.c	/^     OPT_OMIT_SYMBOL_NAMES,$/;"	e	enum:option_code	file:
+OPT_PREPROCESS	./main.c	/^     OPT_PREPROCESS,$/;"	e	enum:option_code	file:
+PARM_WRAPPER	./parser.h	37;"	d
+PRINT_TREE	./cflow.h	122;"	d
+PRINT_XREF	./cflow.h	121;"	d
+RBRACE	./parser.h	33;"	d
+RBRACE0	./parser.h	22;"	d
+REJECT	./c.c	557;"	d	file:
+Ref	./cflow.h	/^} Ref;$/;"	t	typeref:struct:__anon1
+SM_DATA	./main.c	213;"	d	file:
+SM_FUNCTIONS	./main.c	212;"	d	file:
+SM_STATIC	./main.c	214;"	d	file:
+SM_TYPEDEF	./main.c	216;"	d	file:
+SM_UNDERSCORE	./main.c	215;"	d	file:
+STATIC	./parser.h	25;"	d
+STRING	./parser.h	36;"	d
+STRUCT	./parser.h	27;"	d
+SYMBOL_EXCLUDE	./main.c	223;"	d	file:
+SYMBOL_INCLUDE	./main.c	222;"	d	file:
+Stackpos	./parse2.c	/^typedef int Stackpos[1];$/;"	t	file:
+Stackpos	./parser.c	/^typedef int Stackpos[1];$/;"	t	file:
+StaticStorage	./cflow.h	/^     StaticStorage,$/;"	e	enum:storage
+SymIdentifier	./cflow.h	/^     SymIdentifier  \/* Function or variable *\/$/;"	e	enum:symtype
+SymToken	./cflow.h	/^     SymToken,      \/* A token *\/$/;"	e	enum:symtype
+SymUndefined	./cflow.h	/^     SymUndefined,  \/* Undefined or deleted symbol *\/$/;"	e	enum:symtype
+Symbol	./cflow.h	/^typedef struct symbol Symbol;$/;"	t	typeref:struct:symbol
+TOKSTK	./parse2.c	/^} TOKSTK;$/;"	t	typeref:struct:__anon4	file:
+TOKSTK	./parser.c	/^} TOKSTK;$/;"	t	typeref:struct:__anon6	file:
+TYPE	./parser.h	35;"	d
+TYPEDEF	./parser.h	26;"	d
+UNION	./parser.h	30;"	d
+WORD	./parser.h	20;"	d
+YYSTATE	./c.c	86;"	d	file:
+YYSTYPE	./parser.h	/^} YYSTYPE;$/;"	t	typeref:struct:__anon7
+YY_AT_BOL	./c.c	262;"	d	file:
+YY_BREAK	./c.c	745;"	d	file:
+YY_BUFFER_EOF_PENDING	./c.c	198;"	d	file:
+YY_BUFFER_NEW	./c.c	186;"	d	file:
+YY_BUFFER_NORMAL	./c.c	187;"	d	file:
+YY_BUFFER_STATE	./c.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	./c.c	97;"	d	file:
+YY_CHAR	./c.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	./c.c	207;"	d	file:
+YY_DECL	./c.c	733;"	d	file:
+YY_DO_BEFORE_ACTION	./c.c	282;"	d	file:
+YY_END_OF_BUFFER	./c.c	290;"	d	file:
+YY_END_OF_BUFFER_CHAR	./c.c	94;"	d	file:
+YY_EXIT_FAILURE	./c.c	1944;"	d	file:
+YY_FATAL_ERROR	./c.c	726;"	d	file:
+YY_FLEX_MAJOR_VERSION	./c.c	8;"	d	file:
+YY_FLEX_MINOR_VERSION	./c.c	9;"	d	file:
+YY_FLUSH_BUFFER	./c.c	236;"	d	file:
+YY_INPUT	./c.c	693;"	d	file:
+YY_MORE_ADJ	./c.c	559;"	d	file:
+YY_NEW_FILE	./c.c	92;"	d	file:
+YY_NO_POP_STATE	./c.c	656;"	d	file:
+YY_NO_PUSH_STATE	./c.c	655;"	d	file:
+YY_NO_TOP_STATE	./c.c	657;"	d	file:
+YY_NULL	./c.c	66;"	d	file:
+YY_NUM_RULES	./c.c	289;"	d	file:
+YY_PROTO	./c.c	60;"	d	file:
+YY_PROTO	./c.c	62;"	d	file:
+YY_READ_BUF_SIZE	./c.c	677;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	./c.c	560;"	d	file:
+YY_RULE_SETUP	./c.c	748;"	d	file:
+YY_SC_TO_UI	./c.c	73;"	d	file:
+YY_START	./c.c	85;"	d	file:
+YY_START_STACK_INCR	./c.c	721;"	d	file:
+YY_STATE_EOF	./c.c	89;"	d	file:
+YY_USER_ACTION	./c.c	740;"	d	file:
+YY_USE_CONST	./c.c	31;"	d	file:
+YY_USE_CONST	./c.c	38;"	d	file:
+YY_USE_CONST	./c.c	48;"	d	file:
+YY_USE_PROTOS	./c.c	28;"	d	file:
+YY_USE_PROTOS	./c.c	37;"	d	file:
+YY_USE_PROTOS	./c.c	49;"	d	file:
+_	./cflow.h	40;"	d
+__cplusplus	./c.c	18;"	d	file:
+active	./cflow.h	/^     int active;                   \/* Set to 1 when the symbol's subtree is$/;"	m	struct:symbol
+add_name	./main.c	/^add_name(const char *name)$/;"	f	file:
+add_preproc_option	./main.c	/^add_preproc_option(int key, const char *arg)$/;"	f	file:
+add_reference	./parse2.c	/^add_reference(char *name, int line)$/;"	f
+add_reference	./parser.c	/^add_reference(char *name, int line)$/;"	f
+alloc_cons	./symbol.c	/^alloc_cons()$/;"	f
+alloc_cons_from_bucket	./symbol.c	/^alloc_cons_from_bucket()$/;"	f
+alloc_new_bucket	./symbol.c	/^alloc_new_bucket()$/;"	f
+append_to_list	./symbol.c	/^append_to_list(Consptr *root_ptr, void *car)$/;"	f
+arglist	./main.c	/^Consptr arglist;        \/* List of command line arguments *\/$/;"	v
+argp	./main.c	/^static struct argp argp = {$/;"	v	typeref:struct:argp	file:
+argp_program_bug_address	./main.c	/^const char *argp_program_bug_address = "<" PACKAGE_BUGREPORT ">";$/;"	v
+argp_program_version	./main.c	/^const char *argp_program_version = "cflow (" PACKAGE_NAME ") " VERSION;$/;"	v
+arity	./cflow.h	/^     int arity;                    \/* Number of parameters or -1 for$/;"	m	struct:symbol
+auto_processor	./symbol.c	/^auto_processor(void *data, void *proc_data)$/;"	f
+backslash	./c.c	/^backslash()$/;"	f
+begin	./output.c	/^begin()$/;"	f	file:
+brief_listing	./main.c	/^int brief_listing;      \/* Produce short listing *\/$/;"	v
+bucket	./symbol.c	/^struct bucket {$/;"	s	file:
+bucket_nodes	./symbol.c	/^static int bucket_nodes = 512;$/;"	v	file:
+call	./parse2.c	/^call(char *name, int line)$/;"	f
+call	./parser.c	/^call(char *name, int line)$/;"	f
+callee	./cflow.h	/^     Consptr callee;               \/* List of callees *\/$/;"	m	struct:symbol
+caller	./cflow.h	/^     Consptr caller;               \/* List of callers *\/$/;"	m	struct:symbol
+caller	./parse2.c	/^Symbol *caller;             \/* Current caller *\/$/;"	v
+caller	./parser.c	/^Symbol *caller;             \/* Current caller *\/$/;"	v
+canonical_filename	./c.c	/^char *canonical_filename; $/;"	v
+car	./cflow.h	/^     Consptr car;$/;"	m	struct:cons
+cdr	./cflow.h	/^     Consptr cdr;$/;"	m	struct:cons
+cflow_license_text	./main.c	/^char *cflow_license_text = N_($/;"	v
+cflow_output_begin	./cflow.h	/^     cflow_output_begin,$/;"	e	enum:__anon2
+cflow_output_command	./cflow.h	/^} cflow_output_command;$/;"	t	typeref:enum:__anon2
+cflow_output_end	./cflow.h	/^     cflow_output_end,$/;"	e	enum:__anon2
+cflow_output_init	./cflow.h	/^     cflow_output_init,$/;"	e	enum:__anon2
+cflow_output_newline	./cflow.h	/^     cflow_output_newline,$/;"	e	enum:__anon2
+cflow_output_separator	./cflow.h	/^     cflow_output_separator,$/;"	e	enum:__anon2
+cflow_output_symbol	./cflow.h	/^     cflow_output_symbol,$/;"	e	enum:__anon2
+cflow_output_text	./cflow.h	/^     cflow_output_text$/;"	e	enum:__anon2
+cflow_skip_symbols	./parse2.c	/^int cflow_skip_symbols(char* name)$/;"	f
+cflow_skip_symbols	./parser.c	/^int cflow_skip_symbols(char* name)$/;"	f
+cleanup	./symbol.c	/^cleanup()$/;"	f
+cleanup_processor	./symbol.c	/^cleanup_processor(void *data, void *proc_data)$/;"	f	file:
+cleanup_stack	./parse2.c	/^cleanup_stack()$/;"	f
+cleanup_stack	./parser.c	/^cleanup_stack()$/;"	f
+clear_active	./output.c	/^clear_active(Symbol *sym)$/;"	f	file:
+clearstack	./parse2.c	/^clearstack()$/;"	f
+clearstack	./parser.c	/^clearstack()$/;"	f
+collect_data	./symbol.c	/^struct collect_data {$/;"	s	file:
+collect_processor	./symbol.c	/^collect_processor(void *data, void *proc_data)$/;"	f	file:
+collect_symbols	./symbol.c	/^collect_symbols(Symbol ***return_sym, int (*sel)(Symbol *p))$/;"	f
+comment	./c.c	581;"	d	file:
+compare	./output.c	/^compare(const void *ap, const void *bp)$/;"	f	file:
+cons	./cflow.h	/^struct cons {$/;"	s
+cons	./symbol.c	/^     Cons cons[1];$/;"	m	struct:bucket	file:
+curs	./parse2.c	/^int curs;$/;"	v
+curs	./parser.c	/^int curs;$/;"	v
+dcl	./parse2.c	/^dcl(Ident *idptr)$/;"	f
+dcl	./parser.c	/^dcl(Ident *idptr)$/;"	f
+debug	./main.c	/^int debug;              \/* debug level *\/$/;"	v
+decl	./cflow.h	/^     char *decl;                   \/* Declaration *\/ $/;"	m	struct:symbol
+declare	./parse2.c	/^declare(Ident *ident)$/;"	f
+declare	./parser.c	/^declare(Ident *ident)$/;"	f
+declare_type	./parse2.c	/^declare_type(Ident *ident)$/;"	f
+declare_type	./parser.c	/^declare_type(Ident *ident)$/;"	f
+def_line	./cflow.h	/^     int def_line;                 \/* Source line *\/$/;"	m	struct:symbol
+delete_autos	./symbol.c	/^delete_autos(int level)$/;"	f
+delete_parm_processor	./symbol.c	/^delete_parm_processor(void *data, void *proc_data)$/;"	f	file:
+delete_parms	./symbol.c	/^delete_parms(int level)$/;"	f
+delete_statics	./symbol.c	/^delete_statics()$/;"	f
+delete_symbol	./symbol.c	/^delete_symbol(Symbol *s)$/;"	f	file:
+dirdcl	./parse2.c	/^dirdcl(Ident *idptr)$/;"	f
+dirdcl	./parser.c	/^dirdcl(Ident *idptr)$/;"	f
+direct	./cflow.h	/^     int direct;$/;"	m	struct:output_symbol
+direct_tree	./output.c	/^direct_tree(int lev, int last, Symbol *sym)$/;"	f	file:
+doc	./main.c	/^static char doc[] = N_("generate a program flowgraph\\v* The effect of each option marked with an asterisk is reversed if the option's long name is prefixed with `no-'. For example, --no-cpp cancels --cpp.");$/;"	v	file:
+driver_index	./output.c	/^static int driver_index;$/;"	v	file:
+driver_max	./output.c	/^static int driver_max=0;$/;"	v	file:
+emacs_option	./main.c	/^int emacs_option;       \/* Format and check for use with Emacs cflow-mode *\/ $/;"	v
+end	./output.c	/^end()$/;"	f	file:
+expand_argcv	./rc.c	/^expand_argcv(int *argc_ptr, char ***argv_ptr, int argc, char **argv)$/;"	f	file:
+expand_line	./cflow.h	/^     int expand_line;              \/* Output line when this symbol was first$/;"	m	struct:symbol
+expression	./parse2.c	/^expression()$/;"	f
+expression	./parser.c	/^expression()$/;"	f
+fake_struct	./parse2.c	/^fake_struct(Ident *ident)$/;"	f
+fake_struct	./parser.c	/^fake_struct(Ident *ident)$/;"	f
+file_error	./parse2.c	/^file_error(char *msg, int near)$/;"	f	file:
+file_error	./parser.c	/^file_error(char *msg, int near)$/;"	f	file:
+filename	./c.c	/^char *filename;$/;"	v
+find_option_type	./main.c	/^find_option_type(struct option_type *optype, const char *str, int len)$/;"	f	file:
+finish_save_stack	./parse2.c	/^finish_save_stack(char *name)$/;"	f
+finish_save_stack	./parser.c	/^finish_save_stack(char *name)$/;"	f
+flag	./cflow.h	/^     enum symbol_flag flag;        \/* Specific flag *\/$/;"	m	struct:symbol	typeref:enum:symbol::symbol_flag
+foo	./my.c	/^int foo()$/;"	f
+fp	./parser.c	/^FILE *fp;$/;"	v
+free	./symbol.c	/^     int free;$/;"	m	struct:bucket	file:
+func_body	./parse2.c	/^func_body()$/;"	f
+func_body	./parser.c	/^func_body()$/;"	f
+get_symbol	./parse2.c	/^get_symbol(char *name)$/;"	f
+get_symbol	./parser.c	/^get_symbol(char *name)$/;"	f
+get_token	./c.c	/^get_token()$/;"	f
+getnum	./c.c	/^getnum(unsigned  base, int  count)$/;"	f	file:
+globals_only	./main.c	/^globals_only()$/;"	f
+gnu_output_handler	./gnu.c	/^gnu_output_handler(cflow_output_command cmd,$/;"	f
+handler	./output.c	/^     int (*handler) (cflow_output_command cmd,$/;"	m	struct:output_driver	file:
+handler_data	./output.c	/^     void *handler_data;$/;"	m	struct:output_driver	file:
+hash_symbol_compare	./symbol.c	/^hash_symbol_compare(void const *data1, void const *data2)$/;"	f	file:
+hash_symbol_hasher	./symbol.c	/^hash_symbol_hasher(void const *data, unsigned n_buckets)$/;"	f	file:
+huu	./my.c	/^void huu(){}$/;"	f
+i	./parser.c	/^int i = 0;$/;"	v
+ident	./c.c	/^ident()$/;"	f
+include_symbol	./main.c	/^include_symbol(Symbol *sym)$/;"	f
+index	./symbol.c	/^     size_t index;$/;"	m	struct:collect_data	file:
+init	./main.c	/^init()$/;"	f
+init_lex	./c.c	/^init_lex(int debug_level)$/;"	f
+init_parse	./parse2.c	/^init_parse()$/;"	f
+init_parse	./parser.c	/^init_parse()$/;"	f
+initializer_list	./parse2.c	/^initializer_list()$/;"	f
+initializer_list	./parser.c	/^initializer_list()$/;"	f
+input_file_count	./c.c	/^unsigned input_file_count; \/* Number of input files, processed by source() *\/$/;"	v
+install	./symbol.c	/^install(char *name)$/;"	f
+inverted_tree	./output.c	/^inverted_tree(int lev, int last, Symbol *sym)$/;"	f	file:
+is_function	./parse2.c	/^is_function()$/;"	f	file:
+is_function	./parser.c	/^is_function()$/;"	f	file:
+is_last	./output.c	/^is_last(Consptr cons)$/;"	f	file:
+is_opened	./parse2.c	/^int is_opened = 0;$/;"	v
+is_opened	./parser.c	/^int is_opened = 0;$/;"	v
+is_printable	./output.c	/^is_printable(Consptr cons)$/;"	f	file:
+is_var	./output.c	/^is_var(Symbol *symp)$/;"	f	file:
+keywords	./c.c	/^static char *keywords[] = {$/;"	v	file:
+last	./cflow.h	/^     int last;$/;"	m	struct:output_symbol
+last_bucket	./symbol.c	/^static Bucket *root_bucket, *last_bucket;$/;"	v	file:
+level	./cflow.h	/^     int level;                    \/* Block nesting level (for local vars),$/;"	m	struct:symbol
+level	./cflow.h	/^     int level;$/;"	m	struct:output_symbol
+level	./parse2.c	/^int level;                  \/* Current nesting level *\/$/;"	v
+level	./parser.c	/^int level;                  \/* Current nesting level *\/$/;"	v
+level_begin	./main.c	/^char *level_begin = "";$/;"	v
+level_end	./main.c	/^char *level_end[] = { "", "" };$/;"	v
+level_indent	./main.c	/^char *level_indent[] = { NULL, NULL };$/;"	v
+level_indent_optype	./main.c	/^static struct option_type level_indent_optype[] = {$/;"	v	typeref:struct:option_type	file:
+level_mark	./output.c	/^unsigned char *level_mark;$/;"	v
+level_mark_incr	./output.c	/^int level_mark_incr = 128; \/* level_mark is expanded by this number of bytes *\/$/;"	v
+level_mark_size	./output.c	/^int level_mark_size = 0;   \/* Actual size of level_mark *\/$/;"	v
+lex_error	./c.c	604;"	d	file:
+line	./cflow.h	/^     int line;$/;"	m	struct:__anon1
+line	./parse2.c	/^     int line;$/;"	m	struct:__anon3	file:
+line	./parse2.c	/^     int line;$/;"	m	struct:__anon4	file:
+line	./parser.c	/^     int line;$/;"	m	struct:__anon5	file:
+line	./parser.c	/^     int line;$/;"	m	struct:__anon6	file:
+line_num	./c.c	/^int line_num;$/;"	v
+longline	./c.c	587;"	d	file:
+lookup	./symbol.c	/^lookup(char *name)$/;"	f
+main	./c.c	/^int main()$/;"	f
+main	./main.c	/^main(int argc, char **argv)$/;"	f
+main	./my2.c	/^int main() {$/;"	f
+mark	./parse2.c	/^mark(Stackpos pos)$/;"	f
+mark	./parser.c	/^mark(Stackpos pos)$/;"	f
+max_depth	./main.c	/^int max_depth;          \/* The depth at which the flowgraph is cut off *\/$/;"	v
+maybe_parm_list	./parse2.c	/^maybe_parm_list(int *parm_cnt_return)$/;"	f
+maybe_parm_list	./parser.c	/^maybe_parm_list(int *parm_cnt_return)$/;"	f
+min_match	./main.c	/^    int min_match;       \/* minimal number of characters to match *\/$/;"	m	struct:option_type	file:
+move_parm_processor	./symbol.c	/^move_parm_processor(void *data, void *proc_data)$/;"	f	file:
+move_parms	./symbol.c	/^move_parms(int level)$/;"	f
+name	./cflow.h	/^     char *name;                   \/* Identifier *\/$/;"	m	struct:symbol
+name	./output.c	/^     char *name;$/;"	m	struct:output_driver	file:
+name	./parse2.c	/^     char *name;$/;"	m	struct:__anon3	file:
+name	./parser.c	/^     char *name;$/;"	m	struct:__anon5	file:
+need_space	./parse2.c	/^static int need_space;$/;"	v	file:
+need_space	./parser.c	/^static int need_space;$/;"	v	file:
+newline	./output.c	/^newline()$/;"	f
+next	./cflow.h	/^     Symbol *next;                 \/* Next symbol with the same hash *\/$/;"	m	struct:symbol
+next	./symbol.c	/^     Bucket *next; \/* Next bucket *\/$/;"	m	struct:bucket	file:
+nexttoken	./parse2.c	/^nexttoken()$/;"	f
+nexttoken	./parser.c	/^nexttoken()$/;"	f
+number	./main.c	/^number(const char **str_ptr, int base, int count)$/;"	f	file:
+obstack_chunk_alloc	./cflow.h	29;"	d
+obstack_chunk_free	./cflow.h	30;"	d
+omit_arguments_option	./main.c	/^int omit_arguments_option;    \/* Omit arguments from function declaration string *\/$/;"	v
+omit_symbol_names_option	./main.c	/^int omit_symbol_names_option; \/* Omit symbol name from symbol declaration string *\/$/;"	v
+opt_stack	./c.c	/^static struct obstack *opt_stack;$/;"	v	typeref:struct:obstack	file:
+option_code	./main.c	/^enum option_code {$/;"	g	file:
+option_type	./main.c	/^struct option_type {$/;"	s	file:
+options	./main.c	/^static struct argp_option options[] = {$/;"	v	typeref:struct:argp_option	file:
+out_line	./output.c	/^int out_line = 1; \/* Current output line number *\/$/;"	v
+outfile	./output.c	/^FILE *outfile;    \/* Output file *\/$/;"	v
+outname	./main.c	/^char *outname = "-";    \/* default output file name *\/$/;"	v
+output	./output.c	/^output()$/;"	f
+output_driver	./output.c	/^struct output_driver output_driver[MAX_OUTPUT_DRIVERS];$/;"	v	typeref:struct:output_driver
+output_driver	./output.c	/^struct output_driver {$/;"	s	file:
+output_init	./output.c	/^output_init()$/;"	f
+output_symbol	./cflow.h	/^struct output_symbol {$/;"	s
+parm_level	./parse2.c	/^int parm_level;             \/* Parameter declaration nesting level *\/$/;"	v
+parm_level	./parser.c	/^int parm_level;             \/* Parameter declaration nesting level *\/$/;"	v
+parmcnt	./parse2.c	/^     int parmcnt;$/;"	m	struct:__anon3	file:
+parmcnt	./parser.c	/^     int parmcnt;$/;"	m	struct:__anon5	file:
+parmdcl	./parse2.c	/^parmdcl(Ident *idptr)$/;"	f
+parmdcl	./parser.c	/^parmdcl(Ident *idptr)$/;"	f
+parse_dcl	./parse2.c	/^parse_dcl(Ident *ident)$/;"	f
+parse_dcl	./parser.c	/^parse_dcl(Ident *ident)$/;"	f
+parse_declaration	./parse2.c	/^parse_declaration(Ident *ident, int parm)$/;"	f
+parse_declaration	./parser.c	/^parse_declaration(Ident *ident, int parm)$/;"	f
+parse_function_declaration	./parse2.c	/^parse_function_declaration(Ident *ident, int parm)$/;"	f
+parse_function_declaration	./parser.c	/^parse_function_declaration(Ident *ident, int parm)$/;"	f
+parse_knr_dcl	./parse2.c	/^parse_knr_dcl(Ident *ident)$/;"	f
+parse_knr_dcl	./parser.c	/^parse_knr_dcl(Ident *ident)$/;"	f
+parse_level_string	./main.c	/^parse_level_string(const char *str, char **return_ptr)$/;"	f	file:
+parse_opt	./main.c	/^parse_opt (int key, char *arg, struct argp_state *state)$/;"	f	file:
+parse_rc	./rc.c	/^parse_rc(int *argc_ptr, char ***argv_ptr, char *name)$/;"	f
+parse_typedef	./parse2.c	/^parse_typedef()$/;"	f
+parse_typedef	./parser.c	/^parse_typedef()$/;"	f
+parse_variable_declaration	./parse2.c	/^parse_variable_declaration(Ident *ident, int parm)$/;"	f
+parse_variable_declaration	./parser.c	/^parse_variable_declaration(Ident *ident, int parm)$/;"	f
+posix_output_handler	./posix.c	/^posix_output_handler(cflow_output_command cmd,$/;"	f
+pp_bin	./c.c	/^char *pp_bin;$/;"	v
+pp_close	./c.c	/^pp_close(FILE *fp)$/;"	f
+pp_finalize	./c.c	/^pp_finalize()$/;"	f
+pp_open	./c.c	/^pp_open(const char *name)$/;"	f
+pp_option	./c.c	/^pp_option(const char *arg)$/;"	f
+pp_opts	./c.c	/^char *pp_opts;$/;"	v
+preprocess_option	./main.c	/^int preprocess_option = 0; \/* Do they want to preprocess sources? *\/$/;"	v
+print_as_tree	./main.c	/^int print_as_tree;      \/* Print as tree *\/$/;"	v
+print_function	./output.c	/^print_function(Symbol *symp)$/;"	f	file:
+print_function_name	./gnu.c	/^print_function_name(Symbol *sym, int has_subtree)$/;"	f
+print_level	./output.c	/^print_level(int lev, int last)$/;"	f
+print_levels	./main.c	/^int print_levels;       \/* Print level number near every branch *\/$/;"	v
+print_line_numbers	./main.c	/^int print_line_numbers; \/* Print line numbers *\/$/;"	v
+print_option	./main.c	/^int print_option = 0;   \/* what to print. *\/$/;"	v
+print_optype	./main.c	/^static struct option_type print_optype[] = {$/;"	v	typeref:struct:option_type	file:
+print_refs	./output.c	/^print_refs(char *name, Consptr cons)$/;"	f
+print_symbol	./gnu.c	/^print_symbol(FILE *outfile, int line, struct output_symbol *s)$/;"	f	file:
+print_symbol	./output.c	/^print_symbol (int direct, int level, int last, Symbol *sym)$/;"	f	file:
+print_symbol	./posix.c	/^print_symbol(FILE *outfile, int line, struct output_symbol *s)$/;"	f	file:
+print_symbol_type	./posix.c	/^print_symbol_type(FILE *outfile, Symbol *sym)$/;"	f	file:
+print_text	./output.c	/^print_text(char *buf)$/;"	f	file:
+print_token	./parse2.c	/^print_token(TOKSTK *tokptr)$/;"	f	file:
+print_token	./parser.c	/^print_token(TOKSTK *tokptr)$/;"	f	file:
+print_type	./output.c	/^print_type(Symbol *symp)$/;"	f	file:
+putback	./parse2.c	/^putback()$/;"	f
+putback	./parser.c	/^putback()$/;"	f
+record_defines	./main.c	/^int record_defines;     \/* Record macro definitions *\/$/;"	v
+recursive	./cflow.h	/^     int recursive;                \/* Is the function recursive *\/$/;"	m	struct:symbol
+ref_line	./cflow.h	/^     Consptr ref_line;             \/* Referenced in *\/$/;"	m	struct:symbol
+reference	./parse2.c	/^reference(char *name, int line)$/;"	f
+reference	./parser.c	/^reference(char *name, int line)$/;"	f
+register_output	./output.c	/^register_output(const char *name,$/;"	f
+restore	./parse2.c	/^restore(Stackpos pos)$/;"	f
+restore	./parser.c	/^restore(Stackpos pos)$/;"	f
+reverse_tree	./main.c	/^int reverse_tree;       \/* Generate reverse tree *\/$/;"	v
+root_bucket	./symbol.c	/^static Bucket *root_bucket, *last_bucket;$/;"	v	file:
+save_end	./parse2.c	/^static int save_end;       \/* Stack position up to which the tokens are saved *\/$/;"	v	file:
+save_end	./parser.c	/^static int save_end;       \/* Stack position up to which the tokens are saved *\/$/;"	v	file:
+save_stack	./parse2.c	/^save_stack()$/;"	f
+save_stack	./parser.c	/^save_stack()$/;"	f
+save_token	./parse2.c	/^save_token(TOKSTK *tokptr)$/;"	f
+save_token	./parser.c	/^save_token(TOKSTK *tokptr)$/;"	f
+scan_tree	./output.c	/^scan_tree(int lev, Symbol *sym)$/;"	f	file:
+sel	./symbol.c	/^     int (*sel)(Symbol *p);$/;"	m	struct:collect_data	file:
+select_output_driver	./output.c	/^select_output_driver(const char *name)$/;"	f
+separator	./output.c	/^separator()$/;"	f	file:
+set_active	./output.c	/^set_active(Symbol *sym)$/;"	f	file:
+set_level_indent	./main.c	/^set_level_indent(const char *str)$/;"	f	file:
+set_level_mark	./output.c	/^set_level_mark(int lev, int mark)$/;"	f	file:
+set_preprocessor	./c.c	/^set_preprocessor(const char *arg)$/;"	f
+set_print_option	./main.c	/^set_print_option(char *str)$/;"	f	file:
+setlocale	./cflow.h	47;"	d
+sf_fd	./parse2.c	/^int sf_fd;$/;"	v
+skip_buf	./parse2.c	/^char skip_buf[64];$/;"	v
+skip_buf	./parser.c	/^char skip_buf[BUF_SIZE];$/;"	v
+skip_struct	./parse2.c	/^skip_struct()$/;"	f
+skip_struct	./parser.c	/^skip_struct()$/;"	f
+skip_to	./parse2.c	/^skip_to(int c)$/;"	f
+skip_to	./parser.c	/^skip_to(int c)$/;"	f
+source	./c.c	/^source(char *name)$/;"	f
+source	./cflow.h	/^     char *source;                 \/* Source file *\/$/;"	m	struct:symbol
+source	./cflow.h	/^     char *source;$/;"	m	struct:__anon1
+sourcerc	./rc.c	/^sourcerc(int *argc_ptr, char ***argv_ptr)$/;"	f
+start_name	./main.c	/^char *start_name = "main"; \/* Name of start symbol *\/$/;"	v
+start_pos	./parse2.c	/^static Stackpos start_pos; \/* Start position in stack for saving tokens *\/$/;"	v	file:
+start_pos	./parser.c	/^static Stackpos start_pos; \/* Start position in stack for saving tokens *\/$/;"	v	file:
+static_processor	./symbol.c	/^static_processor(void *data, void *proc_data)$/;"	f	file:
+storage	./cflow.h	/^     enum storage storage;         \/* Storage type *\/$/;"	m	struct:symbol	typeref:enum:symbol::storage
+storage	./cflow.h	/^enum storage {$/;"	g
+storage	./parse2.c	/^     enum storage storage;$/;"	m	struct:__anon3	typeref:enum:__anon3::storage	file:
+storage	./parser.c	/^     enum storage storage;$/;"	m	struct:__anon5	typeref:enum:__anon5::storage	file:
+str	./main.c	/^    char *str;           \/* optarg value *\/$/;"	m	struct:option_type	file:
+str	./parser.h	/^    char *str;$/;"	m	struct:__anon7
+strict_ansi	./main.c	/^int strict_ansi;        \/* Assume sources to be written in ANSI C *\/$/;"	v
+string	./c.c	583;"	d	file:
+string_stk	./c.c	/^struct obstack string_stk;$/;"	v	typeref:struct:obstack
+stringwait	./c.c	585;"	d	file:
+sym	./cflow.h	/^     Symbol *sym;$/;"	m	struct:output_symbol
+sym	./symbol.c	/^     Symbol **sym;$/;"	m	struct:collect_data	file:
+sym_array	./parser.c	/^char *sym_array[MAX_SYMS] = {NULL};$/;"	v
+symbol	./cflow.h	/^struct symbol {$/;"	s
+symbol_flag	./cflow.h	/^enum symbol_flag {$/;"	g
+symbol_in_list	./symbol.c	/^symbol_in_list(Symbol *sym, Consptr list)$/;"	f
+symbol_map	./main.c	/^int symbol_map;  \/* A bitmap of symbols included in the graph. *\/$/;"	v
+symbol_none	./cflow.h	/^     symbol_none,$/;"	e	enum:symbol_flag
+symbol_optype	./main.c	/^static struct option_type symbol_optype[] = {$/;"	v	typeref:struct:option_type	file:
+symbol_override	./main.c	/^symbol_override(const char *str)$/;"	f	file:
+symbol_parm	./cflow.h	/^     symbol_parm                   \/* Parameter *\/$/;"	e	enum:symbol_flag
+symbol_table	./symbol.c	/^Hash_table *symbol_table;$/;"	v
+symbol_temp	./cflow.h	/^     symbol_temp,                  \/* Temporary symbol. Must be deleted after$/;"	e	enum:symbol_flag
+symtype	./cflow.h	/^enum symtype {$/;"	g
+temp_processor	./symbol.c	/^temp_processor(void *data, void *proc_data)$/;"	f	file:
+text_stk	./parse2.c	/^struct obstack text_stk;    \/* Obstack for composing declaration line *\/$/;"	v	typeref:struct:obstack
+text_stk	./parser.c	/^struct obstack text_stk;    \/* Obstack for composing declaration line *\/$/;"	v	typeref:struct:obstack
+tok	./parse2.c	/^TOKSTK tok;$/;"	v
+tok	./parser.c	/^TOKSTK tok;$/;"	v
+token	./parse2.c	/^     char *token;$/;"	m	struct:__anon4	file:
+token	./parser.c	/^     char *token;$/;"	m	struct:__anon6	file:
+token_stack	./parse2.c	/^TOKSTK *token_stack;$/;"	v
+token_stack	./parser.c	/^TOKSTK *token_stack;$/;"	v
+token_stack_increase	./parse2.c	/^int token_stack_increase = 32;$/;"	v
+token_stack_increase	./parser.c	/^int token_stack_increase = 32;$/;"	v
+token_stack_length	./parse2.c	/^int token_stack_length = 64;$/;"	v
+token_stack_length	./parser.c	/^int token_stack_length = 64;$/;"	v
+token_type	./cflow.h	/^     int token_type;               \/* Type of the token *\/$/;"	m	struct:symbol
+tokpush	./parse2.c	/^tokpush(int type, int line, char *token)$/;"	f
+tokpush	./parser.c	/^tokpush(int type, int line, char *token)$/;"	f
+tos	./parse2.c	/^int tos;$/;"	v
+tos	./parser.c	/^int tos;$/;"	v
+tree_output	./output.c	/^tree_output()$/;"	f	file:
+type	./cflow.h	/^     enum symtype type;            \/* Type of the symbol *\/$/;"	m	struct:symbol	typeref:enum:symbol::symtype
+type	./main.c	/^    int type;            \/* data associated with the arg *\/$/;"	m	struct:option_type	file:
+type	./parse2.c	/^     int type;$/;"	m	struct:__anon4	file:
+type	./parser.c	/^     int type;$/;"	m	struct:__anon6	file:
+type_end	./parse2.c	/^     int type_end;$/;"	m	struct:__anon3	file:
+type_end	./parser.c	/^     int type_end;$/;"	m	struct:__anon5	file:
+types	./c.c	/^static char *types[] = {$/;"	v	file:
+undo_save_stack	./parse2.c	/^undo_save_stack()$/;"	f
+undo_save_stack	./parser.c	/^undo_save_stack()$/;"	f
+unput	./c.c	135;"	d	file:
+update_loc	./c.c	/^update_loc()$/;"	f
+use_indentation	./main.c	/^int use_indentation;    \/* Rely on indentation,$/;"	v
+verbose	./main.c	/^int verbose;            \/* be verbose on output *\/$/;"	v
+xalloc_die	./main.c	/^xalloc_die(void)$/;"	f
+xref_output	./output.c	/^xref_output()$/;"	f
+yy_accept	./c.c	/^static yyconst short int yy_accept[191] =$/;"	v	file:
+yy_at_bol	./c.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	./c.c	/^static yyconst short int yy_base[212] =$/;"	v	file:
+yy_buf_pos	./c.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	./c.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_state	./c.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	./c.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	./c.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	./c.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	./c.c	/^static yyconst short int yy_chk[531] =$/;"	v	file:
+yy_create_buffer	./c.c	/^YY_BUFFER_STATE yy_create_buffer( FILE *file, int size )$/;"	f
+yy_current_buffer	./c.c	/^static YY_BUFFER_STATE yy_current_buffer = 0;$/;"	v	file:
+yy_def	./c.c	/^static yyconst short int yy_def[212] =$/;"	v	file:
+yy_delete_buffer	./c.c	/^void yy_delete_buffer( YY_BUFFER_STATE b )$/;"	f
+yy_did_buffer_switch_on_eof	./c.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	./c.c	/^static yyconst int yy_ec[256] =$/;"	v	file:
+yy_fatal_error	./c.c	/^static void yy_fatal_error( yyconst char msg[] )$/;"	f	file:
+yy_fill_buffer	./c.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_alloc	./c.c	/^static void *yy_flex_alloc( yy_size_t size )$/;"	f	file:
+yy_flex_debug	./c.c	/^int yy_flex_debug = 1;$/;"	v
+yy_flex_free	./c.c	/^static void yy_flex_free( void *ptr )$/;"	f	file:
+yy_flex_realloc	./c.c	/^static void *yy_flex_realloc( void *ptr, yy_size_t size )$/;"	f	file:
+yy_flex_strlen	./c.c	/^static int yy_flex_strlen( yyconst char *s )$/;"	f	file:
+yy_flex_strncpy	./c.c	/^static void yy_flex_strncpy( char *s1, yyconst char *s2, int n )$/;"	f	file:
+yy_flush_buffer	./c.c	/^void yy_flush_buffer( YY_BUFFER_STATE b )$/;"	f
+yy_get_next_buffer	./c.c	/^static int yy_get_next_buffer()$/;"	f	file:
+yy_get_previous_state	./c.c	/^static yy_state_type yy_get_previous_state()$/;"	f	file:
+yy_hold_char	./c.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	./c.c	/^static int yy_init = 1;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	./c.c	/^void yy_init_buffer( YY_BUFFER_STATE b, FILE *file )$/;"	f
+yy_input_file	./c.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	./c.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	./c.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	./c.c	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	./c.c	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	./c.c	/^void yy_load_buffer_state( void )$/;"	f
+yy_meta	./c.c	/^static yyconst int yy_meta[47] =$/;"	v	file:
+yy_n_chars	./c.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	./c.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	./c.c	246;"	d	file:
+yy_nxt	./c.c	/^static yyconst short int yy_nxt[531] =$/;"	v	file:
+yy_pop_state	./c.c	/^static void yy_pop_state()$/;"	f	file:
+yy_push_state	./c.c	/^static void yy_push_state( int new_state )$/;"	f	file:
+yy_rule_linenum	./c.c	/^static yyconst short int yy_rule_linenum[72] =$/;"	v	file:
+yy_scan_buffer	./c.c	/^YY_BUFFER_STATE yy_scan_buffer( char *base, yy_size_t size )$/;"	f
+yy_scan_bytes	./c.c	/^YY_BUFFER_STATE yy_scan_bytes( yyconst char *bytes, int len )$/;"	f
+yy_scan_string	./c.c	/^YY_BUFFER_STATE yy_scan_string( yyconst char *yy_str )$/;"	f
+yy_set_bol	./c.c	255;"	d	file:
+yy_set_interactive	./c.c	248;"	d	file:
+yy_size_t	./c.c	/^typedef unsigned int yy_size_t;$/;"	t	file:
+yy_start	./c.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_start_stack	./c.c	/^static int *yy_start_stack = 0;$/;"	v	file:
+yy_start_stack_depth	./c.c	/^static int yy_start_stack_depth = 0;$/;"	v	file:
+yy_start_stack_ptr	./c.c	/^static int yy_start_stack_ptr = 0;$/;"	v	file:
+yy_state_type	./c.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	./c.c	/^void yy_switch_to_buffer( YY_BUFFER_STATE new_buffer )$/;"	f
+yy_top_state	./c.c	/^static int yy_top_state()$/;"	f	file:
+yy_try_NUL_trans	./c.c	/^static yy_state_type yy_try_NUL_trans( yy_state_type yy_current_state )$/;"	f	file:
+yyconst	./c.c	53;"	d	file:
+yyconst	./c.c	55;"	d	file:
+yyin	./c.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyinput	./c.c	/^static int yyinput()$/;"	f	file:
+yyleng	./c.c	/^int yyleng;$/;"	v
+yyless	./c.c	124;"	d	file:
+yyless	./c.c	1962;"	d	file:
+yyless	./c.c	1963;"	d	file:
+yylval	./c.c	/^YYSTYPE yylval;$/;"	v
+yymore	./c.c	558;"	d	file:
+yyout	./c.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyparse	./parse2.c	/^yyparse()$/;"	f
+yyparse	./parser.c	/^yyparse()$/;"	f
+yyrestart	./c.c	/^void yyrestart( FILE *input_file )$/;"	f
+yyterminate	./c.c	716;"	d	file:
+yytext	./c.c	/^char *yytext;$/;"	v
+yytext_ptr	./c.c	272;"	d	file:
+yyunput	./c.c	/^static void yyunput( int c, register char *yy_bp )$/;"	f	file:
+yywrap	./c.c	/^yywrap()$/;"	f

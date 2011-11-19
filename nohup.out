@@ -1,0 +1,6 @@
+
+(gnome-panel:29581): Gtk-CRITICAL **: gtk_orientable_get_orientation: assertion `GTK_IS_ORIENTABLE (orientable)' failed
+
+(gnome-panel:29581): Gtk-CRITICAL **: gtk_orientable_get_orientation: assertion `GTK_IS_ORIENTABLE (orientable)' failed
+
+(gnome-panel:29581): GLib-GObject-WARNING **: /build/buildd/glib2.0-2.30.0/./gobject/gsignal.c:2295: signal `size_request' is invalid for instance `0x90a7db8'

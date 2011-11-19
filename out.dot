@@ -1,0 +1,199 @@
+digraph sarien {
+node [shape=box];edge [color=black style=solid];
+node_1 [ label="ib_trse_bkp_process_op\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:517" ]
+node_2 [ label="ib_marshal_repl_op\n\n:0" ]
+	node_1 -> node_2 ;
+node_3 [ label="ib_chunker_add_data\n\n:0" ]
+	node_1 -> node_3 ;
+node_4 [ label="ib_chunker_write_chunk\n\n:0" ]
+	node_1 -> node_4 ;
+node_5 [ label="ib_chunker_clear_chunk\n\n:0" ]
+	node_1 -> node_5 ;
+node_6 [ label="D\n\n:0" ]
+	node_1 -> node_6 ;
+node_7 [ label="gDecRefItem\n\n:0" ]
+	node_1 -> node_7 ;
+node_8 [ label="EXIT_RET\n\n:0" ]
+	node_1 -> node_8 ;
+node_9 [ label="ib_trse_bkp_session_abort\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:193" ]
+node_10 [ label="ASSERT\n\n:0" ]
+	node_9 -> node_10 ;
+node_11 [ label="ib_trse_mqueue_enqueue\n\n:0" ]
+	node_9 -> node_11 ;
+node_12 [ label="EXIT_RET\n\n:0" ]
+	node_9 -> node_12 ;
+node_13 [ label="ib_trse_bkp_session_abort_trse_data\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:212" ]
+node_14 [ label="ib_trse_bkp_session_cleanup\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:466" ]
+node_15 [ label="ib_trse_remove_session\n\n:0" ]
+	node_14 -> node_15 ;
+node_16 [ label="ib_trse_mqueue_destroy\n\n:0" ]
+	node_14 -> node_16 ;
+node_17 [ label="sk_kmem_free\n\n:0" ]
+	node_14 -> node_17 ;
+node_18 [ label="EXIT_RET\n\n:0" ]
+	node_14 -> node_18 ;
+node_19 [ label="ib_trse_bkp_session_create\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:224" ]
+node_20 [ label="sk_kmem_zalloc\n\n:0" ]
+	node_19 -> node_20 ;
+node_21 [ label="D\n\n:0" ]
+	node_19 -> node_21 ;
+node_22 [ label="sk_kmem_free\n\n:0" ]
+	node_19 -> node_22 ;
+node_23 [ label="EXIT_RET\n\n:0" ]
+	node_19 -> node_23 ;
+node_24 [ label="ib_trse_bkp_session_handler\n void ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:808" ]
+node_25 [ label="ASSERT\n\n:0" ]
+	node_24 -> node_25 ;
+node_26 [ label="ib_trse_mqueue_dequeue\n\n:0" ]
+	node_24 -> node_26 ;
+node_27 [ label="ib_trse_session_state_bkp_start_handler\n void ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:720" ]
+	node_24 -> node_27 ;
+node_28 [ label="ASSERT\n\n:0" ]
+	node_27 -> node_28 ;
+node_29 [ label="ib_trse_bkp_switch_state\n void ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:501" ]
+	node_27 -> node_29 ;
+node_30 [ label="ASSERT\n\n:0" ]
+	node_29 -> node_30 ;
+node_31 [ label="D\n\n:0" ]
+	node_29 -> node_31 ;
+node_32 [ label="ib_trse_bkp_write_trse_header\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:494" ]
+	node_27 -> node_32 ;
+node_33 [ label="EXIT_RET\n\n:0" ]
+	node_32 -> node_33 ;
+node_34 [ label="D\n\n:0" ]
+	node_27 -> node_34 ;
+node_35 [ label="ib_chunker_add_data\n\n:0" ]
+	node_27 -> node_35 ;
+node_36 [ label="ib_chunker_write_chunk\n\n:0" ]
+	node_27 -> node_36 ;
+node_37 [ label="ib_chunker_clear_chunk\n\n:0" ]
+	node_27 -> node_37 ;
+node_38 [ label="ib_trse_mqueue_enqueue\n\n:0" ]
+	node_27 -> node_38 ;
+node_39 [ label="ib_trse_session_state_bkp_init_handler\n void ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:676" ]
+	node_24 -> node_39 ;
+node_40 [ label="ASSERT\n\n:0" ]
+	node_39 -> node_40 ;
+	node_39 -> node_29 ;
+node_42 [ label="ib_trse_mqueue_enqueue\n\n:0" ]
+	node_39 -> node_42 ;
+node_43 [ label="ib_trse_session_state_bkp_active_handler\n void ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:618" ]
+	node_24 -> node_43 ;
+node_44 [ label="ASSERT\n\n:0" ]
+	node_43 -> node_44 ;
+	node_43 -> node_1 ;
+node_46 [ label="D\n\n:0" ]
+	node_43 -> node_46 ;
+node_47 [ label="ib_trse_bkp_write_footer\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:567" ]
+	node_43 -> node_47 ;
+node_48 [ label="EXIT_RET\n\n:0" ]
+	node_47 -> node_48 ;
+	node_43 -> node_29 ;
+node_50 [ label="ib_trse_session_state_bkp_completed_handler\n void ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:586" ]
+	node_24 -> node_50 ;
+node_51 [ label="ASSERT\n\n:0" ]
+	node_50 -> node_51 ;
+	node_50 -> node_29 ;
+node_53 [ label="ib_trse_session_state_bkp_closing_handler\n void ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:574" ]
+	node_24 -> node_53 ;
+node_54 [ label="ASSERT\n\n:0" ]
+	node_53 -> node_54 ;
+node_55 [ label="D\n\n:0" ]
+	node_53 -> node_55 ;
+node_56 [ label="ib_trse_session_state_bkp_error_handler\n void ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:609" ]
+	node_24 -> node_56 ;
+node_57 [ label="ib_trse_bkp_session_initialize\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:332" ]
+node_58 [ label="ASSERT\n\n:0" ]
+	node_57 -> node_58 ;
+node_59 [ label="sk_my_pid\n\n:0" ]
+	node_57 -> node_59 ;
+node_60 [ label="uuid_from_string\n\n:0" ]
+	node_57 -> node_60 ;
+node_61 [ label="oscall_getenv\n\n:0" ]
+	node_57 -> node_61 ;
+node_62 [ label="D\n\n:0" ]
+	node_57 -> node_62 ;
+node_63 [ label="uuid_create\n\n:0" ]
+	node_57 -> node_63 ;
+node_64 [ label="ib_trse_mqueue_create\n\n:0" ]
+	node_57 -> node_64 ;
+node_65 [ label="ib_trse_mqueue_init\n\n:0" ]
+	node_57 -> node_65 ;
+node_66 [ label="sk_kmem_zalloc\n\n:0" ]
+	node_57 -> node_66 ;
+node_67 [ label="ib_trse_get_transfer_inputs\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:256" ]
+	node_57 -> node_67 ;
+node_68 [ label="memset\n\n:0" ]
+	node_67 -> node_68 ;
+node_69 [ label="memcpy\n\n:0" ]
+	node_67 -> node_69 ;
+node_70 [ label="WAFL_VVOL_MSID\n\n:0" ]
+	node_67 -> node_70 ;
+node_71 [ label="SK_DOMAIN_REFERENCE\n\n:0" ]
+	node_67 -> node_71 ;
+node_72 [ label="snapshot_get_uuids\n\n:0" ]
+	node_67 -> node_72 ;
+node_73 [ label="D\n\n:0" ]
+	node_67 -> node_73 ;
+node_74 [ label="EXIT_RET\n\n:0" ]
+	node_67 -> node_74 ;
+node_75 [ label="replication_tape_backup_start_op\n\n:0" ]
+	node_57 -> node_75 ;
+node_76 [ label="ib_trse_add_session_to_list\n\n:0" ]
+	node_57 -> node_76 ;
+node_77 [ label="sk_kmem_free\n\n:0" ]
+	node_57 -> node_77 ;
+node_78 [ label="EXIT_RET\n\n:0" ]
+	node_57 -> node_78 ;
+node_79 [ label="ib_trse_bkp_session_send_trse_data\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:157" ]
+node_80 [ label="ASSERT\n\n:0" ]
+	node_79 -> node_80 ;
+node_81 [ label="ib_trse_mqueue_enqueue\n\n:0" ]
+	node_79 -> node_81 ;
+node_82 [ label="EXIT_RET\n\n:0" ]
+	node_79 -> node_82 ;
+node_83 [ label="ib_trse_bkp_session_stub_abort\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:162" ]
+node_84 [ label="ib_trse_bkp_session_stub_abort_trse_data\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:173" ]
+node_85 [ label="ib_trse_bkp_session_stub_send_trse_data\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:136" ]
+node_86 [ label="ib_trse_bkp_session_stub_write_transfer_info\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:97" ]
+node_87 [ label="ib_trse_bkp_session_stub_writer_destroyed\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:149" ]
+node_88 [ label="sk_kmem_free\n\n:0" ]
+	node_87 -> node_88 ;
+node_89 [ label="ib_trse_bkp_session_stub_writer_finalize\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:124" ]
+node_90 [ label="ib_trse_bkp_session_stub_writer_init\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:81" ]
+node_91 [ label="ib_trse_bkp_session_stub_writer_start\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:111" ]
+node_92 [ label="ib_trse_bkp_session_write_transfer_info\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:110" ]
+node_93 [ label="EXIT_RET\n\n:0" ]
+	node_92 -> node_93 ;
+node_94 [ label="ib_trse_bkp_session_writer_destroyed\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:176" ]
+node_95 [ label="ASSERT\n\n:0" ]
+	node_94 -> node_95 ;
+node_96 [ label="ib_trse_mqueue_enqueue\n\n:0" ]
+	node_94 -> node_96 ;
+node_97 [ label="EXIT_RET\n\n:0" ]
+	node_94 -> node_97 ;
+node_98 [ label="ib_trse_bkp_session_writer_finalize\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:140" ]
+node_99 [ label="ASSERT\n\n:0" ]
+	node_98 -> node_99 ;
+node_100 [ label="ib_trse_mqueue_enqueue\n\n:0" ]
+	node_98 -> node_100 ;
+node_101 [ label="EXIT_RET\n\n:0" ]
+	node_98 -> node_101 ;
+node_102 [ label="ib_trse_bkp_session_writer_init\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:77" ]
+node_103 [ label="ASSERT\n\n:0" ]
+	node_102 -> node_103 ;
+node_104 [ label="ib_trse_mqueue_enqueue\n\n:0" ]
+	node_102 -> node_104 ;
+node_105 [ label="EXIT_RET\n\n:0" ]
+	node_102 -> node_105 ;
+node_106 [ label="ib_trse_bkp_session_writer_start\n bool ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c:122" ]
+node_107 [ label="ASSERT\n\n:0" ]
+	node_106 -> node_107 ;
+node_108 [ label="ib_trse_mqueue_enqueue\n\n:0" ]
+	node_106 -> node_108 ;
+node_109 [ label="EXIT_RET\n\n:0" ]
+	node_106 -> node_109 ;
+node_119 [ label="ib_trse_stub_lookup_session\n ib_trse_sess_t * ()\n/home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c:182" ]
+node_120 [ label="sk_kmem_zalloc\n\n:0" ]
+	node_119 -> node_120 ;
+}

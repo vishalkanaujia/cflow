@@ -1,0 +1,11 @@
+# tests/atlocal.  Generated from atlocal.in by configure.                                     -*- shell-script -*-
+# Configurable variable values for GNU test test suite.
+
+PATH=/home/kanaujia/Desktop/ToKeep/Bulb_/cflow/cflow-1.0/tests:/home/kanaujia/Desktop/ToKeep/Bulb_/cflow/cflow-1.0/tests/.././src:$top_srcdir:$srcdir:$PATH
+CFLOWDIR=/home/kanaujia/Desktop/ToKeep/Bulb_/cflow/cflow-1.0/tests
+#EXAMPLES=/home/kanaujia/Desktop/ToKeep/Bulb_/cflow/cflow-1.0/tests/../examples
+CFLOW_OPTIONS=
+export CFLOW_OPTIONS
+CFLOWRC=/dev/null
+export CFLOWRC
+unset POSIXLY_CORRECT

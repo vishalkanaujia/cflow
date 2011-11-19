@@ -1,0 +1,120 @@
+    1 	ib_trse_bkp_process_op: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 517>
+    2 		ib_marshal_repl_op: <>
+    3 		ib_chunker_add_data: <>
+    4 		ib_chunker_write_chunk: <>
+    5 		ib_chunker_clear_chunk: <>
+    6 		D: <>
+    7 		gDecRefItem: <>
+    8 		EXIT_RET: <>
+    9 	ib_trse_bkp_session_abort: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 193>
+   10 		ASSERT: <>
+   11 		ib_trse_mqueue_enqueue: <>
+   12 		EXIT_RET: <>
+   13 	ib_trse_bkp_session_abort_trse_data: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 212>
+   14 	ib_trse_bkp_session_cleanup: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 466>
+   15 		ib_trse_remove_session: <>
+   16 		ib_trse_mqueue_destroy: <>
+   17 		sk_kmem_free: <>
+   18 		EXIT_RET: <>
+   19 	ib_trse_bkp_session_create: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 224>
+   20 		sk_kmem_zalloc: <>
+   21 		D: <>
+   22 		sk_kmem_free: <>
+   23 		EXIT_RET: <>
+   24 	ib_trse_bkp_session_handler: void (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 808>
+   25 		ASSERT: <>
+   26 		ib_trse_mqueue_dequeue: <>
+   27 		ib_trse_session_state_bkp_start_handler: void (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 720>
+   28 			ASSERT: <>
+   29 			ib_trse_bkp_switch_state: void (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 501>
+   30 				ASSERT: <>
+   31 				D: <>
+   32 			ib_trse_bkp_write_trse_header: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 494>
+   33 				EXIT_RET: <>
+   34 			D: <>
+   35 			ib_chunker_add_data: <>
+   36 			ib_chunker_write_chunk: <>
+   37 			ib_chunker_clear_chunk: <>
+   38 			ib_trse_mqueue_enqueue: <>
+   39 		ib_trse_session_state_bkp_init_handler: void (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 676>
+   40 			ASSERT: <>
+   41 			ib_trse_bkp_switch_state: 29
+   42 			ib_trse_mqueue_enqueue: <>
+   43 		ib_trse_session_state_bkp_active_handler: void (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 618>
+   44 			ASSERT: <>
+   45 			ib_trse_bkp_process_op: 1
+   46 			D: <>
+   47 			ib_trse_bkp_write_footer: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 567>
+   48 				EXIT_RET: <>
+   49 			ib_trse_bkp_switch_state: 29
+   50 		ib_trse_session_state_bkp_completed_handler: void (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 586>
+   51 			ASSERT: <>
+   52 			ib_trse_bkp_switch_state: 29
+   53 		ib_trse_session_state_bkp_closing_handler: void (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 574>
+   54 			ASSERT: <>
+   55 			D: <>
+   56 		ib_trse_session_state_bkp_error_handler: void (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 609>
+   57 	ib_trse_bkp_session_initialize: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 332>
+   58 		ASSERT: <>
+   59 		sk_my_pid: <>
+   60 		uuid_from_string: <>
+   61 		oscall_getenv: <>
+   62 		D: <>
+   63 		uuid_create: <>
+   64 		ib_trse_mqueue_create: <>
+   65 		ib_trse_mqueue_init: <>
+   66 		sk_kmem_zalloc: <>
+   67 		ib_trse_get_transfer_inputs: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 256>
+   68 			memset: <>
+   69 			memcpy: <>
+   70 			WAFL_VVOL_MSID: <>
+   71 			SK_DOMAIN_REFERENCE: <>
+   72 			snapshot_get_uuids: <>
+   73 			D: <>
+   74 			EXIT_RET: <>
+   75 		replication_tape_backup_start_op: <>
+   76 		ib_trse_add_session_to_list: <>
+   77 		sk_kmem_free: <>
+   78 		EXIT_RET: <>
+   79 	ib_trse_bkp_session_send_trse_data: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 157>
+   80 		ASSERT: <>
+   81 		ib_trse_mqueue_enqueue: <>
+   82 		EXIT_RET: <>
+   83 	ib_trse_bkp_session_stub_abort: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c 162>
+   84 	ib_trse_bkp_session_stub_abort_trse_data: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c 173>
+   85 	ib_trse_bkp_session_stub_send_trse_data: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c 136>
+   86 	ib_trse_bkp_session_stub_write_transfer_info: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c 97>
+   87 	ib_trse_bkp_session_stub_writer_destroyed: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c 149>
+   88 		sk_kmem_free: <>
+   89 	ib_trse_bkp_session_stub_writer_finalize: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c 124>
+   90 	ib_trse_bkp_session_stub_writer_init: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c 81>
+   91 	ib_trse_bkp_session_stub_writer_start: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c 111>
+   92 	ib_trse_bkp_session_write_transfer_info: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 110>
+   93 		EXIT_RET: <>
+   94 	ib_trse_bkp_session_writer_destroyed: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 176>
+   95 		ASSERT: <>
+   96 		ib_trse_mqueue_enqueue: <>
+   97 		EXIT_RET: <>
+   98 	ib_trse_bkp_session_writer_finalize: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 140>
+   99 		ASSERT: <>
+  100 		ib_trse_mqueue_enqueue: <>
+  101 		EXIT_RET: <>
+  102 	ib_trse_bkp_session_writer_init: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 77>
+  103 		ASSERT: <>
+  104 		ib_trse_mqueue_enqueue: <>
+  105 		EXIT_RET: <>
+  106 	ib_trse_bkp_session_writer_start: bool (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session.c 122>
+  107 		ASSERT: <>
+  108 		ib_trse_mqueue_enqueue: <>
+  109 		EXIT_RET: <>
+  110 	ib_trse_bkp_switch_state: 29
+  111 	ib_trse_bkp_write_footer: 47
+  112 	ib_trse_bkp_write_trse_header: 32
+  113 	ib_trse_get_transfer_inputs: 67
+  114 	ib_trse_session_state_bkp_active_handler: 43
+  115 	ib_trse_session_state_bkp_closing_handler: 53
+  116 	ib_trse_session_state_bkp_completed_handler: 50
+  117 	ib_trse_session_state_bkp_init_handler: 39
+  118 	ib_trse_session_state_bkp_start_handler: 27
+  119 	ib_trse_stub_lookup_session: ib_trse_sess_t * (), </home/kanaujia/ib/ib_trse/ib_trse_bkp_session_stub.c 182>
+  120 		sk_kmem_zalloc: <>
